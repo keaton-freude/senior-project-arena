@@ -1,0 +1,6 @@
+C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Arena.exe
+C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Arena.pdb
+C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\obj\x86\Debug\Windows Copy of Arena.csprojResolveAssemblyReference.cache
+C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\obj\x86\Debug\Arena.exe
+C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\obj\x86\Debug\Arena.pdb
