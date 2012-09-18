@@ -8,6 +8,7 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using GameStateManagement;
 
 namespace Arena
 {
@@ -17,12 +18,34 @@ namespace Arena
     public class Game1 : Microsoft.Xna.Framework.Game
     {
         GraphicsDeviceManager graphics;
-        SpriteBatch spriteBatch;
+        ScreenManager screenManager;
+
+        // By preloading any assets used by UI rendering, we avoid framerate glitches
+        // when they suddenly need to be loaded in the middle of a menu transition.
+        static readonly string[] preloadAssets =
+        {
+            "gradient",
+        };
 
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
+            graphics.PreferredBackBufferHeight = 720;
+            graphics.PreferredBackBufferWidth = 1280;
+            graphics.IsFullScreen = true;
             Content.RootDirectory = "Content";
+
+#if DEBUG
+            graphics.IsFullScreen = false;
+#endif            
+
+            screenManager = new ScreenManager(this);
+
+            Components.Add(screenManager);
+
+            // Activate the first screens.
+            screenManager.AddScreen(new BackgroundScreen(), null);
+            screenManager.AddScreen(new MainMenuScreen(), null);
         }
 
         /// <summary>
@@ -44,10 +67,10 @@ namespace Arena
         /// </summary>
         protected override void LoadContent()
         {
-            // Create a new SpriteBatch, which can be used to draw textures.
-            spriteBatch = new SpriteBatch(GraphicsDevice);
-
-            // TODO: use this.Content to load your game content here
+            foreach (string asset in preloadAssets)
+            {
+                Content.Load<object>(asset);
+            }
         }
 
         /// <summary>
@@ -66,12 +89,6 @@ namespace Arena
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            // Allows the game to exit
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
-                this.Exit();
-
-            // TODO: Add your update logic here
-
             base.Update(gameTime);
         }
 
@@ -81,9 +98,7 @@ namespace Arena
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
-
-            // TODO: Add your drawing code here
+            //GraphicsDevice.Clear(Color.Black);
 
             base.Draw(gameTime);
         }
