@@ -150,6 +150,35 @@ namespace GameStateManagement
                     _current_game_index = mod(--_current_game_index + 4, _game_icons.Count);
                     _game_icons[_current_game_index].BorderEnabled = true;
                 }
+                else if (prevKeyboardState.IsKeyDown(Keys.Enter) && Keyboard.GetState().IsKeyUp(Keys.Enter))
+                {
+                    switch (_game_icons[_current_game_index].GameID)
+                    {
+                        case 1:
+                            //Load new background screen and our new game screen.
+                            //For now we only have a gamescreen
+                            LoadingScreen.Load(ScreenManager, true, PlayerIndex.One, new Arena.Screens.RunNJumpGameScreen());
+                            break;
+                        case 2:
+                            //load game two
+                            break;
+                        case 3:
+                            //load game three
+                            break;
+                        case 4:
+                            //load game four
+                            break;
+                        case 5:
+                            //load game five
+                            break;
+                        case 6:
+                            //game game six
+                            break;
+                        default:
+                            //how did this happen?
+                            break;
+                    }
+                }
                 
             }
             prevKeyboardState = Keyboard.GetState();
@@ -178,6 +207,10 @@ namespace GameStateManagement
             bool gamePadDisconnected = !gamePadState.IsConnected &&
                                        input.GamePadWasConnected[playerIndex];
 
+            if (input.IsPauseGame(ControllingPlayer) || gamePadDisconnected)
+            {
+                ScreenManager.AddScreen(new PauseMenuScreen(), ControllingPlayer);
+            }
         }
 
 
@@ -186,7 +219,7 @@ namespace GameStateManagement
         /// </summary>
         public override void Draw(GameTime gameTime)
         {
-            ScreenManager.GraphicsDevice.Clear(Color.Black);
+            //ScreenManager.GraphicsDevice.Clear(Color.Black);
             //SpriteBatch spriteBatch = ScreenManager.SpriteBatch;
             spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
             

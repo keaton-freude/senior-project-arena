@@ -22,3 +22,4 @@ C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 36
 C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\HiSpeedGoCartsIconNoBorder.xnb
 C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\PlaceHolderIconNoBorder.xnb
 C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ForestBackGround.xnb
+C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\blue_ninja.xnb

@@ -145,6 +145,15 @@
       <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ForestBackGround.xnb</Output>
       <Time>2012-09-18T12:07:19.7656156-07:00</Time>
     </Item>
+    <Item>
+      <Source>blue_ninja.png</Source>
+      <Name>blue_ninja</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\blue_ninja.xnb</Output>
+      <Time>2012-09-20T13:21:44.9529526-07:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

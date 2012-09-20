@@ -14,3 +14,4 @@ Content\GameIcons\SpaceShootersIconNoBorder.xnb
 Content\GameIcons\HiSpeedGoCartsIconNoBorder.xnb
 Content\GameIcons\PlaceHolderIconNoBorder.xnb
 Content\ForestBackGround.xnb
+Content\blue_ninja.xnb
