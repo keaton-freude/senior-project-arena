@@ -13,7 +13,7 @@ namespace Arena.Sprites
         private float _time_between_frames;
         private int _start_frame;
         private int _end_frame;
-        private int _curr_frame;
+        protected int _curr_frame;
         private Point _frame_size;
 
         public AnimatedSprite()

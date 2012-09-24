@@ -1,10 +1,6 @@
 Content\Background.xnb
-Content\TorchEffect.xnb
-Content\SpriteFont1.xnb
-Content\menufont.xnb
 Content\blank.xnb
 Content\gradient.xnb
-Content\gamefont.xnb
 Content\blackbox.xnb
 Content\GameIcons\RunNJumpIconBorder.xnb
 Content\GameIcons\RunNJumpIconNoBorder.xnb
@@ -15,3 +11,10 @@ Content\GameIcons\HiSpeedGoCartsIconNoBorder.xnb
 Content\GameIcons\PlaceHolderIconNoBorder.xnb
 Content\ForestBackGround.xnb
 Content\blue_ninja.xnb
+Content\TorchEffect.xnb
+Content\SpriteFont1.xnb
+Content\menufont.xnb
+Content\gamefont.xnb
+Content\MapTiles\DirtTile.xnb
+Content\MapTiles\GrassTile.xnb
+Content\sky1.xnb

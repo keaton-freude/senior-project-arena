@@ -7,35 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Background.xnb</Output>
-      <Time>2012-09-13T09:50:03.1688843-07:00</Time>
-    </Item>
-    <Item>
-      <Source>TorchEffect.fx</Source>
-      <Name>TorchEffect</Name>
-      <Importer>EffectImporter</Importer>
-      <Processor>EffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\TorchEffect.xnb</Output>
-      <Time>2012-09-13T12:56:21.459872-07:00</Time>
-    </Item>
-    <Item>
-      <Source>SpriteFont1.spritefont</Source>
-      <Name>SpriteFont1</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\SpriteFont1.xnb</Output>
-      <Time>2012-09-13T10:52:25.4444477-07:00</Time>
-    </Item>
-    <Item>
-      <Source>menufont.spritefont</Source>
-      <Name>menufont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\menufont.xnb</Output>
-      <Time>2012-09-17T09:46:12.6643623-07:00</Time>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Background.xnb</Output>
+      <Time>2012-09-23T14:26:12.1608762-07:00</Time>
     </Item>
     <Item>
       <Source>blank.png</Source>
@@ -43,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\blank.xnb</Output>
-      <Time>2012-09-17T09:35:59.235151-07:00</Time>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\blank.xnb</Output>
+      <Time>2012-09-23T14:26:12.2868886-07:00</Time>
     </Item>
     <Item>
       <Source>gradient.png</Source>
@@ -52,17 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\gradient.xnb</Output>
-      <Time>2012-09-17T09:35:59.266397-07:00</Time>
-    </Item>
-    <Item>
-      <Source>gamefont.spritefont</Source>
-      <Name>gamefont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\gamefont.xnb</Output>
-      <Time>2012-09-17T09:48:31.3512885-07:00</Time>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\gradient.xnb</Output>
+      <Time>2012-09-23T14:26:12.2908895-07:00</Time>
     </Item>
     <Item>
       <Source>blackbox.png</Source>
@@ -70,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\blackbox.xnb</Output>
-      <Time>2012-09-17T12:15:21.7513933-07:00</Time>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\blackbox.xnb</Output>
+      <Time>2012-09-23T14:26:12.2858897-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\RunNJumpIconBorder.png</Source>
@@ -79,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\RunNJumpIconBorder.xnb</Output>
-      <Time>2012-09-18T08:27:50.6560562-07:00</Time>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\RunNJumpIconBorder.xnb</Output>
+      <Time>2012-09-23T14:26:12.271887-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\RunNJumpIconNoBorder.png</Source>
@@ -88,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\RunNJumpIconNoBorder.xnb</Output>
-      <Time>2012-09-18T11:29:37.0016307-07:00</Time>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\RunNJumpIconNoBorder.xnb</Output>
+      <Time>2012-09-23T14:26:12.2728882-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\border.png</Source>
@@ -97,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\border.xnb</Output>
-      <Time>2012-09-18T10:39:19.9880055-07:00</Time>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\border.xnb</Output>
+      <Time>2012-09-23T14:26:12.2758881-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\BattleTanksIconNoBorder.png</Source>
@@ -106,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\BattleTanksIconNoBorder.xnb</Output>
-      <Time>2012-09-18T11:29:56.1499451-07:00</Time>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\BattleTanksIconNoBorder.xnb</Output>
+      <Time>2012-09-23T14:26:12.2508842-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\SpaceShootersIconNoBorder.png</Source>
@@ -115,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\SpaceShootersIconNoBorder.xnb</Output>
-      <Time>2012-09-18T11:30:40.5280065-07:00</Time>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\SpaceShootersIconNoBorder.xnb</Output>
+      <Time>2012-09-23T14:26:12.274889-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\HiSpeedGoCartsIconNoBorder.png</Source>
@@ -124,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\HiSpeedGoCartsIconNoBorder.xnb</Output>
-      <Time>2012-09-18T11:30:17.2249751-07:00</Time>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\HiSpeedGoCartsIconNoBorder.xnb</Output>
+      <Time>2012-09-23T14:26:12.2518856-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\PlaceHolderIconNoBorder.png</Source>
@@ -133,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\PlaceHolderIconNoBorder.xnb</Output>
-      <Time>2012-09-18T11:32:26.2914031-07:00</Time>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\PlaceHolderIconNoBorder.xnb</Output>
+      <Time>2012-09-23T14:26:12.2698865-07:00</Time>
     </Item>
     <Item>
       <Source>ForestBackGround.png</Source>
@@ -142,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ForestBackGround.xnb</Output>
-      <Time>2012-09-18T12:07:19.7656156-07:00</Time>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ForestBackGround.xnb</Output>
+      <Time>2012-09-23T14:26:12.2478843-07:00</Time>
     </Item>
     <Item>
       <Source>blue_ninja.png</Source>
@@ -151,8 +115,71 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\blue_ninja.xnb</Output>
-      <Time>2012-09-20T13:21:44.9529526-07:00</Time>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\blue_ninja.xnb</Output>
+      <Time>2012-09-23T14:26:12.2888912-07:00</Time>
+    </Item>
+    <Item>
+      <Source>TorchEffect.fx</Source>
+      <Name>TorchEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\TorchEffect.xnb</Output>
+      <Time>2012-09-23T14:26:12.2838904-07:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2012-09-23T14:26:12.281887-07:00</Time>
+    </Item>
+    <Item>
+      <Source>menufont.spritefont</Source>
+      <Name>menufont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\menufont.xnb</Output>
+      <Time>2012-09-23T14:26:12.2928909-07:00</Time>
+    </Item>
+    <Item>
+      <Source>gamefont.spritefont</Source>
+      <Name>gamefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\gamefont.xnb</Output>
+      <Time>2012-09-23T14:26:12.2898894-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MapTiles\DirtTile.png</Source>
+      <Name>MapTiles\DirtTile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\MapTiles\DirtTile.xnb</Output>
+      <Time>2012-09-23T15:29:16.3109186-07:00</Time>
+    </Item>
+    <Item>
+      <Source>MapTiles\GrassTile.png</Source>
+      <Name>MapTiles\GrassTile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\MapTiles\GrassTile.xnb</Output>
+      <Time>2012-09-23T15:29:16.3179185-07:00</Time>
+    </Item>
+    <Item>
+      <Source>sky1.png</Source>
+      <Name>sky1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\sky1.xnb</Output>
+      <Time>2012-09-23T16:04:08.3039268-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -160,10 +187,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>true</CompressContent>
-      <RootDirectory>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\ArenaContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\ArenaContent\obj\Xbox 360\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Keaton\Desktop\Arena\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\ArenaContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\ArenaContent\obj\Xbox 360\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -192,7 +219,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2012-09-13T08:13:46.4765708-07:00</Value>
+        <Value>2012-09-23T14:40:17.8363426-07:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

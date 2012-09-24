@@ -18,9 +18,13 @@ namespace Arena.Screens
         float pauseAlpha; 
         KeyboardState prevKeyboardState;
 
-        Sprite test_sprite;
+        RunNJumpNinja test_sprite;
+        Texture2D _game_background;
 
         Texture2D test;
+
+        RunNJumpMap _game_map;
+
 
         public RunNJumpGameScreen()
         {
@@ -37,7 +41,9 @@ namespace Arena.Screens
                 content = new ContentManager(ScreenManager.Game.Services, "Content");
             spriteBatch = new SpriteBatch(ScreenManager.GraphicsDevice);
             test = content.Load<Texture2D>(@"blackbox");
-            test_sprite = new AnimatedSprite(content.Load<Texture2D>(@"blue_ninja"), new Rectangle(0, 0, 64, 64), new Vector2(0, 0), 2.0f, 0, 4, .08f, new Point(64, 64));
+            test_sprite = new RunNJumpNinja(content.Load<Texture2D>(@"blue_ninja"), new Rectangle(0, 0, 64, 64), new Vector2(0, 272), 2.0f, 0, 4, .08f, new Point(64, 64));
+            _game_map = new RunNJumpMap(content.Load<Texture2D>(@"MapTiles\DirtTile"), content.Load<Texture2D>(@"MapTiles\GrassTile"));
+            _game_background = content.Load<Texture2D>(@"sky1");
             ScreenManager.Game.ResetElapsedTime();
         }
 
@@ -59,6 +65,10 @@ namespace Arena.Screens
             {
                 //Update Code Here
                 test_sprite.Update(gameTime);
+                _game_map.Update(gameTime);
+
+                if (Keyboard.GetState().IsKeyDown(Keys.Space))
+                    test_sprite.Jumping = true;
             }
 
             prevKeyboardState = Keyboard.GetState();
@@ -66,9 +76,11 @@ namespace Arena.Screens
 
         public override void Draw(GameTime gameTime)
         {
-            ScreenManager.GraphicsDevice.Clear(Color.White);
+            //ScreenManager.GraphicsDevice.Clear(Color.White);
             spriteBatch.Begin();
+            spriteBatch.Draw(_game_background, new Vector2(0, -150), null, Color.White, 0.0f, Vector2.Zero, new Vector2(.75f, .5f), SpriteEffects.None, 1.0f);
             test_sprite.Draw(spriteBatch);
+            _game_map.Draw(spriteBatch);
             spriteBatch.End();
         }
 
