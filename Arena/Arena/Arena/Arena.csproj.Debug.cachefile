@@ -11,10 +11,10 @@ Content\GameIcons\HiSpeedGoCartsIconNoBorder.xnb
 Content\GameIcons\PlaceHolderIconNoBorder.xnb
 Content\ForestBackGround.xnb
 Content\blue_ninja.xnb
+Content\MapTiles\DirtTile.xnb
+Content\MapTiles\GrassTile.xnb
+Content\sky1.xnb
 Content\TorchEffect.xnb
 Content\SpriteFont1.xnb
 Content\menufont.xnb
 Content\gamefont.xnb
-Content\MapTiles\DirtTile.xnb
-Content\MapTiles\GrassTile.xnb
-Content\sky1.xnb

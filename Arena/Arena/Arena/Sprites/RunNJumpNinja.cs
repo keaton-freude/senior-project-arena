@@ -15,13 +15,12 @@ namespace Arena.Sprites
             set;
         }
 
+        /* Parameters for the jump ability */
         private const int _JUMP_HEIGHT = 128;
-
         private const float _JUMP_HANG_TIME = 0.5f;
-
         private const float _JUMP_SIN_WAVE_SPEED = ((float)Math.PI / 2.0f) / _JUMP_HANG_TIME;
-
         private float _jump_sin_wave_pos = 0.0f;
+        /* ------------------------------ */
 
         public RunNJumpNinja(Texture2D tex, Rectangle? src_rectangle, Vector2 position, float scale, int start_frame, int end_frame, float time_between_frames, Point frame_size) :
             base(tex, src_rectangle, position, scale, start_frame, end_frame, time_between_frames, frame_size)
@@ -29,15 +28,13 @@ namespace Arena.Sprites
             Jumping = false;
         }
 
-        public void Update(GameTime gameTime)
+        public new void Update(GameTime gameTime)
         {
             //This lucky guy can jump! So he has a jumping state. If jumping state is true, then we'll move along
             //a sine wave curve. If we complete more than half of the unit circle (Math.PI), then we've completed the jump
             //we also need to ensure we don't go below the ground
-            //base.Update(gameTime);
 
-
-
+            base.Update(gameTime);
 
             if (Jumping)
             {
@@ -50,6 +47,7 @@ namespace Arena.Sprites
                     this.Position -= (new Vector2(0, 1) * ((float)Math.Sin(_jump_sin_wave_pos) - (float)Math.Sin(last_height)) * _JUMP_HEIGHT);
 
                 _curr_frame = 8;
+                BuildAnimationRectangle();
             }
 
             if (Position.Y > 274)

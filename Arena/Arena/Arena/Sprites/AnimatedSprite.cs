@@ -14,7 +14,7 @@ namespace Arena.Sprites
         private int _start_frame;
         private int _end_frame;
         protected int _curr_frame;
-        private Point _frame_size;
+        protected Point _frame_size;
 
         public AnimatedSprite()
         {
@@ -32,6 +32,11 @@ namespace Arena.Sprites
             _frame_size = frame_size;
         }
 
+        protected void BuildAnimationRectangle()
+        {
+            this._src_rectangle = new Rectangle(_curr_frame * _frame_size.X, 0, _frame_size.X, _frame_size.Y);
+        }
+
         public override void Update(GameTime gameTime)
         {
             _curr_time += (float)gameTime.ElapsedGameTime.TotalSeconds;
@@ -44,7 +49,7 @@ namespace Arena.Sprites
                 _curr_time = 0.0f;
             }
 
-            this._src_rectangle = new Rectangle(_curr_frame * _frame_size.X, 0, _frame_size.X, _frame_size.Y);
+            BuildAnimationRectangle();
             base.Update(gameTime);
         }
     }
