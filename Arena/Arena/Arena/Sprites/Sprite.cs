@@ -12,9 +12,10 @@ namespace Arena.Sprites
     /* Sprites are NOT animated (override to get that behavior) */
     public class Sprite
     {
-        private Texture2D _texture;
+        protected Texture2D _texture;
         protected Rectangle? _src_rectangle;
-        private float _scale;
+        protected float _scale;
+        protected float _rotation;
 
         public Vector2 Position
         {
@@ -29,14 +30,18 @@ namespace Arena.Sprites
         public Sprite(Texture2D tex, Rectangle? src_rectangle, Vector2 position, float scale)
         {
             _texture = tex;
-            _src_rectangle = src_rectangle;
+            if (_src_rectangle == null)
+                _src_rectangle = new Rectangle(0, 0, tex.Width, tex.Height);
+            else
+                _src_rectangle = src_rectangle;
             _scale = scale;
+            _rotation = 0.0f;
             Position = position;
         }
 
         public virtual void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(_texture, Position, _src_rectangle, Color.White, 0.0f, Vector2.Zero, _scale, SpriteEffects.None, 0.0f);
+            spriteBatch.Draw(_texture, Position, _src_rectangle, Color.White, _rotation, new Vector2(_src_rectangle.Value.Width / 2, _src_rectangle.Value.Height / 2), _scale, SpriteEffects.None, 0.0f);
         }
 
         public virtual void Update(GameTime gameTime)

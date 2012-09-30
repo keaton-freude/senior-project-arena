@@ -11,6 +11,9 @@
 using Microsoft.Xna.Framework;
 #endregion
 
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+
 namespace GameStateManagement
 {
     /// <summary>
@@ -21,7 +24,8 @@ namespace GameStateManagement
     class OptionsMenuScreen : MenuScreen
     {
         #region Fields
-
+        private Texture2D back_drop_texture;
+        float pauseAlpha;
         MenuEntry ungulateMenuEntry;
         MenuEntry languageMenuEntry;
         MenuEntry frobnicateMenuEntry;
@@ -47,6 +51,21 @@ namespace GameStateManagement
 
         #region Initialization
 
+
+        public override void LoadContent()
+        {
+            back_drop_texture = ScreenManager.Game.Content.Load<Texture2D>(@"menu_backdrop");
+            base.LoadContent();
+        }
+
+        public override void Update(Microsoft.Xna.Framework.GameTime gameTime, bool otherScreenHasFocus, bool coveredByOtherScreen)
+        {
+            if (coveredByOtherScreen)
+                pauseAlpha = System.Math.Min(pauseAlpha + 1f / 32, 1);
+            else
+                pauseAlpha = System.Math.Max(pauseAlpha - 1f / 32, 0);
+            base.Update(gameTime, otherScreenHasFocus, coveredByOtherScreen);
+        }
 
         /// <summary>
         /// Constructor.
@@ -91,6 +110,19 @@ namespace GameStateManagement
             elfMenuEntry.Text = "elf: " + elf;
         }
 
+        public override void Draw(Microsoft.Xna.Framework.GameTime gameTime)
+        {
+            SpriteBatch spriteBatch = ScreenManager.SpriteBatch;
+            float alpha = 0.0f;
+            if (TransitionPosition > 0 || pauseAlpha > 0)
+            {
+                alpha = MathHelper.Lerp(1f - TransitionAlpha, 1f, pauseAlpha / 2);
+            }
+            spriteBatch.Begin();
+            spriteBatch.Draw(back_drop_texture, new Rectangle(400, 30, 500, 360), Color.White * (.6f - alpha * 2.0f));
+            spriteBatch.End();
+            base.Draw(gameTime);
+        }
 
         #endregion
 

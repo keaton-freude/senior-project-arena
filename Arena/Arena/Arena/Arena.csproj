@@ -93,11 +93,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ParticleEngine\Particle.cs" />
+    <Compile Include="ParticleEngine\ParticleEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="RunNJumpMap.cs" />
     <Compile Include="RunNJumpMapCell.cs" />
+    <Compile Include="RunNJumpObstacle.cs" />
     <Compile Include="ScreenManager\GameScreen.cs" />
     <Compile Include="ScreenManager\InputState.cs" />
     <Compile Include="ScreenManager\ScreenManager.cs" />

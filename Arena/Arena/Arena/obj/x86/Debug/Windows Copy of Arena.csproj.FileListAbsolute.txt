@@ -51,3 +51,8 @@ C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\obj\x86\
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\MapTiles\DirtTile.xnb
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\MapTiles\GrassTile.xnb
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\sky1.xnb
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\menu_backdrop.xnb
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Dirt1.xnb
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Dirt2.xnb
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\obstacle_alpha.xnb
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Dirt3.xnb

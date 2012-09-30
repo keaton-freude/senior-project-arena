@@ -11,6 +11,10 @@
 using Microsoft.Xna.Framework;
 #endregion
 
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework;
+
+
 namespace GameStateManagement
 {
     /// <summary>
@@ -19,8 +23,8 @@ namespace GameStateManagement
     class MainMenuScreen : MenuScreen
     {
         #region Initialization
-
-
+        float pauseAlpha;
+        private Texture2D back_drop_texture;
         /// <summary>
         /// Constructor fills in the menu contents.
         /// </summary>
@@ -41,6 +45,23 @@ namespace GameStateManagement
             MenuEntries.Add(playGameMenuEntry);
             MenuEntries.Add(optionsMenuEntry);
             MenuEntries.Add(exitMenuEntry);
+        }
+
+        public override void LoadContent()
+        {
+            back_drop_texture = ScreenManager.Game.Content.Load<Texture2D>(@"menu_backdrop");
+            base.LoadContent();
+        }
+
+        public override void Update(Microsoft.Xna.Framework.GameTime gameTime, bool otherScreenHasFocus, bool coveredByOtherScreen)
+        {
+            
+            if (coveredByOtherScreen)
+                pauseAlpha = System.Math.Min(pauseAlpha + 1f / 32, 1);
+            else
+                pauseAlpha = System.Math.Max(pauseAlpha - 1f / 32, 0);
+
+            base.Update(gameTime, otherScreenHasFocus, coveredByOtherScreen);
         }
 
 
@@ -90,6 +111,22 @@ namespace GameStateManagement
         void ConfirmExitMessageBoxAccepted(object sender, PlayerIndexEventArgs e)
         {
             ScreenManager.Game.Exit();
+        }
+
+        public override void Draw(GameTime gameTime)
+        {
+            SpriteBatch spriteBatch = ScreenManager.SpriteBatch;
+
+            if (TransitionPosition > 0 || pauseAlpha > 0)
+            {
+                float alpha = MathHelper.Lerp(1f - TransitionAlpha, 1f, pauseAlpha / 2);
+            }
+
+            spriteBatch.Begin();
+            spriteBatch.Draw(back_drop_texture, new Vector2(495, 30), Color.White * (.6f - pauseAlpha * 2.0f));
+            spriteBatch.End();
+ 	        base.Draw(gameTime);
+
         }
 
 

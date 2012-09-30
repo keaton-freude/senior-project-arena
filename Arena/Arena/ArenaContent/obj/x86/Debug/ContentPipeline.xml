@@ -116,7 +116,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\blue_ninja.xnb</Output>
-      <Time>2012-09-24T07:38:24.5017415-07:00</Time>
+      <Time>2012-09-26T10:26:56.9631985-07:00</Time>
     </Item>
     <Item>
       <Source>MapTiles\DirtTile.png</Source>
@@ -170,7 +170,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\menufont.xnb</Output>
-      <Time>2012-09-24T07:38:24.5037433-07:00</Time>
+      <Time>2012-09-25T13:03:42.0369887-07:00</Time>
     </Item>
     <Item>
       <Source>gamefont.spritefont</Source>
@@ -180,6 +180,51 @@
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\gamefont.xnb</Output>
       <Time>2012-09-24T07:38:24.5027428-07:00</Time>
+    </Item>
+    <Item>
+      <Source>menu_backdrop.png</Source>
+      <Name>menu_backdrop</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\menu_backdrop.xnb</Output>
+      <Time>2012-09-25T13:06:13.7319437-07:00</Time>
+    </Item>
+    <Item>
+      <Source>ParticleTextures\Dirt1.png</Source>
+      <Name>ParticleTextures\Dirt1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Dirt1.xnb</Output>
+      <Time>2012-09-26T11:28:16.2652138-07:00</Time>
+    </Item>
+    <Item>
+      <Source>ParticleTextures\Dirt2.png</Source>
+      <Name>ParticleTextures\Dirt2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Dirt2.xnb</Output>
+      <Time>2012-09-26T11:47:52.3567101-07:00</Time>
+    </Item>
+    <Item>
+      <Source>obstacle_alpha.png</Source>
+      <Name>obstacle_alpha</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\obstacle_alpha.xnb</Output>
+      <Time>2012-09-26T14:23:52.2438177-07:00</Time>
+    </Item>
+    <Item>
+      <Source>ParticleTextures\Dirt3.png</Source>
+      <Name>ParticleTextures\Dirt3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Dirt3.xnb</Output>
+      <Time>2012-09-28T07:47:55.1339259-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
