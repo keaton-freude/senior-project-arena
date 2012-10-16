@@ -88,9 +88,6 @@
     <Reference Include="System.Net">
       <Private>False</Private>
     </Reference>
-    <Reference Include="XboxDisplaySpring">
-      <HintPath>..\..\lib\XboxDisplaySpring.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Collision\CollisionDetection.cs" />

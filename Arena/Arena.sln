@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arena", "Arena\Arena\Arena.csproj", "{0FDE705E-2732-4D91-A4B5-8A2AEEB8B964}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "ArenaContent", "Arena\ArenaContent\ArenaContent.contentproj", "{4973292F-C79C-4118-AA31-E440A5C4DBCE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArenaContent", "Arena\ArenaContent\ArenaContent.contentproj", "{4973292F-C79C-4118-AA31-E440A5C4DBCE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Windows Copy of Arena", "Arena\Arena\Windows Copy of Arena.csproj", "{35F1E6FB-E477-442B-9C40-0EAF93C7C614}"
 EndProject
@@ -19,6 +19,7 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0FDE705E-2732-4D91-A4B5-8A2AEEB8B964}.Debug|Mixed Platforms.ActiveCfg = Debug|Xbox 360
 		{0FDE705E-2732-4D91-A4B5-8A2AEEB8B964}.Debug|Mixed Platforms.Build.0 = Debug|Xbox 360
+		{0FDE705E-2732-4D91-A4B5-8A2AEEB8B964}.Debug|Mixed Platforms.Deploy.0 = Debug|Xbox 360
 		{0FDE705E-2732-4D91-A4B5-8A2AEEB8B964}.Debug|x86.ActiveCfg = Debug|Xbox 360
 		{0FDE705E-2732-4D91-A4B5-8A2AEEB8B964}.Debug|x86.Build.0 = Debug|Xbox 360
 		{0FDE705E-2732-4D91-A4B5-8A2AEEB8B964}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360

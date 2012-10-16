@@ -55,6 +55,8 @@ namespace Arena
             set;
         }
 
+        public bool Spawning = false;
+
         public int GroundY
         {
             get;
@@ -78,34 +80,48 @@ namespace Arena
             GroundY = MAP_TOP;
             Obstacles = new List<RunNJumpObstacle>();
             graphics = gDevice;
-            TimerCallback tcb = this.SpawnObstacle;
-            ObstacleTimer = new Timer(tcb, null, random.Next(500, 800), random.Next(500, 800));
+            TimerCallback tcb = new TimerCallback(SpawnObstacle);
+            ObstacleTimer = new Timer(tcb, null, 200, 600);
+        }
+
+        public void StartSpawning()
+        {
+            Spawning = true;
         }
 
         public void SpawnObstacle(Object stateInfo)
         {
-            const float OBSTACLE_SCALE = 1.5f;
-            int y = 0;
-            int choice = random.Next(2);
-            if (choice == 0)
-                y = 280;
-            else if (choice == 1)
-                y = GroundY - (int)(32 * OBSTACLE_SCALE)-2;
-
-            RunNJumpObstacle obstacle = new RunNJumpObstacle(_obstacle_texture, null, new Vector2(1280, y), OBSTACLE_SCALE, graphics);
-
-            lock (ObstacleLock)
+            if (Spawning)
             {
-                Obstacles.Add(obstacle);
+                const float OBSTACLE_SCALE = 1.5f;
+                int y = 0;
+                int choice = random.Next(2);
+                if (choice == 0)
+                    y = 280;
+                else if (choice == 1)
+                    y = GroundY - (int)(32 * OBSTACLE_SCALE) - 2;
+
+                RunNJumpObstacle obstacle = new RunNJumpObstacle(_obstacle_texture, null, new Vector2(1280, y), OBSTACLE_SCALE, graphics);
+
+                lock (ObstacleLock)
+                {
+                    Obstacles.Add(obstacle);
+                }
             }
 
+            if (ObstacleTimer != null)
+                ObstacleTimer.Change(random.Next(400, 600), random.Next(400, 600));
+        }
 
-            ObstacleTimer.Change(random.Next(400, 600), random.Next(400, 600));
+        public void StopSpawning()
+        {
+            Spawning = false;
         }
 
         public void CleanUp()
         {
-            ObstacleTimer.Dispose();
+            if (ObstacleTimer != null)
+                ObstacleTimer.Dispose();
         }
 
         public void Update(GameTime gameTime)

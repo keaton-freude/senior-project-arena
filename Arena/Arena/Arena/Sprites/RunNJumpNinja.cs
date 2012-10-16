@@ -67,6 +67,8 @@ namespace Arena.Sprites
         private Vector2 _gravity = new Vector2(0, 1.4f);
         private int _impulse = -20;
 
+        public bool Collided = false;
+
         public void Jump()
         {
             if (OnGround)
@@ -114,10 +116,10 @@ namespace Arena.Sprites
             Jumping = false;
         }
 
-        public new void Update(GameTime gameTime, RunNJumpMap game_map)
+        public void Update(GameTime gameTime, RunNJumpMap game_map)
         {
             /* Subtract time from the JumpCooldown, clamp to 0.0f < JumpCooldown < 1.0f (don't want it to go below 0.0f */
-            JumpCooldown = MathHelper.Clamp(JumpCooldown - ((float)gameTime.ElapsedGameTime.TotalSeconds), 0.0f, 1.0f);
+            //JumpCooldown = MathHelper.Clamp(JumpCooldown - ((float)gameTime.ElapsedGameTime.TotalSeconds), 0.0f, 1.0f);
 
             /* Update Animations, Must do this first, because we may override some of that behavior later on */
             base.Update(gameTime);

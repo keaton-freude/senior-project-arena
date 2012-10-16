@@ -113,7 +113,7 @@ namespace Arena.Screens
 
             if (input.IsPauseGame(ControllingPlayer) || gamePadDisconnected)
             {
-                ScreenManager.AddScreen(new PauseMenuScreen(), ControllingPlayer);
+                ScreenManager.AddScreen(new PauseMenuScreen(null), ControllingPlayer);
             }
         }
     }

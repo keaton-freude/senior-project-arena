@@ -148,7 +148,7 @@ namespace GameStateManagement
                 Vector2 textPosition = (viewportSize - textSize) / 2;
 
                 Color color = Color.White * TransitionAlpha;
-
+                ScreenManager.GraphicsDevice.Clear(Color.Black);
                 // Draw the text.
                 spriteBatch.Begin();
                 spriteBatch.DrawString(font, message, textPosition, color);

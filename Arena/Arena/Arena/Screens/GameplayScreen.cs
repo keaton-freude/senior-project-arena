@@ -37,7 +37,12 @@ namespace GameStateManagement
         private int _current_game_index = 0;
         float pauseAlpha;
 
+        private List<PlayerIndex> Player_IDS = new List<PlayerIndex>();
+
         KeyboardState prevKeyboardState;
+        GamePadState prevGamepadState;
+        private float _thumb_stick_threshold = .3f;
+        private List<PlayerIndex> _player_indexes = new List<PlayerIndex>();
 
         #endregion
 
@@ -51,9 +56,17 @@ namespace GameStateManagement
         {
             TransitionOnTime = TimeSpan.FromSeconds(1.5);
             TransitionOffTime = TimeSpan.FromSeconds(0.5);
+
+            Player_IDS.Add(PlayerIndex.One); //We shall assume that there is always a Player 1...
+            _player_indexes.Add(PlayerIndex.One);
+            _player_indexes.Add(PlayerIndex.Two);
+            _player_indexes.Add(PlayerIndex.Three);
+            _player_indexes.Add(PlayerIndex.Four);
+
             
         }
 
+        private string PlayerStateString = "";
 
         /// <summary>
         /// Load graphics content for the game.
@@ -125,40 +138,57 @@ namespace GameStateManagement
 
             if (IsActive)
             {
+                foreach (PlayerIndex PI in _player_indexes)
+                {
+                    if (GamePad.GetState(PI).IsConnected && GamePad.GetState(PI).IsButtonDown(Buttons.Start))
+                    {
+                        if (!Player_IDS.Contains(PI))
+                        {
+                            Player_IDS.Add(PI);
+                        }
+                    }
+                }
+
+
                 foreach (GameIcon gi in _game_icons)
                     gi.Update(gameTime);
-                if (prevKeyboardState.IsKeyDown(Keys.Right) && Keyboard.GetState().IsKeyUp(Keys.Right))
+                if (prevKeyboardState.IsKeyDown(Keys.Right) && Keyboard.GetState().IsKeyUp(Keys.Right) ||
+                    prevGamepadState.ThumbSticks.Left.X < _thumb_stick_threshold && GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.X >= .3f)
                 {
                     _game_icons[_current_game_index].BorderEnabled = false;
                     _current_game_index = mod(++_current_game_index, _game_icons.Count);
                     _game_icons[_current_game_index].BorderEnabled = true;
                 }
-                else if (prevKeyboardState.IsKeyDown(Keys.Left) && Keyboard.GetState().IsKeyUp(Keys.Left))
+                else if (prevKeyboardState.IsKeyDown(Keys.Left) && Keyboard.GetState().IsKeyUp(Keys.Left) ||
+                    prevGamepadState.ThumbSticks.Left.X > -_thumb_stick_threshold && GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.X <= -.3f)
                 {
                     _game_icons[_current_game_index].BorderEnabled = false;
                     _current_game_index = mod(--_current_game_index, _game_icons.Count);
                     _game_icons[_current_game_index].BorderEnabled = true;
                 }
-                else if (prevKeyboardState.IsKeyDown(Keys.Up) && Keyboard.GetState().IsKeyUp(Keys.Up))
+                else if (prevKeyboardState.IsKeyDown(Keys.Up) && Keyboard.GetState().IsKeyUp(Keys.Up) ||
+                    prevGamepadState.ThumbSticks.Left.Y < _thumb_stick_threshold && GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.Y >= .3f)
                 {
                     _game_icons[_current_game_index].BorderEnabled = false;
                     _current_game_index = mod(_current_game_index - 3, _game_icons.Count);
                     _game_icons[_current_game_index].BorderEnabled = true;
                 }
-                else if (prevKeyboardState.IsKeyDown(Keys.Down) && Keyboard.GetState().IsKeyUp(Keys.Down))
+                else if (prevKeyboardState.IsKeyDown(Keys.Down) && Keyboard.GetState().IsKeyUp(Keys.Down) ||
+                    prevGamepadState.ThumbSticks.Left.Y > -_thumb_stick_threshold && GamePad.GetState(PlayerIndex.One).ThumbSticks.Left.Y <= -.3f)
                 {
                     _game_icons[_current_game_index].BorderEnabled = false;
                     _current_game_index = mod(--_current_game_index + 4, _game_icons.Count);
                     _game_icons[_current_game_index].BorderEnabled = true;
                 }
-                else if (prevKeyboardState.IsKeyDown(Keys.Enter) && Keyboard.GetState().IsKeyUp(Keys.Enter))
+                else if (prevKeyboardState.IsKeyDown(Keys.Enter) && Keyboard.GetState().IsKeyUp(Keys.Enter) ||
+                    prevGamepadState.IsButtonDown(Buttons.A) && GamePad.GetState(PlayerIndex.One).IsButtonDown(Buttons.A))
                 {
                     switch (_game_icons[_current_game_index].GameID)
                     {
                         case 1:
                             //Load new background screen and our new game screen.
                             //For now we only have a gamescreen
-                            LoadingScreen.Load(ScreenManager, true, PlayerIndex.One, new Arena.Screens.RunNJumpGameScreen());
+                            LoadingScreen.Load(ScreenManager, true, PlayerIndex.One, new Arena.Screens.RunNJumpGameScreen(Player_IDS));
                             break;
                         case 2:
                             LoadingScreen.Load(ScreenManager, true, PlayerIndex.One, new Arena.Screens.TestGameScreen());
@@ -182,7 +212,16 @@ namespace GameStateManagement
                 }
                 
             }
+
+            PlayerStateString = "Players Connected: ";
+
+            foreach (PlayerIndex PI in Player_IDS)
+            {
+                PlayerStateString += "Player: " + PI.ToString() + ";";
+            }
+
             prevKeyboardState = Keyboard.GetState();
+            prevGamepadState = GamePad.GetState(PlayerIndex.One);
         }
 
 
@@ -210,7 +249,7 @@ namespace GameStateManagement
 
             if (input.IsPauseGame(ControllingPlayer) || gamePadDisconnected)
             {
-                ScreenManager.AddScreen(new PauseMenuScreen(), ControllingPlayer);
+                ScreenManager.AddScreen(new PauseMenuScreen(null), ControllingPlayer);
             }
         }
 
@@ -226,6 +265,8 @@ namespace GameStateManagement
             
             foreach (GameIcon gi in _game_icons)
                 gi.Draw(spriteBatch);
+
+            spriteBatch.DrawString(gameFont, PlayerStateString, new Vector2(100, 620), Color.White);
             spriteBatch.End();
 
             FadeScreen();

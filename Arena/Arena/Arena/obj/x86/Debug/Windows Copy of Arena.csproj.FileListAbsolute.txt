@@ -55,3 +55,4 @@ C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Dirt3.xnb
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\blue_ninja_new.xnb
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\obj\x86\Debug\Windows Copy of Arena.csprojResolveAssemblyReference.cache
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameStateFont.xnb

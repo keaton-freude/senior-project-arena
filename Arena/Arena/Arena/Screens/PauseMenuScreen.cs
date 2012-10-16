@@ -11,6 +11,8 @@
 using Microsoft.Xna.Framework;
 #endregion
 
+//using RunNJumpMap;
+
 namespace GameStateManagement
 {
     /// <summary>
@@ -20,21 +22,22 @@ namespace GameStateManagement
     class PauseMenuScreen : MenuScreen
     {
         #region Initialization
-
+        Arena.Screens.RunNJumpGameScreen screen;
 
         /// <summary>
         /// Constructor.
         /// </summary>
-        public PauseMenuScreen()
+        public PauseMenuScreen(Arena.Screens.RunNJumpGameScreen screen)
             : base("Paused")
         {
             // Create our menu entries.
             MenuEntry resumeGameMenuEntry = new MenuEntry("Resume Game");
             MenuEntry quitGameMenuEntry = new MenuEntry("Quit Game");
-            
+            this.screen = screen;
             // Hook up menu event handlers.
             resumeGameMenuEntry.Selected += OnCancel;
             quitGameMenuEntry.Selected += QuitGameMenuEntrySelected;
+            //resumeGameMenuEntry.Selected += ResumeGameMenuEntrySelected;
 
             // Add entries to the menu.
             MenuEntries.Add(resumeGameMenuEntry);
@@ -46,6 +49,19 @@ namespace GameStateManagement
 
         #region Handle Input
 
+
+        //void ResumeGameMenuEntrySelected(object sender, PlayerIndexEventArgs e)
+        //{
+        //    screen.GameState = "Running";
+        //    screen._game_map.StartSpawning();
+        //}
+
+        protected override void OnCancel(PlayerIndex playerIndex)
+        {
+            //screen.GameState = "Running";
+            screen._game_map.StartSpawning();
+            base.OnCancel(playerIndex);
+        }
 
         /// <summary>
         /// Event handler for when the Quit Game menu entry is selected.
@@ -72,7 +88,7 @@ namespace GameStateManagement
             LoadingScreen.Load(ScreenManager, false, null, new BackgroundScreen(),
                                                            new MainMenuScreen());
 
-            //...somehow we need to clean up timers and junk here?? da fuq
+            
         }
 
 
