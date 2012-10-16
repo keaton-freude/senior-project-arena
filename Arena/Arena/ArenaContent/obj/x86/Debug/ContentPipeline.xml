@@ -146,42 +146,6 @@
       <Time>2012-09-24T07:38:24.560795-07:00</Time>
     </Item>
     <Item>
-      <Source>TorchEffect.fx</Source>
-      <Name>TorchEffect</Name>
-      <Importer>EffectImporter</Importer>
-      <Processor>EffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TorchEffect.xnb</Output>
-      <Time>2012-09-24T07:38:24.4997401-07:00</Time>
-    </Item>
-    <Item>
-      <Source>SpriteFont1.spritefont</Source>
-      <Name>SpriteFont1</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
-      <Time>2012-09-24T07:38:24.4987392-07:00</Time>
-    </Item>
-    <Item>
-      <Source>menufont.spritefont</Source>
-      <Name>menufont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\menufont.xnb</Output>
-      <Time>2012-09-25T13:03:42.0369887-07:00</Time>
-    </Item>
-    <Item>
-      <Source>gamefont.spritefont</Source>
-      <Name>gamefont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\gamefont.xnb</Output>
-      <Time>2012-09-24T07:38:24.5027428-07:00</Time>
-    </Item>
-    <Item>
       <Source>menu_backdrop.png</Source>
       <Name>menu_backdrop</Name>
       <Importer>TextureImporter</Importer>
@@ -225,6 +189,51 @@
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Dirt3.xnb</Output>
       <Time>2012-09-28T07:47:55.1339259-07:00</Time>
+    </Item>
+    <Item>
+      <Source>blue_ninja_new.png</Source>
+      <Name>blue_ninja_new</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\blue_ninja_new.xnb</Output>
+      <Time>2012-10-02T13:34:48.5707008-07:00</Time>
+    </Item>
+    <Item>
+      <Source>TorchEffect.fx</Source>
+      <Name>TorchEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TorchEffect.xnb</Output>
+      <Time>2012-09-24T07:38:24.4997401-07:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2012-09-24T07:38:24.4987392-07:00</Time>
+    </Item>
+    <Item>
+      <Source>menufont.spritefont</Source>
+      <Name>menufont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\menufont.xnb</Output>
+      <Time>2012-09-25T13:03:42.0369887-07:00</Time>
+    </Item>
+    <Item>
+      <Source>gamefont.spritefont</Source>
+      <Name>gamefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\gamefont.xnb</Output>
+      <Time>2012-09-24T07:38:24.5027428-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

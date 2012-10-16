@@ -226,6 +226,15 @@
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Dirt3.xnb</Output>
       <Time>2012-09-28T07:47:55.1339259-07:00</Time>
     </Item>
+    <Item>
+      <Source>blue_ninja_new.png</Source>
+      <Name>blue_ninja_new</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\blue_ninja_new.xnb</Output>
+      <Time>2012-10-02T13:34:48.5707008-07:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Xbox360</TargetPlatform>

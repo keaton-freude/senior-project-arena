@@ -71,6 +71,8 @@ namespace GameStateManagement
         {
             LoadingScreen.Load(ScreenManager, false, null, new BackgroundScreen(),
                                                            new MainMenuScreen());
+
+            //...somehow we need to clean up timers and junk here?? da fuq
         }
 
 

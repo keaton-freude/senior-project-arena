@@ -36,7 +36,7 @@ namespace Arena.ParticleEngine
         {
             Texture2D texture = textures[random.Next(textures.Count)];
             Vector2 position = EmitterLocation;
-            Vector2 velocity = new Vector2((float)(random.NextDouble() - 1.0f) * 18.0f, ((float)random.NextDouble() - 1.0f) * 1.0f);
+            Vector2 velocity = new Vector2((float)(random.NextDouble() - 1.0f) * 6.0f, ((float)random.NextDouble() - 1.0f) * 1.0f);
             float angle = 0f;
             float angularVelocity = 0.1f * (float)(random.NextDouble() * 2 - 1);
 
@@ -51,7 +51,7 @@ namespace Arena.ParticleEngine
         {
             if (Generating)
             {
-                int total = 20;
+                int total = 6;
 
                 for (int i = 0; i < total; ++i)
                 {

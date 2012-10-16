@@ -14,12 +14,13 @@ Content\blue_ninja.xnb
 Content\MapTiles\DirtTile.xnb
 Content\MapTiles\GrassTile.xnb
 Content\sky1.xnb
-Content\TorchEffect.xnb
-Content\SpriteFont1.xnb
-Content\menufont.xnb
-Content\gamefont.xnb
 Content\menu_backdrop.xnb
 Content\ParticleTextures\Dirt1.xnb
 Content\ParticleTextures\Dirt2.xnb
 Content\obstacle_alpha.xnb
 Content\ParticleTextures\Dirt3.xnb
+Content\blue_ninja_new.xnb
+Content\TorchEffect.xnb
+Content\SpriteFont1.xnb
+Content\menufont.xnb
+Content\gamefont.xnb

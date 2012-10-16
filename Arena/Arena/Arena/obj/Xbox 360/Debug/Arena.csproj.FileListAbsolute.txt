@@ -42,8 +42,6 @@ C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\gamefont.xnb
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Arena.exe
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Arena.pdb
-C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\XboxDisplaySpring.dll
-C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\XboxDisplaySpring.xml
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\obj\Xbox 360\Debug\Arena.csprojResolveAssemblyReference.cache
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\obj\Xbox 360\Debug\Arena.exe
@@ -56,3 +54,4 @@ C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Dirt2.xnb
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\obstacle_alpha.xnb
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Dirt3.xnb
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\blue_ninja_new.xnb

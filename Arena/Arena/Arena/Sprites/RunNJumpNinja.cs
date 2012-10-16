@@ -4,20 +4,23 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Arena.Collision;
 
 namespace Arena.Sprites
 {
     public class RunNJumpNinja: AnimatedSprite
     {
+        public RectangleOverlay player_overlay;
+        private bool _sliding = false;
+        private ParticleEngine.ParticleEngine particleEngine = null;
+        List<Texture2D> dirt_textures = new List<Texture2D>();
+
         public bool Jumping
         {
             get;
             set;
         }
 
-        private bool _sliding = false;
-        private ParticleEngine.ParticleEngine particleEngine = null;
-        List<Texture2D> dirt_textures = new List<Texture2D>();
         public float JumpCooldown
         {
             get;
@@ -35,18 +38,18 @@ namespace Arena.Sprites
                 if (value == true && !Sliding && !Jumping)
                 {
                     //we need to set the sliding position
-                    Position = new Vector2(Position.X, Position.Y + 30);
+                    //Position = new Vector2(Position.X, Position.Y + 30);
                     _sliding = true;
 
                     //if no particle engine instance is ready for him yet, make it ready
                     if (particleEngine == null)
-                        particleEngine = new ParticleEngine.ParticleEngine(dirt_textures, new Vector2(Position.X + 64, Position.Y + 34));
+                        particleEngine = new ParticleEngine.ParticleEngine(dirt_textures, Vector2.Zero);
                     particleEngine.Generating = true;
                 }
                 else if (value == false && Sliding)
                 {
                     //We need to reset back to normal position
-                    Position = new Vector2(Position.X, Position.Y - 30);
+                    //Position = new Vector2(Position.X, Position.Y - 30);
                     _sliding = false;
 
                     particleEngine.Generating = false;
@@ -54,80 +57,120 @@ namespace Arena.Sprites
             }
         }
 
-        /* Parameters for the jump ability */
-        private const int _JUMP_HEIGHT = 90;
-        private const float _JUMP_HANG_TIME = 0.2f;
-        private const float _JUMP_SIN_WAVE_SPEED = ((float)Math.PI / 2.0f) / _JUMP_HANG_TIME;
-        private float _jump_sin_wave_pos = 0.0f;
-        /* ------------------------------ */
+        public bool OnGround
+        {
+            get;
+            set;
+        }
 
-        public RunNJumpNinja(Texture2D tex, Rectangle? src_rectangle, Vector2 position, float scale, int start_frame, int end_frame, float time_between_frames, Point frame_size, Texture2D dirt_texture) :
+        private Vector2 _velocity;
+        private Vector2 _gravity = new Vector2(0, 1.4f);
+        private int _impulse = -20;
+
+        public void Jump()
+        {
+            if (OnGround)
+            {
+                _velocity = new Vector2(0, _impulse);
+                OnGround = false;
+            }
+        }
+
+        public void ReleaseJump()
+        {
+            if (_velocity.Y < -8)
+                _velocity.Y = -8;
+        }
+
+        public Matrix NinjaTransform
+        {
+            get
+            {
+                return //Matrix.CreateTranslation(new Vector3(-test_sprite.Origin, 0.0f)) *
+                Matrix.CreateScale(Scale) *  //would go here
+                Matrix.CreateRotationZ(Rotation) *
+                Matrix.CreateTranslation(new Vector3(Position, 0.0f));
+            }
+        }
+
+        public Rectangle NinjaRectangle
+        {
+            get
+            {
+                return Collision.CollisionDetection.CalculateBoundingRectangle(
+                     new Rectangle(0, 0, 64, 64),
+                     NinjaTransform);
+            }
+        }
+
+        public RunNJumpNinja(Texture2D tex, Rectangle? src_rectangle, Vector2 position, float scale, int start_frame, 
+            int end_frame, float time_between_frames, Point frame_size, Texture2D dirt_texture, GraphicsDevice gDevice) :
             base(tex, src_rectangle, position, scale, start_frame, end_frame, time_between_frames, frame_size)
         {
             dirt_textures.Add(dirt_texture);
+            player_overlay = new RectangleOverlay(new Rectangle((int)Position.X, (int)Position.Y, 
+                (int)(frame_size.X * scale), (int)(frame_size.Y * scale)), Color.Red, gDevice);
+
             Jumping = false;
         }
 
-        public new void Update(GameTime gameTime)
+        public new void Update(GameTime gameTime, RunNJumpMap game_map)
         {
-            //This lucky guy can jump! So he has a jumping state. If jumping state is true, then we'll move along
-            //a sine wave curve. If we complete more than half of the unit circle (Math.PI), then we've completed the jump
-            //we also need to ensure we don't go below the ground
-
+            /* Subtract time from the JumpCooldown, clamp to 0.0f < JumpCooldown < 1.0f (don't want it to go below 0.0f */
             JumpCooldown = MathHelper.Clamp(JumpCooldown - ((float)gameTime.ElapsedGameTime.TotalSeconds), 0.0f, 1.0f);
 
+            /* Update Animations, Must do this first, because we may override some of that behavior later on */
             base.Update(gameTime);
 
-            if (Jumping)
+            /* If we're displaying player_overlays, then update it's position */
+            player_overlay.dummyRectangle = BoundingRectangle;
+
+            _velocity.Y += _gravity.Y;
+            Position += _velocity;
+
+            if (BoundingRectangle.Bottom > game_map.GroundY)
             {
-                float last_height = this._jump_sin_wave_pos;
-                this._jump_sin_wave_pos += _JUMP_SIN_WAVE_SPEED * (float)gameTime.ElapsedGameTime.TotalSeconds;
-
-                if (this._jump_sin_wave_pos >= Math.PI)
-                    this.Position += (new Vector2(0, Position.Y) * _JUMP_HEIGHT) / (_JUMP_HANG_TIME * 1.5f * (float)gameTime.ElapsedGameTime.TotalSeconds);
-                else
-                    this.Position -= (new Vector2(0, 1) * 
-                        ((float)Math.Sin(_jump_sin_wave_pos) - (float)Math.Sin(last_height)) * _JUMP_HEIGHT);
-
-                _curr_frame = 8;
-                BuildAnimationRectangle();
+                Position = new Vector2(Position.X, game_map.GroundY - (_frame_size.Y * _scale));
+                _velocity.Y = 0;
+                OnGround = true;
             }
 
+            /* The particle Engine will be instantiated when it's needed based on other variables
+             * So if it's instantiated then we'll update the Particle Engine, and update it's emitter location */
             if (particleEngine != null)
-                particleEngine.EmitterLocation = new Vector2(Position.X + 64, Position.Y + 34);
-
-            if (particleEngine != null)
+            {
+                /* Position.X + 110, Position.Y + 128 is right behind the front sliding foot */
+                particleEngine.EmitterLocation = new Vector2(Position.X + 110, Position.Y + 128);
                 particleEngine.Update();
+            }
+
             if (Sliding)
             {
+                /* If we're sliding, ensure that we use the correct frame
+                 * and always use the correct Animation Rectangle */
                 _curr_frame = 7;
-                _rotation = (float)MathHelper.ToRadians(305.0f);
-                //need to translate our ninja down so he's on the ground again
-
                 BuildAnimationRectangle();
             }
-            else
+        }
+
+        public bool Collides(RunNJumpObstacle obstacle)
+        {
+            if (NinjaRectangle.Intersects(obstacle.BoundingRectangle))
             {
-                _rotation = 0.0f;
+                // Check collision with person
+                if (CollisionDetection.IntersectPixels(obstacle.TranslationC, 32,
+                                    32, obstacle.ColorData,
+                                    NinjaTransform, 64,
+                                    64, ColorData))
+                {
+                    return true;
+                }
             }
-
-            if (Position.Y > 336 && Jumping == true)
-            {
-                Jumping = false;
-                JumpCooldown = .2f;
-                Position = new Vector2(Position.X, 336);
-                this._jump_sin_wave_pos = 0.0f;
-               // _curr_frame = 0;
-            }
-
-
+            return false;
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-
-
-
             base.Draw(spriteBatch);
 
             if (particleEngine != null)

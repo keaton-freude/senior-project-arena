@@ -16,11 +16,55 @@ namespace Arena.Sprites
         protected Rectangle? _src_rectangle;
         protected float _scale;
         protected float _rotation;
+        protected Color[] _color_data;
+
+        public Rectangle BoundingRectangle
+        {
+            get { return new Rectangle((int)Position.X, (int)Position.Y, 
+                (int)(_src_rectangle.Value.Width * _scale), (int)(_src_rectangle.Value.Height * _scale)); }
+        }
+
+        public float Rotation
+        {
+            get
+            {
+                return _rotation;
+            }
+            set
+            {
+                _rotation = value;
+            }
+        }
+
+        public Color[] ColorData
+        {
+            get
+            {
+                return _color_data;
+            }
+            set
+            {
+                _color_data = value;
+            }
+        }
 
         public Vector2 Position
         {
             get;
             set;
+        }
+
+        public float Scale
+        {
+            get
+            {
+                return _scale;
+            }
+
+            set
+            {
+                _scale = value;
+            }
         }
 
         public Sprite()
@@ -30,18 +74,22 @@ namespace Arena.Sprites
         public Sprite(Texture2D tex, Rectangle? src_rectangle, Vector2 position, float scale)
         {
             _texture = tex;
+
             if (_src_rectangle == null)
                 _src_rectangle = new Rectangle(0, 0, tex.Width, tex.Height);
             else
                 _src_rectangle = src_rectangle;
+
             _scale = scale;
             _rotation = 0.0f;
             Position = position;
+            _color_data =
+                new Color[tex.Width * tex.Height];
         }
 
         public virtual void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(_texture, Position, _src_rectangle, Color.White, _rotation, new Vector2(_src_rectangle.Value.Width / 2, _src_rectangle.Value.Height / 2), _scale, SpriteEffects.None, 0.0f);
+            spriteBatch.Draw(_texture, Position, _src_rectangle, Color.White, _rotation, Vector2.Zero, _scale, SpriteEffects.None, 0.0f);
         }
 
         public virtual void Update(GameTime gameTime)

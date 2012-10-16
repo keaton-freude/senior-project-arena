@@ -17,13 +17,19 @@ namespace Arena
 
         private List<RunNJumpMapCell> _map = new List<RunNJumpMapCell>();
         private Vector2 _cell_move_direction = Vector2.UnitX;
-        private float _map_scroll_speed = 1000.0f;
-        
+        private float _map_scroll_speed = 800.0f;
+
+        public Object ObstacleLock
+        {
+            get;
+            set;
+        }
 
         private const int MAP_TOP = 400;
         private const int MAP_LEFT = 0;
         private const int MAP_NUM_CELLS_WIDE = 30;
         private const int MAP_NUM_CELLS_HIGH = 6;
+        GraphicsDevice graphics;
 
         Random random;
 
@@ -56,7 +62,7 @@ namespace Arena
         }
 
 
-        public RunNJumpMap(Texture2D dirt_texture, Texture2D grassy_dirt_texture, Texture2D obstacle_texture)
+        public RunNJumpMap(Texture2D dirt_texture, Texture2D grassy_dirt_texture, Texture2D obstacle_texture, GraphicsDevice gDevice)
         {
             for (int i = 0; i < MAP_NUM_CELLS_WIDE; ++i)
             {
@@ -66,29 +72,40 @@ namespace Arena
                     _map.Add(new RunNJumpMapCell(dirt_texture, new Vector2(MAP_LEFT + (i * CELL_WIDTH), MAP_TOP + CELL_HEIGHT + (j * CELL_HEIGHT))));
                 }
             }
+            ObstacleLock = new Object();
             random = new Random();
             _obstacle_texture = obstacle_texture;
             GroundY = MAP_TOP;
             Obstacles = new List<RunNJumpObstacle>();
+            graphics = gDevice;
             TimerCallback tcb = this.SpawnObstacle;
-            ObstacleTimer = new Timer(tcb, null, 1000, 1000);
+            ObstacleTimer = new Timer(tcb, null, random.Next(500, 800), random.Next(500, 800));
         }
 
         public void SpawnObstacle(Object stateInfo)
         {
+            const float OBSTACLE_SCALE = 1.5f;
             int y = 0;
             int choice = random.Next(2);
             if (choice == 0)
                 y = 280;
             else if (choice == 1)
-                y = 380;
+                y = GroundY - (int)(32 * OBSTACLE_SCALE)-2;
 
-            RunNJumpObstacle obstacle = new RunNJumpObstacle(_obstacle_texture, null, new Vector2(1280, y), 2.0f);
+            RunNJumpObstacle obstacle = new RunNJumpObstacle(_obstacle_texture, null, new Vector2(1280, y), OBSTACLE_SCALE, graphics);
 
-            lock (obstacle_lock)
+            lock (ObstacleLock)
             {
                 Obstacles.Add(obstacle);
             }
+
+
+            ObstacleTimer.Change(random.Next(400, 600), random.Next(400, 600));
+        }
+
+        public void CleanUp()
+        {
+            ObstacleTimer.Dispose();
         }
 
         public void Update(GameTime gameTime)
@@ -108,17 +125,33 @@ namespace Arena
                 _current_transform = 0.0f;
             }
 
-            foreach (RunNJumpObstacle obstacle in Obstacles)
+            List<RunNJumpObstacle> obstacles_to_remove = new List<RunNJumpObstacle>();
+
+            lock (ObstacleLock)
             {
-                obstacle.Update(gameTime);
+                foreach (RunNJumpObstacle obstacle in Obstacles)
+                {
+                    obstacle.Update(gameTime);
+
+                    if (obstacle.OffScreen)
+                        obstacles_to_remove.Add(obstacle);
+                }
+
+                foreach (RunNJumpObstacle obstacle in obstacles_to_remove)
+                {
+                    Obstacles.Remove(obstacle);
+                }
             }
 
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            foreach (RunNJumpObstacle obstacle in Obstacles)
-                obstacle.Draw(spriteBatch);
+            lock (ObstacleLock)
+            {
+                foreach (RunNJumpObstacle obstacle in Obstacles)
+                    obstacle.Draw(spriteBatch);
+            }
             foreach (RunNJumpMapCell cell in _map)
                 cell.Draw(spriteBatch);
         }

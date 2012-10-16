@@ -92,6 +92,7 @@ namespace GameStateManagement
         /// </summary>
         public override void UnloadContent()
         {
+
             content.Unload();
         }
 
@@ -160,7 +161,7 @@ namespace GameStateManagement
                             LoadingScreen.Load(ScreenManager, true, PlayerIndex.One, new Arena.Screens.RunNJumpGameScreen());
                             break;
                         case 2:
-                            //load game two
+                            LoadingScreen.Load(ScreenManager, true, PlayerIndex.One, new Arena.Screens.TestGameScreen());
                             break;
                         case 3:
                             //load game three
