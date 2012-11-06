@@ -41,12 +41,33 @@ namespace Arena.Sprites
             set;
         }
 
-        public TargetShootingTarget(Texture2D tex, Rectangle? src_rectangle, Vector2 position, float scale, Vector2 direction, Vector2 speed, float radius)
+        public int TargetValue
+        {
+            get;
+            set;
+        }
+
+        public float ParticleScale
+        {
+            get;
+            set;
+        }
+
+        public Color TargetColor
+        {
+            get;
+            set;
+        }
+
+        public TargetShootingTarget(Texture2D tex, Rectangle? src_rectangle, Vector2 position, float scale, Vector2 direction, Vector2 speed, float radius, Color color, int value, float particle_scale)
             :base(tex, src_rectangle, position, scale)
         {
             Radius = radius;
             Direction = direction;
             Speed = speed;
+            TargetColor = color;
+            TargetValue = value;
+            ParticleScale = particle_scale;
         }
 
         public override void Update(GameTime gameTime)
@@ -58,7 +79,9 @@ namespace Arena.Sprites
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            base.Draw(spriteBatch);
+            spriteBatch.Draw(_texture, Position, _src_rectangle, TargetColor, _rotation, Vector2.Zero, _scale, SpriteEffects.None, 0.0f);
+
+            //base.Draw(spriteBatch);
         }
     }
 }

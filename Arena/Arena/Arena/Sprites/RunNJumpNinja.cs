@@ -42,9 +42,14 @@ namespace Arena.Sprites
                     _sliding = true;
 
                     //if no particle engine instance is ready for him yet, make it ready
-                    if (particleEngine == null)
-                        particleEngine = new ParticleEngine.ParticleEngine(dirt_textures, Vector2.Zero);
-                    particleEngine.Generating = true;
+                    //ParticleEngine.ParticleEngine.G
+
+                    if (!ParticleEngine.ParticleEngine.GetInstance().effects.ContainsKey("NinjaDirtSlide"))
+                    {
+                        //We haven't added this effect yet, so lets add it and turn it on
+                        ParticleEngine.ParticleEngine.GetInstance().effects.Add("NinjaDirtSlide", new ParticleEngine.RunNJumpParticleEffects.SlidingDirtEffect(dirt_textures, Position));
+                    }
+                    ParticleEngine.ParticleEngine.GetInstance().effects["NinjaDirtSlide"].Generating = true;
                 }
                 else if (value == false && Sliding)
                 {
@@ -52,7 +57,7 @@ namespace Arena.Sprites
                     //Position = new Vector2(Position.X, Position.Y - 30);
                     _sliding = false;
 
-                    particleEngine.Generating = false;
+                    ParticleEngine.ParticleEngine.GetInstance().effects["NinjaDirtSlide"].Generating = false;
                 }
             }
         }
@@ -139,11 +144,10 @@ namespace Arena.Sprites
 
             /* The particle Engine will be instantiated when it's needed based on other variables
              * So if it's instantiated then we'll update the Particle Engine, and update it's emitter location */
-            if (particleEngine != null)
+            if (ParticleEngine.ParticleEngine.GetInstance().effects.ContainsKey("NinjaDirtSlide"))
             {
                 /* Position.X + 110, Position.Y + 128 is right behind the front sliding foot */
-                particleEngine.EmitterLocation = new Vector2(Position.X + 110, Position.Y + 128);
-                particleEngine.Update();
+                ParticleEngine.ParticleEngine.GetInstance().effects["NinjaDirtSlide"].EmitterLocation = new Vector2(Position.X + 110, Position.Y + 128);    
             }
 
             if (Sliding)
@@ -180,9 +184,6 @@ namespace Arena.Sprites
         public override void Draw(SpriteBatch spriteBatch)
         {
             base.Draw(spriteBatch);
-
-            if (particleEngine != null)
-                particleEngine.Draw(spriteBatch);
         }
     }
 }

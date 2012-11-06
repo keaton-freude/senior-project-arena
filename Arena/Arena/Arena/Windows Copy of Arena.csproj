@@ -67,8 +67,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Collision\CollisionDetection.cs" />
+    <Compile Include="FloatingText\FloatingText.cs" />
+    <Compile Include="FloatingText\FloatingTextEngine.cs" />
     <Compile Include="ParticleEngine\Particle.cs" />
+    <Compile Include="ParticleEngine\ParticleEffect.cs" />
     <Compile Include="ParticleEngine\ParticleEngine.cs" />
+    <Compile Include="ParticleEngine\RunNJumpParticleEffects\SlidingDirtEffect.cs" />
+    <Compile Include="ParticleEngine\TargetShootingParticleEffects\ShotFiredEffect.cs" />
+    <Compile Include="ParticleEngine\TargetShootingParticleEffects\TargetDestroyedEffect.cs" />
     <Compile Include="Players\Player.cs" />
     <Compile Include="Players\RunNJumpPlayer.cs" />
     <Compile Include="Players\TargetShootingPlayer.cs" />
@@ -101,6 +107,8 @@
     <Compile Include="Sprites\TargetShootingTarget.cs" />
     <Compile Include="TargetShooting\TargetManager.cs" />
     <Compile Include="UI\GameIcon.cs" />
+    <Compile Include="Utility\FontRendering.cs" />
+    <Compile Include="Utility\MathFunctions.cs" />
     <Compile Include="Utility\RectangleOverlay.cs" />
   </ItemGroup>
   <ItemGroup>

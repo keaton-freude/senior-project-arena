@@ -18,6 +18,12 @@ namespace Arena.Players
             set;
         }
 
+        public Int32 Score
+        {
+            get;
+            set;
+        }
+
         public TargetShootingPlayer(PlayerIndex player_index, ContentManager content) :
             base(player_index)
         {
@@ -38,7 +44,7 @@ namespace Arena.Players
                     break;
             }
             Crosshair = new TargetShootingCrosshair(content.Load<Texture2D>(@"Crosshairs/circle-5"),
-                null, Vector2.Zero, .4f, 128.0f, color);
+                null, Vector2.Zero, .4f, 70, color);
         }
 
         public void Update(Microsoft.Xna.Framework.GameTime gameTime, List<TargetShootingTarget> targets)
@@ -50,6 +56,14 @@ namespace Arena.Players
             if (PrevMouseState.LeftButton == ButtonState.Pressed && Mouse.GetState().LeftButton == ButtonState.Released)
             {
                 //Shot fired!
+
+                //Create particle effect
+                if (ParticleEngine.ParticleEngine.GetInstance().effects.ContainsKey("ShotsFiredEffect"))
+                {
+                    //Ask the effect to generate new particles
+                    ((ParticleEngine.TargetShootingParticleEffects.ShotFiredEffect)ParticleEngine.ParticleEngine.GetInstance().effects["ShotsFiredEffect"]).GenerateShotFired(Crosshair.Center, Crosshair.Radius * Crosshair.Scale);
+                }
+
                 foreach (TargetShootingTarget target in targets)
                 {
                 //Check collision
@@ -57,6 +71,17 @@ namespace Arena.Players
                         target.Center, target.Radius * target.Scale))
                     {
                         target.Destroyed = true;
+
+                        //Throw up some text talking about it
+                        FloatingText.FloatingTextEngine.GetInstance().AddText(String.Format("{0}!", target.TargetValue), new Vector2(target.Position.X, target.Position.Y - 10),
+                            -Vector2.UnitY, new Vector2(0, 3), 1.0f, Crosshair.CrosshairColor);
+                        Score += target.TargetValue;
+
+                        /* and EXPLODE IT! */
+                        if (ParticleEngine.ParticleEngine.GetInstance().effects.ContainsKey("TargetDestroyedEffect"))
+                        {
+                            ((ParticleEngine.TargetShootingParticleEffects.TargetDestroyedEffect)ParticleEngine.ParticleEngine.GetInstance().effects["TargetDestroyedEffect"]).DestroyTarget(target.Center, target.Radius * target.Scale, target.TargetColor, target.ParticleScale);
+                        }
                     }
                 }
             }

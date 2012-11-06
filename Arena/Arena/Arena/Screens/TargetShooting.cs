@@ -17,18 +17,25 @@ namespace Arena.Screens
         ContentManager content;
         SpriteBatch spriteBatch;
 
-        TargetShootingPlayer player;
+        Texture2D _game_background;
+
+        //TargetShootingPlayer player;
 
         KeyboardState prevKeyboardState;
         MouseState prevMouseState;
 
+        SpriteFont PlayerScoreFont;
+
         TargetManager target_manager;
+
+        List<PlayerIndex> PlayerIndexes;
+        List<TargetShootingPlayer> _players;
 
         public TargetShooting(List<PlayerIndex> _player_indexes)
         {
             TransitionOnTime = TimeSpan.FromSeconds(1.5);
             TransitionOffTime = TimeSpan.FromSeconds(0.5);
-
+            PlayerIndexes = _player_indexes;
             
         }
 
@@ -38,8 +45,27 @@ namespace Arena.Screens
                 content = new ContentManager(ScreenManager.Game.Services, "Content");
             spriteBatch = new SpriteBatch(ScreenManager.GraphicsDevice);
 
-            player = new TargetShootingPlayer(PlayerIndex.One, content);
+            //player = new TargetShootingPlayer(PlayerIndex.One, content);
+            _players = new List<TargetShootingPlayer>();
+            foreach (PlayerIndex PI in PlayerIndexes)
+            {
+                _players.Add(new TargetShootingPlayer(PI, content));
+            }
+            
+            
             target_manager = new TargetManager(content);
+            PlayerScoreFont = content.Load<SpriteFont>(@"FloatingTextFont");
+            List<Texture2D> ShotsFiredTextures = new List<Texture2D>();
+            List<Texture2D> TargetDestroyedTextures = new List<Texture2D>();
+            TargetDestroyedTextures.Add(content.Load<Texture2D>(@"ParticleTextures/Target1"));
+            TargetDestroyedTextures.Add(content.Load<Texture2D>(@"ParticleTextures/Target2"));
+            TargetDestroyedTextures.Add(content.Load<Texture2D>(@"ParticleTextures/Target3"));
+            TargetDestroyedTextures.Add(content.Load<Texture2D>(@"ParticleTextures/Target4"));
+            FloatingText.FloatingTextEngine.GetInstance().TextFont = content.Load<SpriteFont>(@"FloatingTextFont");
+            ShotsFiredTextures.Add(content.Load<Texture2D>(@"ParticleTextures/Target1"));
+            ParticleEngine.ParticleEngine.GetInstance().effects.Add("ShotsFiredEffect", new ParticleEngine.TargetShootingParticleEffects.ShotFiredEffect(ShotsFiredTextures));
+            ParticleEngine.ParticleEngine.GetInstance().effects.Add("TargetDestroyedEffect", new ParticleEngine.TargetShootingParticleEffects.TargetDestroyedEffect(TargetDestroyedTextures));
+            _game_background = content.Load<Texture2D>(@"BackgroundTargetShooting");
         }
 
         public override void UnloadContent()
@@ -54,10 +80,15 @@ namespace Arena.Screens
 
             if (IsActive)
             {
-                player.Update(gameTime, target_manager.Targets);
+                //player.Update(gameTime, target_manager.Targets);
+                foreach (TargetShootingPlayer player in _players)
+                {
+                    player.Update(gameTime, target_manager.Targets);
+                }
                 target_manager.Update(gameTime);
             }
-
+            ParticleEngine.ParticleEngine.GetInstance().Update(gameTime);
+            FloatingText.FloatingTextEngine.GetInstance().Update(gameTime);
             prevKeyboardState = Keyboard.GetState();
             prevMouseState = Mouse.GetState();
         }
@@ -68,9 +99,25 @@ namespace Arena.Screens
             device.Clear(Color.CornflowerBlue);
 
             spriteBatch.Begin();
+            spriteBatch.Draw(_game_background, Vector2.Zero, Color.White);
             target_manager.Draw(spriteBatch);
-            player.Draw(spriteBatch);
+            ParticleEngine.ParticleEngine.GetInstance().Draw(spriteBatch);
 
+            //player.Draw(spriteBatch);
+
+            foreach (TargetShootingPlayer player in _players)
+            {
+                player.Draw(spriteBatch);
+            }
+            FloatingText.FloatingTextEngine.GetInstance().Draw(spriteBatch);
+            //Draw the player's scores on the top of the screen
+
+            for (int i = 0; i < _players.Count; ++i)
+            {
+                Utility.FontRendering.DrawOutlinedText(spriteBatch, String.Format("Player {0}: {1}", i + 1, _players[i].Score), Color.Black, _players[i].Crosshair.CrosshairColor, 1.5f, 0.0f, new Vector2(i * 250, 25), PlayerScoreFont, 1);
+                
+                //spriteBatch.DrawString(PlayerScoreFont, String.Format("Player {0}: {1}", i + 1, _players[i].Score), new Vector2(i * 250, 0), _players[i].Crosshair.CrosshairColor);
+            }
 
             spriteBatch.End();
         }

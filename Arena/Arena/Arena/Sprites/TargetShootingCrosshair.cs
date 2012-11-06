@@ -27,7 +27,7 @@ namespace Arena.Sprites
         {
             get
             {
-                return new Vector2(Position.X - (Radius * _scale), Position.Y - (Radius * _scale));
+                return new Vector2(Position.X, Position.Y);
             }
         }
 
@@ -41,7 +41,7 @@ namespace Arena.Sprites
 
         public override void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(_texture, new Vector2(Position.X - (Radius * _scale), Position.Y - (Radius * _scale)), _src_rectangle, CrosshairColor, 0.0f, Vector2.Zero, _scale, SpriteEffects.None, 1.0f);
+            spriteBatch.Draw(_texture, new Vector2(Position.X - (128.0f * _scale), Position.Y - (128.0f * _scale)), _src_rectangle, CrosshairColor, 0.0f, Vector2.Zero, _scale, SpriteEffects.None, 1.0f);
         }
     }
 }

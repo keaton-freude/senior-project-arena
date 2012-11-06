@@ -18,6 +18,8 @@ namespace Arena.ParticleEngine
         public float Size { get; set; }
         public int TTL { get; set; }
 
+        private int TopTTL = 0;
+
         public Particle(Texture2D texture, Vector2 position, Vector2 velocity,
             float angle, float angularVelocity, Color color, float size, int ttl)
         {
@@ -29,6 +31,7 @@ namespace Arena.ParticleEngine
             this.AngularVelocity = angularVelocity;
             this.Size = size;
             this.TTL = ttl;
+            TopTTL = ttl;
         }
 
         public void Update()
@@ -44,7 +47,7 @@ namespace Arena.ParticleEngine
 
             Vector2 origin = new Vector2(Texture.Width / 2, Texture.Height / 2);
 
-            spriteBatch.Draw(Texture, Position, sourceRectangle, Color,
+            spriteBatch.Draw(Texture, Position, sourceRectangle, Color * ((float)TTL / (float)TopTTL),
                 Angle, origin, Size, SpriteEffects.None, 0f);
         }
     }

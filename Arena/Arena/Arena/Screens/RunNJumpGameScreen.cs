@@ -173,6 +173,8 @@ namespace Arena.Screens
 
             }
 
+            ParticleEngine.ParticleEngine.GetInstance().Update(gameTime);
+
             prevKeyboardState = Keyboard.GetState();
         }
         float fps = 0.0f;
@@ -192,6 +194,8 @@ namespace Arena.Screens
 
                 spriteBatch.Begin();
                 spriteBatch.Draw(_game_background, new Vector2(0, -150), null, Color.White, 0.0f, Vector2.Zero, new Vector2(.75f, .5f), SpriteEffects.None, 1.0f);
+                ParticleEngine.ParticleEngine.GetInstance().Draw(spriteBatch);
+                
                 foreach (RunNJumpPlayer player in _players)
                 {
                     player.Draw(spriteBatch);

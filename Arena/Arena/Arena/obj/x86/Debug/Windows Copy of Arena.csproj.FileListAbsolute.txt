@@ -121,3 +121,5 @@ C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Target2.xnb
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Target3.xnb
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Target4.xnb
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\FloatingTextFont.xnb
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\BackgroundTargetShooting.xnb
