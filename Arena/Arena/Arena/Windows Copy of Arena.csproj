@@ -71,6 +71,7 @@
     <Compile Include="ParticleEngine\ParticleEngine.cs" />
     <Compile Include="Players\Player.cs" />
     <Compile Include="Players\RunNJumpPlayer.cs" />
+    <Compile Include="Players\TargetShootingPlayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
@@ -96,6 +97,9 @@
     <Compile Include="Sprites\AnimatedSprite.cs" />
     <Compile Include="Sprites\RunNJumpNinja.cs" />
     <Compile Include="Sprites\Sprite.cs" />
+    <Compile Include="Sprites\TargetShootingCrosshair.cs" />
+    <Compile Include="Sprites\TargetShootingTarget.cs" />
+    <Compile Include="TargetShooting\TargetManager.cs" />
     <Compile Include="UI\GameIcon.cs" />
     <Compile Include="Utility\RectangleOverlay.cs" />
   </ItemGroup>

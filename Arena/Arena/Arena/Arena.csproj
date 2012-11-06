@@ -95,11 +95,15 @@
     <Compile Include="ParticleEngine\ParticleEngine.cs" />
     <Compile Include="Players\Player.cs" />
     <Compile Include="Players\RunNJumpPlayer.cs" />
+    <Compile Include="Players\TargetShootingPlayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Screens\TargetShooting.cs" />
     <Compile Include="Screens\TestGameScreen.cs" />
+    <Compile Include="Sprites\TargetShootingCrosshair.cs" />
+    <Compile Include="Sprites\TargetShootingTarget.cs" />
+    <Compile Include="TargetShooting\TargetManager.cs" />
     <Compile Include="Utility\RectangleOverlay.cs" />
     <Compile Include="RunNJump\RunNJumpMap.cs" />
     <Compile Include="RunNJump\RunNJumpMapCell.cs" />

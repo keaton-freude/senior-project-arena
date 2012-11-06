@@ -29,6 +29,12 @@ namespace Arena
             set;
         }
 
+        public MouseState PrevMouseState
+        {
+            get;
+            set;
+        }
+
         public Player(PlayerIndex player_index)
         {
             Player_Index = player_index;
@@ -40,6 +46,7 @@ namespace Arena
             
             PrevGamepadState = GamePad.GetState(Player_Index);
             PrevKeyboardState = Keyboard.GetState();
+            PrevMouseState = Mouse.GetState();
         }
 
         public virtual void Draw(SpriteBatch spriteBatch)

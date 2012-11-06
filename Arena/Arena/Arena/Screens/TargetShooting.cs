@@ -7,6 +7,8 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Content;
+using Arena.Players;
+using Arena.TargetShooting;
 
 namespace Arena.Screens
 {
@@ -15,19 +17,18 @@ namespace Arena.Screens
         ContentManager content;
         SpriteBatch spriteBatch;
 
-        Texture2D targ_texture;
-        Vector2 targ_center = new Vector2(300, 300);
+        TargetShootingPlayer player;
 
-        bool targ_destroyed = false;
         KeyboardState prevKeyboardState;
         MouseState prevMouseState;
+
+        TargetManager target_manager;
 
         public TargetShooting(List<PlayerIndex> _player_indexes)
         {
             TransitionOnTime = TimeSpan.FromSeconds(1.5);
             TransitionOffTime = TimeSpan.FromSeconds(0.5);
 
-            
             
         }
 
@@ -36,7 +37,9 @@ namespace Arena.Screens
             if (content == null)
                 content = new ContentManager(ScreenManager.Game.Services, "Content");
             spriteBatch = new SpriteBatch(ScreenManager.GraphicsDevice);
-            targ_texture = content.Load<Texture2D>(@"Target");
+
+            player = new TargetShootingPlayer(PlayerIndex.One, content);
+            target_manager = new TargetManager(content);
         }
 
         public override void UnloadContent()
@@ -51,14 +54,8 @@ namespace Arena.Screens
 
             if (IsActive)
             {
-                if (Mouse.GetState().LeftButton == ButtonState.Released && prevMouseState.LeftButton == ButtonState.Pressed)
-                {
-                    if (Collision.CollisionDetection.CircleCircleCollision(new Vector2(Mouse.GetState().X, Mouse.GetState().Y),
-                        1.0f, targ_center, 64.0f))
-                    {
-                        targ_destroyed = true;
-                    }
-                }
+                player.Update(gameTime, target_manager.Targets);
+                target_manager.Update(gameTime);
             }
 
             prevKeyboardState = Keyboard.GetState();
@@ -69,12 +66,13 @@ namespace Arena.Screens
         {
             GraphicsDevice device = ScreenManager.GraphicsDevice;
             device.Clear(Color.CornflowerBlue);
-            spriteBatch.Begin();
-            if (!targ_destroyed)
-                spriteBatch.Draw(targ_texture, new Vector2(targ_center.X - (128 / 2), targ_center.Y - (128 / 2)), Color.Green);
-            spriteBatch.End();
 
-            
+            spriteBatch.Begin();
+            target_manager.Draw(spriteBatch);
+            player.Draw(spriteBatch);
+
+
+            spriteBatch.End();
         }
 
         public override void HandleInput(InputState input)
