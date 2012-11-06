@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Background.xnb</Output>
-      <Time>2012-10-15T18:10:57.9453674-07:00</Time>
+      <Time>2012-09-24T07:38:24.46671-07:00</Time>
     </Item>
     <Item>
       <Source>blank.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\blank.xnb</Output>
-      <Time>2012-10-15T18:10:57.9983739-07:00</Time>
+      <Time>2012-09-24T07:38:24.5007406-07:00</Time>
     </Item>
     <Item>
       <Source>gradient.png</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\gradient.xnb</Output>
-      <Time>2012-10-15T18:10:58.0063751-07:00</Time>
+      <Time>2012-09-24T07:38:24.5027428-07:00</Time>
     </Item>
     <Item>
       <Source>blackbox.png</Source>
@@ -35,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\blackbox.xnb</Output>
-      <Time>2012-10-15T18:10:57.9973813-07:00</Time>
+      <Time>2012-09-24T07:38:24.5007406-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\RunNJumpIconBorder.png</Source>
@@ -44,7 +44,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\RunNJumpIconBorder.xnb</Output>
-      <Time>2012-10-15T18:10:57.9743709-07:00</Time>
+      <Time>2012-09-24T07:38:24.4937347-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\RunNJumpIconNoBorder.png</Source>
@@ -53,7 +53,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\RunNJumpIconNoBorder.xnb</Output>
-      <Time>2012-10-15T18:10:57.9753713-07:00</Time>
+      <Time>2012-09-24T07:38:24.4937347-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\border.png</Source>
@@ -62,7 +62,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\border.xnb</Output>
-      <Time>2012-10-15T18:10:57.9783714-07:00</Time>
+      <Time>2012-09-24T07:38:24.4947352-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\BattleTanksIconNoBorder.png</Source>
@@ -71,7 +71,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\BattleTanksIconNoBorder.xnb</Output>
-      <Time>2012-10-15T18:10:57.9683703-07:00</Time>
+      <Time>2012-09-24T07:38:24.4907324-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\SpaceShootersIconNoBorder.png</Source>
@@ -80,7 +80,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\SpaceShootersIconNoBorder.xnb</Output>
-      <Time>2012-10-15T18:10:57.9773713-07:00</Time>
+      <Time>2012-09-24T07:38:24.4947352-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\HiSpeedGoCartsIconNoBorder.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\HiSpeedGoCartsIconNoBorder.xnb</Output>
-      <Time>2012-10-15T18:10:57.9693695-07:00</Time>
+      <Time>2012-09-24T07:38:24.4917329-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\PlaceHolderIconNoBorder.png</Source>
@@ -98,7 +98,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\PlaceHolderIconNoBorder.xnb</Output>
-      <Time>2012-10-15T18:10:57.9723722-07:00</Time>
+      <Time>2012-09-24T07:38:24.4927354-07:00</Time>
     </Item>
     <Item>
       <Source>ForestBackGround.png</Source>
@@ -107,7 +107,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ForestBackGround.xnb</Output>
-      <Time>2012-10-15T18:10:57.9663699-07:00</Time>
+      <Time>2012-09-24T07:38:24.4877293-07:00</Time>
     </Item>
     <Item>
       <Source>blue_ninja.png</Source>
@@ -116,7 +116,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\blue_ninja.xnb</Output>
-      <Time>2012-10-15T18:10:58.0003741-07:00</Time>
+      <Time>2012-09-26T10:26:56.9631985-07:00</Time>
     </Item>
     <Item>
       <Source>MapTiles\DirtTile.png</Source>
@@ -125,7 +125,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\MapTiles\DirtTile.xnb</Output>
-      <Time>2012-10-15T18:10:57.9813714-07:00</Time>
+      <Time>2012-09-24T07:38:24.4967374-07:00</Time>
     </Item>
     <Item>
       <Source>MapTiles\GrassTile.png</Source>
@@ -134,7 +134,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\MapTiles\GrassTile.xnb</Output>
-      <Time>2012-10-15T18:10:57.9833722-07:00</Time>
+      <Time>2012-09-24T07:38:24.4967374-07:00</Time>
     </Item>
     <Item>
       <Source>sky1.png</Source>
@@ -143,7 +143,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\sky1.xnb</Output>
-      <Time>2012-10-15T18:10:58.0593804-07:00</Time>
+      <Time>2012-09-24T07:38:24.560795-07:00</Time>
     </Item>
     <Item>
       <Source>menu_backdrop.png</Source>
@@ -152,7 +152,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\menu_backdrop.xnb</Output>
-      <Time>2012-10-15T18:10:58.0073763-07:00</Time>
+      <Time>2012-09-25T13:06:13.7319437-07:00</Time>
     </Item>
     <Item>
       <Source>ParticleTextures\Dirt1.png</Source>
@@ -161,7 +161,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Dirt1.xnb</Output>
-      <Time>2012-10-15T18:10:57.9853715-07:00</Time>
+      <Time>2012-09-26T11:28:16.2652138-07:00</Time>
     </Item>
     <Item>
       <Source>ParticleTextures\Dirt2.png</Source>
@@ -170,7 +170,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Dirt2.xnb</Output>
-      <Time>2012-10-15T18:10:57.9873723-07:00</Time>
+      <Time>2012-09-26T11:47:52.3567101-07:00</Time>
     </Item>
     <Item>
       <Source>obstacle_alpha.png</Source>
@@ -179,7 +179,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\obstacle_alpha.xnb</Output>
-      <Time>2012-10-15T18:10:58.04538-07:00</Time>
+      <Time>2012-09-26T14:23:52.2438177-07:00</Time>
     </Item>
     <Item>
       <Source>ParticleTextures\Dirt3.png</Source>
@@ -188,7 +188,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Dirt3.xnb</Output>
-      <Time>2012-10-15T18:10:57.9903724-07:00</Time>
+      <Time>2012-09-28T07:47:55.1339259-07:00</Time>
     </Item>
     <Item>
       <Source>blue_ninja_new.png</Source>
@@ -197,7 +197,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\blue_ninja_new.xnb</Output>
-      <Time>2012-10-15T18:10:58.002375-07:00</Time>
+      <Time>2012-10-16T15:11:35.2947537-07:00</Time>
     </Item>
     <Item>
       <Source>TorchEffect.fx</Source>
@@ -206,7 +206,7 @@
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TorchEffect.xnb</Output>
-      <Time>2012-10-15T18:10:57.996372-07:00</Time>
+      <Time>2012-09-24T07:38:24.4997401-07:00</Time>
     </Item>
     <Item>
       <Source>SpriteFont1.spritefont</Source>
@@ -215,7 +215,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
-      <Time>2012-10-15T18:10:57.9933724-07:00</Time>
+      <Time>2012-09-24T07:38:24.4987392-07:00</Time>
     </Item>
     <Item>
       <Source>menufont.spritefont</Source>
@@ -224,7 +224,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\menufont.xnb</Output>
-      <Time>2012-10-15T18:10:58.0103742-07:00</Time>
+      <Time>2012-09-25T13:03:42.0369887-07:00</Time>
     </Item>
     <Item>
       <Source>gamefont.spritefont</Source>
@@ -233,7 +233,7 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\gamefont.xnb</Output>
-      <Time>2012-10-15T18:10:58.0033752-07:00</Time>
+      <Time>2012-09-24T07:38:24.5027428-07:00</Time>
     </Item>
     <Item>
       <Source>GameStateFont.spritefont</Source>
@@ -242,7 +242,16 @@
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameStateFont.xnb</Output>
-      <Time>2012-10-15T19:55:24.7262917-07:00</Time>
+      <Time>2012-10-15T23:20:49.3764747-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Target.png</Source>
+      <Name>Target</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Target.xnb</Output>
+      <Time>2012-11-05T09:54:32-08:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -282,7 +291,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2012-09-23T14:40:17.8363426-07:00</Value>
+        <Value>2012-09-13T08:13:46.4765708-07:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

@@ -191,7 +191,7 @@ namespace GameStateManagement
                             LoadingScreen.Load(ScreenManager, true, PlayerIndex.One, new Arena.Screens.RunNJumpGameScreen(Player_IDS));
                             break;
                         case 2:
-                            LoadingScreen.Load(ScreenManager, true, PlayerIndex.One, new Arena.Screens.TestGameScreen());
+                            LoadingScreen.Load(ScreenManager, true, PlayerIndex.One, new Arena.Screens.TargetShooting(Player_IDS));
                             break;
                         case 3:
                             //load game three

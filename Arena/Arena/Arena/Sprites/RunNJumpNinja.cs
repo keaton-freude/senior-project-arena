@@ -153,6 +153,12 @@ namespace Arena.Sprites
                 _curr_frame = 7;
                 BuildAnimationRectangle();
             }
+
+            if (!OnGround)
+            {
+                _curr_frame = 8;
+                BuildAnimationRectangle();
+            }
         }
 
         public bool Collides(RunNJumpObstacle obstacle)

@@ -84,7 +84,7 @@ namespace Arena
         public override void Draw(SpriteBatch spriteBatch)
         {
             //obstacle_rect.Draw(spriteBatch);
-            spriteBatch.DrawString(Screens.RunNJumpGameScreen.font, String.Format("X:{0}, Y:{1}, W:{2}, H:{3}", Position.X, Position.Y, _texture.Width, _texture.Height), new Vector2(Position.X, Position.Y - 85), Color.White);
+            //spriteBatch.DrawString(Screens.RunNJumpGameScreen.font, String.Format("X:{0}, Y:{1}, W:{2}, H:{3}", Position.X, Position.Y, _texture.Width, _texture.Height), new Vector2(Position.X, Position.Y - 85), Color.White);
 
             spriteBatch.Draw(this._texture, BoundingRectangle, Color.White);
             //spriteBatch.Draw(this._texture, Position, _src_rectangle, Color.White, _rotation, Vector2.Zero, 1.0f, SpriteEffects.None, 1.0f);

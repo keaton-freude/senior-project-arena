@@ -19,7 +19,6 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0FDE705E-2732-4D91-A4B5-8A2AEEB8B964}.Debug|Mixed Platforms.ActiveCfg = Debug|Xbox 360
 		{0FDE705E-2732-4D91-A4B5-8A2AEEB8B964}.Debug|Mixed Platforms.Build.0 = Debug|Xbox 360
-		{0FDE705E-2732-4D91-A4B5-8A2AEEB8B964}.Debug|Mixed Platforms.Deploy.0 = Debug|Xbox 360
 		{0FDE705E-2732-4D91-A4B5-8A2AEEB8B964}.Debug|x86.ActiveCfg = Debug|Xbox 360
 		{0FDE705E-2732-4D91-A4B5-8A2AEEB8B964}.Debug|x86.Build.0 = Debug|Xbox 360
 		{0FDE705E-2732-4D91-A4B5-8A2AEEB8B964}.Debug|Xbox 360.ActiveCfg = Debug|Xbox 360

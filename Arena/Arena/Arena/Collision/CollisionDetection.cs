@@ -127,5 +127,14 @@ namespace Arena.Collision
             // No intersection found
             return false;
         }
+
+        public static bool CircleCircleCollision(Vector2 center1, float radius1, Vector2 center2, float radius2)
+        {
+            //point is the exact pixel location where the user's crosshair was pointed at.
+
+            float distance = (float)Math.Sqrt(Math.Pow(center2.X - center1.X, 2) + Math.Pow(center2.Y - center1.Y, 2));
+
+            return distance <= radius1 + radius2;
+        }
     }
 }

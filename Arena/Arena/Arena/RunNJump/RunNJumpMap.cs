@@ -27,7 +27,7 @@ namespace Arena
 
         private const int MAP_TOP = 400;
         private const int MAP_LEFT = 0;
-        private const int MAP_NUM_CELLS_WIDE = 30;
+        private const int MAP_NUM_CELLS_WIDE = 27;
         private const int MAP_NUM_CELLS_HIGH = 6;
         GraphicsDevice graphics;
 
@@ -89,6 +89,8 @@ namespace Arena
             Spawning = true;
         }
 
+        private float _current_obstacle_speed = 800f;
+
         public void SpawnObstacle(Object stateInfo)
         {
             if (Spawning)
@@ -100,9 +102,9 @@ namespace Arena
                     y = 280;
                 else if (choice == 1)
                     y = GroundY - (int)(32 * OBSTACLE_SCALE) - 2;
-
+                _current_obstacle_speed += 5.0f;
                 RunNJumpObstacle obstacle = new RunNJumpObstacle(_obstacle_texture, null, new Vector2(1280, y), OBSTACLE_SCALE, graphics);
-
+                obstacle.Speed = _current_obstacle_speed;
                 lock (ObstacleLock)
                 {
                     Obstacles.Add(obstacle);
@@ -133,7 +135,7 @@ namespace Arena
             }
             _current_transform += _cell_move_direction.X * _map_scroll_speed * (float)gameTime.ElapsedGameTime.TotalSeconds;
 
-            if (_current_transform >= CELL_WIDTH)
+            if (_current_transform >= CELL_WIDTH * 3.0f)
             {
                 //we need to move all of your blocks back however many units of transform we collected
                 foreach (RunNJumpMapCell cell in _map)

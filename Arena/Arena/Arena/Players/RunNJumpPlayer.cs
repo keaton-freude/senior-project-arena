@@ -58,7 +58,7 @@ namespace Arena.Players
 
                 if (GamePad.GetState(Player_Index).IsButtonDown(Buttons.B))
                     _ninja.Sliding = true;
-                if (GamePad.GetState(Player_Index).IsButtonUp(Buttons.B))
+                if (GamePad.GetState(Player_Index).IsButtonUp(Buttons.B) && GamePad.GetState(Player_Index).IsButtonDown(Buttons.B))
                     _ninja.Sliding = false;
 
                 lock (game_map.ObstacleLock)

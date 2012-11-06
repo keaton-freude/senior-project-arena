@@ -26,11 +26,15 @@ namespace Arena.Screens
         bool colliding = false;
 
         RectangleOverlay rect;
+
+        int frame_count = 0;
         
         String test_sprite_rect = "";
 
-        public int Counter = 0;
+        private const bool DEBUG_MODE = true;
 
+        public int Counter = 0;
+        float frame_elapsed = 0.0f;
         Texture2D test_alpha;
         List<RunNJumpPlayer> _players = new List<RunNJumpPlayer>();
         RunNJumpNinja test_sprite;
@@ -132,30 +136,35 @@ namespace Arena.Screens
                             if (player.Collided)
                             {
                                 //remove this player
-                                players_to_remove.Add(player);
+                                if (!DEBUG_MODE)
+                                    players_to_remove.Add(player);
                             }
                         }
 
                         foreach (RunNJumpPlayer p in players_to_remove)
                             _players.Remove(p);
 
-                        if (_players.Count == 1)
+                        //NO WIN CONDITION IN DEBUG MODE
+                        if (!DEBUG_MODE)
                         {
-                            //win statement
-                            //determine winner
-                            WinString = "Winner: Player " + _players[0].Player_Index.ToString();
-                            GameState = "Done";
-                        }
-                        else if (_players.Count == 0)
-                        {
-                            //Draw
-                            WinString = "Draw!";
-                            GameState = "Done";
+                            if (_players.Count == 1)
+                            {
+                                //win statement
+                                //determine winner
+                                WinString = "Winner: Player " + _players[0].Player_Index.ToString();
+                                GameState = "Done";
+                            }
+                            else if (_players.Count == 0)
+                            {
+                                //Draw
+                                WinString = "Draw!";
+                                GameState = "Done";
+                            }
                         }
                     }
                 }
 
-                if (elapsed_time >= 10.0f && GameState == "Pregame")
+                if (elapsed_time >= 5.0f && GameState == "Pregame")
                 {
                     GameState = "Playing";
                     _game_map.StartSpawning();
@@ -166,9 +175,18 @@ namespace Arena.Screens
 
             prevKeyboardState = Keyboard.GetState();
         }
-
+        float fps = 0.0f;
         public override void Draw(GameTime gameTime)
         {
+            frame_elapsed += (float)gameTime.ElapsedGameTime.TotalSeconds;
+            frame_count++;
+            if (frame_elapsed >= 1.0f)
+            {
+                fps = frame_count;
+                frame_elapsed -= 1.0f;
+                frame_count = 0;
+            }
+
             if (GameState != "Done")
             {
 
@@ -180,24 +198,24 @@ namespace Arena.Screens
                 }
                 _game_map.Draw(spriteBatch);
 
-                if (colliding)
-                    spriteBatch.DrawString(font, "Colliding", new Vector2(10, 10), Color.White);
-                else
-                    spriteBatch.DrawString(font, "Not Colliding", new Vector2(10, 10), Color.White);
+                //if (colliding)
+                //    spriteBatch.DrawString(font, "Colliding", new Vector2(10, 10), Color.White);
+                //else
+                //    spriteBatch.DrawString(font, "Not Colliding", new Vector2(10, 10), Color.White);
 
                 if (GameState == "Pregame")
                 {
-                    spriteBatch.DrawString(gameFont, String.Format("{0} . . . ", 10 - (int)elapsed_time), new Vector2(300, 300), Color.Green);
+                    spriteBatch.DrawString(gameFont, String.Format("{0} . . . ", Math.Round(5.0f - elapsed_time, 2).ToString()), new Vector2(300, 300), Color.Green, 0.0f, Vector2.Zero, MathHelper.Lerp(1.0f, 1.5f, (elapsed_time / 5.0f)), SpriteEffects.None, 1.0f);
                 }
                 else
                     spriteBatch.DrawString(gameFont, GameState, new Vector2(100, 100), Color.Yellow);
 
+                spriteBatch.DrawString(gameFont, "FPS: " + fps.ToString(), new Vector2(0, 0), Color.Red);
 
-
-                spriteBatch.DrawString(gameFont, Counter.ToString(), new Vector2(300, 300), Color.Yellow);
+                //spriteBatch.DrawString(gameFont, Counter.ToString(), new Vector2(300, 300), Color.Yellow);
 
                 spriteBatch.DrawString(font, test_sprite_rect, new Vector2(10, 40), Color.White);
-                rect.Draw(spriteBatch);
+                //rect.Draw(spriteBatch);
                 spriteBatch.End();
             }
             else

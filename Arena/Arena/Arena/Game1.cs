@@ -34,7 +34,7 @@ namespace Arena
             graphics.PreferredBackBufferWidth = 1280;
             graphics.IsFullScreen = true;
             Content.RootDirectory = "Content";
-
+            this.IsMouseVisible = true;
 #if DEBUG
             graphics.IsFullScreen = false;
 #endif            
