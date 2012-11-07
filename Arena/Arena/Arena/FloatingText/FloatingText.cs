@@ -85,7 +85,9 @@ namespace Arena.FloatingText
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.DrawString(TextFont, Text, Position, TextColor);
+            //spriteBatch.DrawString(TextFont, Text, Position, TextColor);
+            Utility.FontRendering.DrawOutlinedText(spriteBatch, Text, Color.Black, TextColor,
+                1.0f, 0.0f, Position, TextFont, 1);
         }
     }
 }

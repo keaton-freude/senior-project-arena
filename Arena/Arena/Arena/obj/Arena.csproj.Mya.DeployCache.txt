@@ -2,62 +2,196 @@
 0
 Mya
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\
-129949093420000000
+129967191440000000
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\GameThumbnail.png
 2012-10-16T01:10:56.7562250Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Arena.exe
-2012-10-17T01:13:45.8052376Z
+2012-11-07T00:44:23.6660271Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Background.xnb
-2012-10-16T06:21:24.1658689Z
+2012-11-06T23:42:38.9035073Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\BackgroundTargetShooting.xnb
+2012-11-06T23:43:41.6660365Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\blackbox.xnb
-2012-10-16T06:21:24.3377512Z
+2012-11-06T23:42:39.4405697Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\blank.xnb
-2012-10-16T06:21:24.2439967Z
+2012-11-06T23:42:39.0515266Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\blue_ninja.xnb
-2012-10-16T06:21:27.3222412Z
+2012-11-06T23:42:48.9627163Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\blue_ninja_new.xnb
-2012-10-16T22:11:37.4822375Z
+2012-11-06T23:43:05.7107215Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\FloatingTextFont.xnb
+2012-11-07T00:02:38.8204773Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ForestBackGround.xnb
-2012-10-16T06:21:26.9628521Z
+2012-11-06T23:42:47.8125745Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\gamefont.xnb
-2012-10-16T06:21:34.8537854Z
+2012-11-06T23:43:42.8841838Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameStateFont.xnb
-2012-10-16T06:21:35.1037952Z
+2012-11-06T23:43:43.5132588Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\gradient.xnb
-2012-10-16T06:21:24.2908741Z
+2012-11-06T23:42:39.2645508Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\menufont.xnb
-2012-10-16T06:21:34.8069088Z
+2012-11-06T23:43:42.7521683Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\menu_backdrop.xnb
-2012-10-16T06:21:33.7131150Z
+2012-11-06T23:43:03.8514983Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\obstacle_alpha.xnb
-2012-10-16T06:21:33.9006231Z
+2012-11-06T23:43:04.3895639Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\sky1.xnb
-2012-10-16T06:21:33.5099807Z
+2012-11-06T23:43:03.3494391Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\SpriteFont1.xnb
-2012-10-16T06:21:34.6975285Z
+2012-11-06T23:43:42.4291288Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Target.xnb
+2012-11-06T23:43:05.9827619Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\TorchEffect.xnb
-2012-10-16T06:21:34.4944400Z
+2012-11-06T23:43:41.9870762Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-01-hit.xnb
+2012-11-06T23:43:06.3287994Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-01-whole.xnb
+2012-11-06T23:43:06.8218562Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-01.xnb
+2012-11-06T23:43:07.2499062Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-02-hit.xnb
+2012-11-06T23:43:07.6599616Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-02-whole.xnb
+2012-11-06T23:43:08.0930085Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-02.xnb
+2012-11-06T23:43:08.5040585Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-03-hit.xnb
+2012-11-06T23:43:08.9371111Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-03-whole.xnb
+2012-11-06T23:43:09.3221562Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-03.xnb
+2012-11-06T23:43:09.6872005Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-04-hit.xnb
+2012-11-06T23:43:10.1042501Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-04-whole.xnb
+2012-11-06T23:43:10.5653057Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-04.xnb
+2012-11-06T23:43:10.9943568Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-06-hit.xnb
+2012-11-06T23:43:11.6704387Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-06-whole.xnb
+2012-11-06T23:43:12.3155173Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-06.xnb
+2012-11-06T23:43:13.0266024Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-5-hit.xnb
+2012-11-06T23:43:13.4356503Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-5-whole.xnb
+2012-11-06T23:43:13.9317076Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-5.xnb
+2012-11-06T23:43:14.5297819Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\cross-01-hit.xnb
+2012-11-06T23:43:14.8998263Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\cross-01-whole.xnb
+2012-11-06T23:43:15.7719306Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\cross-01.xnb
+2012-11-06T23:43:16.1439749Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\cross-02-hit.xnb
+2012-11-06T23:43:16.8030543Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\cross-02-whole.xnb
+2012-11-06T23:43:17.3831231Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\cross-02.xnb
+2012-11-06T23:43:17.7911712Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-01-hit.xnb
+2012-11-06T23:43:18.3892455Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-01-whole.xnb
+2012-11-06T23:43:18.7622898Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-01.xnb
+2012-11-06T23:43:19.1593357Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-02-hit.xnb
+2012-11-06T23:43:19.7324049Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-02-whole.xnb
+2012-11-06T23:43:20.0814485Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-02.xnb
+2012-11-06T23:43:20.4574913Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-03-hit.xnb
+2012-11-06T23:43:21.1665774Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-03-whole.xnb
+2012-11-06T23:43:21.6436332Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-03.xnb
+2012-11-06T23:43:22.2807091Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-04-hit.xnb
+2012-11-06T23:43:22.6207532Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-04-whole.xnb
+2012-11-06T23:43:22.9937982Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-04.xnb
+2012-11-06T23:43:23.5988690Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\square-01-hit.xnb
+2012-11-06T23:43:24.1889401Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\square-01-whole.xnb
+2012-11-06T23:43:24.5929881Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\square-01.xnb
+2012-11-06T23:43:25.3250780Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\square-02-hit.xnb
+2012-11-06T23:43:25.8001324Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\square-02-whole.xnb
+2012-11-06T23:43:26.3001935Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\square-02.xnb
+2012-11-06T23:43:26.7852499Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-01-hit.xnb
+2012-11-06T23:43:27.1712978Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-01-whole.xnb
+2012-11-06T23:43:27.8963868Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-01.xnb
+2012-11-06T23:43:28.3544398Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-02-hit.xnb
+2012-11-06T23:43:28.7704885Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-02-whole.xnb
+2012-11-06T23:43:29.5635863Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-02.xnb
+2012-11-06T23:43:29.9986385Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-03-hit.xnb
+2012-11-06T23:43:30.3736827Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-03-whole.xnb
+2012-11-06T23:43:31.2147834Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-03.xnb
+2012-11-06T23:43:31.6258326Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-04-hit.xnb
+2012-11-06T23:43:32.0378844Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-04-whole.xnb
+2012-11-06T23:43:32.4719345Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-04.xnb
+2012-11-06T23:43:32.9089875Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-05-hit.xnb
+2012-11-06T23:43:33.5690662Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-05-whole.xnb
+2012-11-06T23:43:33.9871153Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-05.xnb
+2012-11-06T23:43:34.7342055Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-06-hit.xnb
+2012-11-06T23:43:35.1672578Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-06-whole.xnb
+2012-11-06T23:43:35.6153127Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-06.xnb
+2012-11-06T23:43:36.1123696Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\BattleTanksIconNoBorder.xnb
-2012-10-16T06:21:25.1190307Z
+2012-11-06T23:42:41.7368475Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\border.xnb
-2012-10-16T06:21:24.9002722Z
+2012-11-06T23:42:41.2457880Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\HiSpeedGoCartsIconNoBorder.xnb
-2012-10-16T06:21:25.5409219Z
+2012-11-06T23:42:43.5080576Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\PlaceHolderIconNoBorder.xnb
-2012-10-16T06:21:25.7284296Z
+2012-11-06T23:42:44.1141318Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\RunNJumpIconBorder.xnb
-2012-10-16T06:21:24.5252584Z
+2012-11-06T23:42:39.8706226Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\RunNJumpIconNoBorder.xnb
-2012-10-16T06:21:24.7596432Z
+2012-11-06T23:42:40.4896968Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\SpaceShootersIconNoBorder.xnb
-2012-10-16T06:21:25.3221646Z
+2012-11-06T23:42:42.7039625Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\MapTiles\DirtTile.xnb
-2012-10-16T06:21:27.4004157Z
+2012-11-06T23:42:49.2097437Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\MapTiles\GrassTile.xnb
-2012-10-16T06:21:27.4628727Z
+2012-11-06T23:42:49.4157661Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Dirt1.xnb
-2012-10-16T06:21:33.7912445Z
+2012-11-06T23:43:04.0585223Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Dirt2.xnb
-2012-10-16T06:21:33.8537465Z
+2012-11-06T23:43:04.2305460Z
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Dirt3.xnb
-2012-10-16T06:21:33.9474998Z
+2012-11-06T23:43:04.6075891Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Target1.xnb
+2012-11-06T23:43:36.2673897Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Target2.xnb
+2012-11-06T23:43:36.4224077Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Target3.xnb
+2012-11-06T23:43:36.6394343Z
+C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Target4.xnb
+2012-11-06T23:43:36.7714503Z

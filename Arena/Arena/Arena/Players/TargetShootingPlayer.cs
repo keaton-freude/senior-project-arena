@@ -34,26 +34,29 @@ namespace Arena.Players
                     color = Color.Red;
                     break;
                 case PlayerIndex.Two:
-                    color = Color.Blue;
+                    color = Color.Green;
                     break;
                 case PlayerIndex.Three:
-                    color = Color.Green;
+                    color = Color.Blue;
                     break;
                 case PlayerIndex.Four:
                     color = Color.Orange;
                     break;
             }
             Crosshair = new TargetShootingCrosshair(content.Load<Texture2D>(@"Crosshairs/circle-5"),
-                null, Vector2.Zero, .4f, 70, color);
+                null, new Vector2(600, 300), .4f, 70, color);
         }
 
         public void Update(Microsoft.Xna.Framework.GameTime gameTime, List<TargetShootingTarget> targets)
         {
-            Crosshair.Position = new Vector2(Mouse.GetState().X, Mouse.GetState().Y);
+            //Crosshair.Position = new Vector2(Mouse.GetState().X, Mouse.GetState().Y);
+
+            Crosshair.Position += new Vector2(GamePad.GetState(Player_Index).ThumbSticks.Left.X * 25.0f, GamePad.GetState(Player_Index).ThumbSticks.Left.Y * -25.0f);
 
             //check player input (A firing action)
 
-            if (PrevMouseState.LeftButton == ButtonState.Pressed && Mouse.GetState().LeftButton == ButtonState.Released)
+            if (PrevMouseState.LeftButton == ButtonState.Pressed && Mouse.GetState().LeftButton == ButtonState.Released ||
+                GamePad.GetState(Player_Index).Triggers.Right > .35f && PrevGamepadState.Triggers.Right <= .35f)
             {
                 //Shot fired!
 

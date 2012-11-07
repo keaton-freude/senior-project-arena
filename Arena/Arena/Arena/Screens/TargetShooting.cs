@@ -19,14 +19,20 @@ namespace Arena.Screens
 
         Texture2D _game_background;
 
-        //TargetShootingPlayer player;
+        PlayerIndex winning_player = 0;
 
+        //TargetShootingPlayer player;
+        SpriteFont winningFont;
         KeyboardState prevKeyboardState;
         MouseState prevMouseState;
 
         SpriteFont PlayerScoreFont;
 
         TargetManager target_manager;
+
+        public bool game_over = false;
+
+        float _current_time = 5.0f;
 
         List<PlayerIndex> PlayerIndexes;
         List<TargetShootingPlayer> _players;
@@ -51,8 +57,8 @@ namespace Arena.Screens
             {
                 _players.Add(new TargetShootingPlayer(PI, content));
             }
-            
-            
+
+            winningFont = content.Load<SpriteFont>(@"GameStateFont");
             target_manager = new TargetManager(content);
             PlayerScoreFont = content.Load<SpriteFont>(@"FloatingTextFont");
             List<Texture2D> ShotsFiredTextures = new List<Texture2D>();
@@ -71,6 +77,7 @@ namespace Arena.Screens
         public override void UnloadContent()
         {
             content.Unload();
+            ParticleEngine.ParticleEngine.GetInstance().effects.Clear();
         }
 
         public override void Update(GameTime gameTime, bool otherScreenHasFocus, bool coveredByOtherScreen)
@@ -86,6 +93,22 @@ namespace Arena.Screens
                     player.Update(gameTime, target_manager.Targets);
                 }
                 target_manager.Update(gameTime);
+                _current_time -= (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+                if (_current_time <= 0.0f)
+                {
+                    game_over = true;
+                    int max_score = 0;
+
+                    foreach (TargetShootingPlayer player in _players)
+                    {
+                        if (player.Score > max_score)
+                        {
+                            max_score = player.Score;
+                            winning_player = player.Player_Index;
+                        }
+                    }
+                }
             }
             ParticleEngine.ParticleEngine.GetInstance().Update(gameTime);
             FloatingText.FloatingTextEngine.GetInstance().Update(gameTime);
@@ -96,30 +119,45 @@ namespace Arena.Screens
         public override void Draw(GameTime gameTime)
         {
             GraphicsDevice device = ScreenManager.GraphicsDevice;
-            device.Clear(Color.CornflowerBlue);
+            //device.Clear(Color.CornflowerBlue);
 
-            spriteBatch.Begin();
-            spriteBatch.Draw(_game_background, Vector2.Zero, Color.White);
-            target_manager.Draw(spriteBatch);
-            ParticleEngine.ParticleEngine.GetInstance().Draw(spriteBatch);
-
-            //player.Draw(spriteBatch);
-
-            foreach (TargetShootingPlayer player in _players)
+            if (!game_over)
             {
-                player.Draw(spriteBatch);
-            }
-            FloatingText.FloatingTextEngine.GetInstance().Draw(spriteBatch);
-            //Draw the player's scores on the top of the screen
 
-            for (int i = 0; i < _players.Count; ++i)
+                spriteBatch.Begin();
+                spriteBatch.Draw(_game_background, Vector2.Zero, Color.White);
+                target_manager.Draw(spriteBatch);
+                ParticleEngine.ParticleEngine.GetInstance().Draw(spriteBatch);
+
+                //player.Draw(spriteBatch);
+
+                foreach (TargetShootingPlayer player in _players)
+                {
+                    player.Draw(spriteBatch);
+                }
+                FloatingText.FloatingTextEngine.GetInstance().Draw(spriteBatch);
+                //Draw the player's scores on the top of the screen
+
+                for (int i = 0; i < _players.Count; ++i)
+                {
+                    Utility.FontRendering.DrawOutlinedText(spriteBatch, String.Format("Player {0}: {1}", i + 1, _players[i].Score), Color.Black, _players[i].Crosshair.CrosshairColor, 1.0f, 0.0f, new Vector2(i * 275, 25), PlayerScoreFont, 1);
+
+                    //spriteBatch.DrawString(PlayerScoreFont, String.Format("Player {0}: {1}", i + 1, _players[i].Score), new Vector2(i * 250, 0), _players[i].Crosshair.CrosshairColor);
+                }
+                Utility.FontRendering.DrawOutlinedText(spriteBatch, String.Format("Time: {0}", Math.Round(_current_time, 2)), Color.Black, Color.White, 1.0f, 0.0f, new Vector2(1000, 25), PlayerScoreFont, 1);
+                spriteBatch.End();
+            }
+            else
             {
-                Utility.FontRendering.DrawOutlinedText(spriteBatch, String.Format("Player {0}: {1}", i + 1, _players[i].Score), Color.Black, _players[i].Crosshair.CrosshairColor, 1.5f, 0.0f, new Vector2(i * 250, 25), PlayerScoreFont, 1);
-                
-                //spriteBatch.DrawString(PlayerScoreFont, String.Format("Player {0}: {1}", i + 1, _players[i].Score), new Vector2(i * 250, 0), _players[i].Crosshair.CrosshairColor);
+                //game is over, Display Winner
+                spriteBatch.Begin();
+                string winner_string = String.Format("Winner: Player {0}", winning_player.ToString());
+                //Utility.FontRendering.DrawOutlinedText(spriteBatch, winner_string, Color.Black, Color.White, 0.0f, 0.0f, new Vector2(300, 200), winningFont, 1);
+                spriteBatch.DrawString(PlayerScoreFont, winner_string, new Vector2(400, 300), Color.White);
+                //device.Clear(Color.Black);
+                spriteBatch.End();
             }
 
-            spriteBatch.End();
         }
 
         public override void HandleInput(InputState input)

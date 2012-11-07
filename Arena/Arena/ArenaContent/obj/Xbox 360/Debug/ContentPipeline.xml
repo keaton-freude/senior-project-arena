@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Background.xnb</Output>
-      <Time>2012-09-24T07:38:24.46671-07:00</Time>
+      <Time>2012-10-15T18:10:57.9453674-07:00</Time>
     </Item>
     <Item>
       <Source>blank.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\blank.xnb</Output>
-      <Time>2012-09-24T07:38:24.5007406-07:00</Time>
+      <Time>2012-10-15T18:10:57.9983739-07:00</Time>
     </Item>
     <Item>
       <Source>gradient.png</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\gradient.xnb</Output>
-      <Time>2012-09-24T07:38:24.5027428-07:00</Time>
+      <Time>2012-10-15T18:10:58.0063751-07:00</Time>
     </Item>
     <Item>
       <Source>blackbox.png</Source>
@@ -35,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\blackbox.xnb</Output>
-      <Time>2012-09-24T07:38:24.5007406-07:00</Time>
+      <Time>2012-10-15T18:10:57.9973813-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\RunNJumpIconBorder.png</Source>
@@ -44,7 +44,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\RunNJumpIconBorder.xnb</Output>
-      <Time>2012-09-24T07:38:24.4937347-07:00</Time>
+      <Time>2012-10-15T18:10:57.9743709-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\RunNJumpIconNoBorder.png</Source>
@@ -53,7 +53,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\RunNJumpIconNoBorder.xnb</Output>
-      <Time>2012-09-24T07:38:24.4937347-07:00</Time>
+      <Time>2012-10-15T18:10:57.9753713-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\border.png</Source>
@@ -62,7 +62,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\border.xnb</Output>
-      <Time>2012-09-24T07:38:24.4947352-07:00</Time>
+      <Time>2012-10-15T18:10:57.9783714-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\BattleTanksIconNoBorder.png</Source>
@@ -71,7 +71,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\BattleTanksIconNoBorder.xnb</Output>
-      <Time>2012-09-24T07:38:24.4907324-07:00</Time>
+      <Time>2012-10-15T18:10:57.9683703-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\SpaceShootersIconNoBorder.png</Source>
@@ -80,7 +80,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\SpaceShootersIconNoBorder.xnb</Output>
-      <Time>2012-09-24T07:38:24.4947352-07:00</Time>
+      <Time>2012-10-15T18:10:57.9773713-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\HiSpeedGoCartsIconNoBorder.png</Source>
@@ -89,7 +89,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\HiSpeedGoCartsIconNoBorder.xnb</Output>
-      <Time>2012-09-24T07:38:24.4917329-07:00</Time>
+      <Time>2012-10-15T18:10:57.9693695-07:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\PlaceHolderIconNoBorder.png</Source>
@@ -98,7 +98,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameIcons\PlaceHolderIconNoBorder.xnb</Output>
-      <Time>2012-09-24T07:38:24.4927354-07:00</Time>
+      <Time>2012-10-15T18:10:57.9723722-07:00</Time>
     </Item>
     <Item>
       <Source>ForestBackGround.png</Source>
@@ -107,7 +107,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ForestBackGround.xnb</Output>
-      <Time>2012-09-24T07:38:24.4877293-07:00</Time>
+      <Time>2012-10-15T18:10:57.9663699-07:00</Time>
     </Item>
     <Item>
       <Source>blue_ninja.png</Source>
@@ -116,7 +116,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\blue_ninja.xnb</Output>
-      <Time>2012-09-26T10:26:56.9631985-07:00</Time>
+      <Time>2012-10-15T18:10:58.0003741-07:00</Time>
     </Item>
     <Item>
       <Source>MapTiles\DirtTile.png</Source>
@@ -125,7 +125,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\MapTiles\DirtTile.xnb</Output>
-      <Time>2012-09-24T07:38:24.4967374-07:00</Time>
+      <Time>2012-10-15T18:10:57.9813714-07:00</Time>
     </Item>
     <Item>
       <Source>MapTiles\GrassTile.png</Source>
@@ -134,7 +134,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\MapTiles\GrassTile.xnb</Output>
-      <Time>2012-09-24T07:38:24.4967374-07:00</Time>
+      <Time>2012-10-15T18:10:57.9833722-07:00</Time>
     </Item>
     <Item>
       <Source>sky1.png</Source>
@@ -143,7 +143,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\sky1.xnb</Output>
-      <Time>2012-09-24T07:38:24.560795-07:00</Time>
+      <Time>2012-10-15T18:10:58.0593804-07:00</Time>
     </Item>
     <Item>
       <Source>menu_backdrop.png</Source>
@@ -152,7 +152,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\menu_backdrop.xnb</Output>
-      <Time>2012-09-25T13:06:13.7319437-07:00</Time>
+      <Time>2012-10-15T18:10:58.0073763-07:00</Time>
     </Item>
     <Item>
       <Source>ParticleTextures\Dirt1.png</Source>
@@ -161,7 +161,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Dirt1.xnb</Output>
-      <Time>2012-09-26T11:28:16.2652138-07:00</Time>
+      <Time>2012-10-15T18:10:57.9853715-07:00</Time>
     </Item>
     <Item>
       <Source>ParticleTextures\Dirt2.png</Source>
@@ -170,7 +170,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Dirt2.xnb</Output>
-      <Time>2012-09-26T11:47:52.3567101-07:00</Time>
+      <Time>2012-10-15T18:10:57.9873723-07:00</Time>
     </Item>
     <Item>
       <Source>obstacle_alpha.png</Source>
@@ -179,7 +179,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\obstacle_alpha.xnb</Output>
-      <Time>2012-09-26T14:23:52.2438177-07:00</Time>
+      <Time>2012-10-15T18:10:58.04538-07:00</Time>
     </Item>
     <Item>
       <Source>ParticleTextures\Dirt3.png</Source>
@@ -188,7 +188,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Dirt3.xnb</Output>
-      <Time>2012-09-28T07:47:55.1339259-07:00</Time>
+      <Time>2012-10-15T18:10:57.9903724-07:00</Time>
     </Item>
     <Item>
       <Source>blue_ninja_new.png</Source>
@@ -197,7 +197,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\blue_ninja_new.xnb</Output>
-      <Time>2012-10-16T15:11:35.2947537-07:00</Time>
+      <Time>2012-11-05T18:32:01.263263-08:00</Time>
     </Item>
     <Item>
       <Source>Target.png</Source>
@@ -206,7 +206,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Target.xnb</Output>
-      <Time>2012-11-05T09:54:32-08:00</Time>
+      <Time>2012-11-05T18:32:01.2612631-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-01-hit.png</Source>
@@ -215,7 +215,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-01-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.7431284-08:00</Time>
+      <Time>2012-11-05T19:12:09.3451979-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-01-whole.png</Source>
@@ -224,7 +224,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-01-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.7451302-08:00</Time>
+      <Time>2012-11-05T19:12:09.3501991-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-01.png</Source>
@@ -233,7 +233,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-01.xnb</Output>
-      <Time>2012-11-06T05:55:00.747132-08:00</Time>
+      <Time>2012-11-05T19:12:09.3401975-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-02-hit.png</Source>
@@ -242,7 +242,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-02-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.751136-08:00</Time>
+      <Time>2012-11-05T19:12:09.3581994-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-02-whole.png</Source>
@@ -251,7 +251,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-02-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.7531374-08:00</Time>
+      <Time>2012-11-05T19:12:09.3622005-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-02.png</Source>
@@ -260,7 +260,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-02.xnb</Output>
-      <Time>2012-11-06T05:55:00.7551392-08:00</Time>
+      <Time>2012-11-05T19:12:09.3541991-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-03-hit.png</Source>
@@ -269,7 +269,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-03-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.7561401-08:00</Time>
+      <Time>2012-11-05T19:12:09.3702009-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-03-whole.png</Source>
@@ -278,7 +278,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-03-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.7581419-08:00</Time>
+      <Time>2012-11-05T19:12:09.3742023-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-03.png</Source>
@@ -287,7 +287,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-03.xnb</Output>
-      <Time>2012-11-06T05:55:00.7591428-08:00</Time>
+      <Time>2012-11-05T19:12:09.3662014-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-04-hit.png</Source>
@@ -296,7 +296,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-04-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.7611446-08:00</Time>
+      <Time>2012-11-05T19:12:09.3832033-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-04-whole.png</Source>
@@ -305,7 +305,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-04-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.7631464-08:00</Time>
+      <Time>2012-11-05T19:12:09.3922034-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-04.png</Source>
@@ -314,7 +314,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-04.xnb</Output>
-      <Time>2012-11-06T05:55:00.7681509-08:00</Time>
+      <Time>2012-11-05T19:12:09.3792023-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-06-hit.png</Source>
@@ -323,7 +323,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-06-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.7691518-08:00</Time>
+      <Time>2012-11-05T19:12:09.414207-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-06-whole.png</Source>
@@ -332,7 +332,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-06-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.7711536-08:00</Time>
+      <Time>2012-11-05T19:12:09.4182074-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-06.png</Source>
@@ -341,7 +341,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-06.xnb</Output>
-      <Time>2012-11-06T05:55:00.7731729-08:00</Time>
+      <Time>2012-11-05T19:12:09.4112066-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-5-hit.png</Source>
@@ -350,7 +350,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-5-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.7741563-08:00</Time>
+      <Time>2012-11-05T19:12:09.4032071-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-5-whole.png</Source>
@@ -359,7 +359,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-5-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.7761581-08:00</Time>
+      <Time>2012-11-05T19:12:09.4062057-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-5.png</Source>
@@ -368,7 +368,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\circle-5.xnb</Output>
-      <Time>2012-11-06T05:55:00.7781599-08:00</Time>
+      <Time>2012-11-05T19:12:09.3962048-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\cross-01-hit.png</Source>
@@ -377,7 +377,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\cross-01-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.859233-08:00</Time>
+      <Time>2012-11-05T19:12:32.6429941-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\cross-01-whole.png</Source>
@@ -386,7 +386,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\cross-01-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.8602339-08:00</Time>
+      <Time>2012-11-05T19:12:32.6469941-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\cross-01.png</Source>
@@ -395,7 +395,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\cross-01.xnb</Output>
-      <Time>2012-11-06T05:55:00.8622357-08:00</Time>
+      <Time>2012-11-05T19:12:32.6379934-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\cross-02-hit.png</Source>
@@ -404,7 +404,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\cross-02-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.8632366-08:00</Time>
+      <Time>2012-11-05T19:12:32.654995-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\cross-02-whole.png</Source>
@@ -413,7 +413,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\cross-02-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.8662409-08:00</Time>
+      <Time>2012-11-05T19:12:32.6589954-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\cross-02.png</Source>
@@ -422,7 +422,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\cross-02.xnb</Output>
-      <Time>2012-11-06T05:55:00.8682411-08:00</Time>
+      <Time>2012-11-05T19:12:32.6509948-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-01-hit.png</Source>
@@ -431,7 +431,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-01-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.9032942-08:00</Time>
+      <Time>2012-11-05T19:12:42.4331681-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-01-whole.png</Source>
@@ -440,7 +440,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-01-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.9042781-08:00</Time>
+      <Time>2012-11-05T19:12:42.4391691-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-01.png</Source>
@@ -449,7 +449,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-01.xnb</Output>
-      <Time>2012-11-06T05:55:00.9062754-08:00</Time>
+      <Time>2012-11-05T19:12:42.4281675-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-02-hit.png</Source>
@@ -458,7 +458,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-02-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.9082845-08:00</Time>
+      <Time>2012-11-05T19:12:42.4461701-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-02-whole.png</Source>
@@ -467,7 +467,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-02-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.9092781-08:00</Time>
+      <Time>2012-11-05T19:12:42.4491711-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-02.png</Source>
@@ -476,7 +476,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-02.xnb</Output>
-      <Time>2012-11-06T05:55:00.9112799-08:00</Time>
+      <Time>2012-11-05T19:12:42.44317-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-03-hit.png</Source>
@@ -485,7 +485,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-03-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.9122808-08:00</Time>
+      <Time>2012-11-05T19:12:42.4561711-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-03-whole.png</Source>
@@ -494,7 +494,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-03-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.9142826-08:00</Time>
+      <Time>2012-11-05T19:12:42.4591713-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-03.png</Source>
@@ -503,7 +503,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-03.xnb</Output>
-      <Time>2012-11-06T05:55:00.9172853-08:00</Time>
+      <Time>2012-11-05T19:12:42.4531705-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-04-hit.png</Source>
@@ -512,7 +512,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-04-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.9192928-08:00</Time>
+      <Time>2012-11-05T19:12:42.4671722-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-04-whole.png</Source>
@@ -521,7 +521,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-04-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.9203042-08:00</Time>
+      <Time>2012-11-05T19:12:42.470173-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-04.png</Source>
@@ -530,7 +530,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\simple-04.xnb</Output>
-      <Time>2012-11-06T05:55:00.9233296-08:00</Time>
+      <Time>2012-11-05T19:12:42.4631733-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\square-01-hit.png</Source>
@@ -539,7 +539,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\square-01-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.9693387-08:00</Time>
+      <Time>2012-11-05T19:12:53.5752998-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\square-01-whole.png</Source>
@@ -548,7 +548,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\square-01-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.9703331-08:00</Time>
+      <Time>2012-11-05T19:12:53.5803002-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\square-01.png</Source>
@@ -557,7 +557,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\square-01.xnb</Output>
-      <Time>2012-11-06T05:55:00.9723544-08:00</Time>
+      <Time>2012-11-05T19:12:53.5712997-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\square-02-hit.png</Source>
@@ -566,7 +566,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\square-02-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.9733358-08:00</Time>
+      <Time>2012-11-05T19:12:53.5903024-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\square-02-whole.png</Source>
@@ -575,7 +575,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\square-02-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.9753498-08:00</Time>
+      <Time>2012-11-05T19:12:53.5933024-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\square-02.png</Source>
@@ -584,7 +584,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\square-02.xnb</Output>
-      <Time>2012-11-06T05:55:00.9773394-08:00</Time>
+      <Time>2012-11-05T19:12:53.5833018-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-01-hit.png</Source>
@@ -593,7 +593,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-01-hit.xnb</Output>
-      <Time>2012-11-06T05:55:01.0303873-08:00</Time>
+      <Time>2012-11-05T19:13:05.4047194-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-01-whole.png</Source>
@@ -602,7 +602,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-01-whole.xnb</Output>
-      <Time>2012-11-06T05:55:01.0344087-08:00</Time>
+      <Time>2012-11-05T19:13:05.4117198-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-01.png</Source>
@@ -611,7 +611,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-01.xnb</Output>
-      <Time>2012-11-06T05:55:01.0364093-08:00</Time>
+      <Time>2012-11-05T19:13:05.4007191-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-02-hit.png</Source>
@@ -620,7 +620,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-02-hit.xnb</Output>
-      <Time>2012-11-06T05:55:01.0373936-08:00</Time>
+      <Time>2012-11-05T19:13:05.4187213-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-02-whole.png</Source>
@@ -629,7 +629,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-02-whole.xnb</Output>
-      <Time>2012-11-06T05:55:01.0393954-08:00</Time>
+      <Time>2012-11-05T19:13:05.4217206-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-02.png</Source>
@@ -638,7 +638,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-02.xnb</Output>
-      <Time>2012-11-06T05:55:01.0413976-08:00</Time>
+      <Time>2012-11-05T19:13:05.4157207-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-03-hit.png</Source>
@@ -647,7 +647,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-03-hit.xnb</Output>
-      <Time>2012-11-06T05:55:01.0434346-08:00</Time>
+      <Time>2012-11-05T19:13:05.4297223-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-03-whole.png</Source>
@@ -656,7 +656,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-03-whole.xnb</Output>
-      <Time>2012-11-06T05:55:01.0444047-08:00</Time>
+      <Time>2012-11-05T19:13:05.4337234-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-03.png</Source>
@@ -665,7 +665,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-03.xnb</Output>
-      <Time>2012-11-06T05:55:01.0464021-08:00</Time>
+      <Time>2012-11-05T19:13:05.4267216-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-04-hit.png</Source>
@@ -674,7 +674,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-04-hit.xnb</Output>
-      <Time>2012-11-06T05:55:01.0484035-08:00</Time>
+      <Time>2012-11-05T19:13:05.4417236-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-04-whole.png</Source>
@@ -683,7 +683,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-04-whole.xnb</Output>
-      <Time>2012-11-06T05:55:01.0524071-08:00</Time>
+      <Time>2012-11-05T19:13:05.4507251-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-04.png</Source>
@@ -692,7 +692,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-04.xnb</Output>
-      <Time>2012-11-06T05:55:01.0544089-08:00</Time>
+      <Time>2012-11-05T19:13:05.4377227-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-05-hit.png</Source>
@@ -701,7 +701,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-05-hit.xnb</Output>
-      <Time>2012-11-06T05:55:01.0564107-08:00</Time>
+      <Time>2012-11-05T19:13:05.4627264-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-05-whole.png</Source>
@@ -710,7 +710,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-05-whole.xnb</Output>
-      <Time>2012-11-06T05:55:01.0574116-08:00</Time>
+      <Time>2012-11-05T19:13:05.4667273-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-05.png</Source>
@@ -719,7 +719,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-05.xnb</Output>
-      <Time>2012-11-06T05:55:01.0594325-08:00</Time>
+      <Time>2012-11-05T19:13:05.4537262-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-06-hit.png</Source>
@@ -728,7 +728,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-06-hit.xnb</Output>
-      <Time>2012-11-06T05:55:01.0604143-08:00</Time>
+      <Time>2012-11-05T19:13:05.4747284-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-06-whole.png</Source>
@@ -737,7 +737,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-06-whole.xnb</Output>
-      <Time>2012-11-06T05:55:01.0624161-08:00</Time>
+      <Time>2012-11-05T19:13:05.4787282-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-06.png</Source>
@@ -746,7 +746,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\Crosshairs\triangle-06.xnb</Output>
-      <Time>2012-11-06T05:55:01.0644179-08:00</Time>
+      <Time>2012-11-05T19:13:05.4707289-08:00</Time>
     </Item>
     <Item>
       <Source>ParticleTextures\Target1.png</Source>
@@ -755,7 +755,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Target1.xnb</Output>
-      <Time>2012-11-06T05:55:00.6670598-08:00</Time>
+      <Time>2012-11-05T21:55:10.8206288-08:00</Time>
     </Item>
     <Item>
       <Source>ParticleTextures\Target2.png</Source>
@@ -764,7 +764,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Target2.xnb</Output>
-      <Time>2012-11-06T05:55:00.726113-08:00</Time>
+      <Time>2012-11-05T21:55:49.1842314-08:00</Time>
     </Item>
     <Item>
       <Source>ParticleTextures\Target3.png</Source>
@@ -773,7 +773,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Target3.xnb</Output>
-      <Time>2012-11-06T05:55:00.7281148-08:00</Time>
+      <Time>2012-11-05T21:56:16.5255121-08:00</Time>
     </Item>
     <Item>
       <Source>ParticleTextures\Target4.png</Source>
@@ -782,61 +782,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Target4.xnb</Output>
-      <Time>2012-11-06T05:55:00.7301166-08:00</Time>
-    </Item>
-    <Item>
-      <Source>TorchEffect.fx</Source>
-      <Name>TorchEffect</Name>
-      <Importer>EffectImporter</Importer>
-      <Processor>EffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\TorchEffect.xnb</Output>
-      <Time>2012-09-24T07:38:24.4997401-07:00</Time>
-    </Item>
-    <Item>
-      <Source>SpriteFont1.spritefont</Source>
-      <Name>SpriteFont1</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\SpriteFont1.xnb</Output>
-      <Time>2012-09-24T07:38:24.4987392-07:00</Time>
-    </Item>
-    <Item>
-      <Source>menufont.spritefont</Source>
-      <Name>menufont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\menufont.xnb</Output>
-      <Time>2012-09-25T13:03:42.0369887-07:00</Time>
-    </Item>
-    <Item>
-      <Source>gamefont.spritefont</Source>
-      <Name>gamefont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\gamefont.xnb</Output>
-      <Time>2012-09-24T07:38:24.5027428-07:00</Time>
-    </Item>
-    <Item>
-      <Source>GameStateFont.spritefont</Source>
-      <Name>GameStateFont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameStateFont.xnb</Output>
-      <Time>2012-10-15T23:20:49.3764747-07:00</Time>
-    </Item>
-    <Item>
-      <Source>FloatingTextFont.spritefont</Source>
-      <Name>FloatingTextFont</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\FloatingTextFont.xnb</Output>
-      <Time>2012-11-06T11:31:15.7174843-08:00</Time>
+      <Time>2012-11-05T21:57:24.9647257-08:00</Time>
     </Item>
     <Item>
       <Source>BackgroundTargetShooting.png</Source>
@@ -845,7 +791,61 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\BackgroundTargetShooting.xnb</Output>
-      <Time>2012-11-06T11:48:23.6136457-08:00</Time>
+      <Time>2012-11-06T15:38:21.7646539-08:00</Time>
+    </Item>
+    <Item>
+      <Source>TorchEffect.fx</Source>
+      <Name>TorchEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\TorchEffect.xnb</Output>
+      <Time>2012-10-15T18:10:57.996372-07:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2012-10-15T18:10:57.9933724-07:00</Time>
+    </Item>
+    <Item>
+      <Source>menufont.spritefont</Source>
+      <Name>menufont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\menufont.xnb</Output>
+      <Time>2012-10-15T18:10:58.0103742-07:00</Time>
+    </Item>
+    <Item>
+      <Source>gamefont.spritefont</Source>
+      <Name>gamefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\gamefont.xnb</Output>
+      <Time>2012-10-15T18:10:58.0033752-07:00</Time>
+    </Item>
+    <Item>
+      <Source>GameStateFont.spritefont</Source>
+      <Name>GameStateFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\GameStateFont.xnb</Output>
+      <Time>2012-10-15T19:55:24.7262917-07:00</Time>
+    </Item>
+    <Item>
+      <Source>FloatingTextFont.spritefont</Source>
+      <Name>FloatingTextFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\FloatingTextFont.xnb</Output>
+      <Time>2012-11-06T16:02:37.9843771-08:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -885,7 +885,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2012-09-13T08:13:46.4765708-07:00</Value>
+        <Value>2012-09-23T14:40:17.8363426-07:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
