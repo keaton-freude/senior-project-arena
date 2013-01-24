@@ -75,6 +75,13 @@
     <Compile Include="ParticleEngine\RunNJumpParticleEffects\SlidingDirtEffect.cs" />
     <Compile Include="ParticleEngine\TargetShootingParticleEffects\ShotFiredEffect.cs" />
     <Compile Include="ParticleEngine\TargetShootingParticleEffects\TargetDestroyedEffect.cs" />
+    <Compile Include="ParticleSystem\ContinuousParticleEffect.cs" />
+    <Compile Include="ParticleSystem\OneShotParticleEffect.cs" />
+    <Compile Include="ParticleSystem\Particle.cs" />
+    <Compile Include="ParticleSystem\ParticleEffect.cs" />
+    <Compile Include="ParticleSystem\ParticleEmitter.cs" />
+    <Compile Include="ParticleSystem\ParticleEngine.cs" />
+    <Compile Include="ParticleSystem\ParticleSystem.cs" />
     <Compile Include="Players\Player.cs" />
     <Compile Include="Players\RunNJumpPlayer.cs" />
     <Compile Include="Players\TargetShootingPlayer.cs" />
@@ -187,9 +194,15 @@
     <Reference Include="System.Xml.Linq">
       <Private>False</Private>
     </Reference>
-    <Reference Include="XboxDisplaySpring">
-      <HintPath>..\..\lib\XboxDisplaySpring.dll</HintPath>
-    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SlidingDirt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TargetExplodeFinal">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />

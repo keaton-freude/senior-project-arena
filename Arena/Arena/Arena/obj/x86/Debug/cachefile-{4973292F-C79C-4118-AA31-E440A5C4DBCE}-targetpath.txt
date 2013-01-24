@@ -18,7 +18,6 @@ Content\menu_backdrop.xnb
 Content\ParticleTextures\Dirt1.xnb
 Content\ParticleTextures\Dirt2.xnb
 Content\obstacle_alpha.xnb
-Content\ParticleTextures\Dirt3.xnb
 Content\blue_ninja_new.xnb
 Content\Target.xnb
 Content\Crosshairs\circle-01-hit.xnb
@@ -81,10 +80,6 @@ Content\Crosshairs\triangle-05.xnb
 Content\Crosshairs\triangle-06-hit.xnb
 Content\Crosshairs\triangle-06-whole.xnb
 Content\Crosshairs\triangle-06.xnb
-Content\ParticleTextures\Target1.xnb
-Content\ParticleTextures\Target2.xnb
-Content\ParticleTextures\Target3.xnb
-Content\ParticleTextures\Target4.xnb
 Content\BackgroundTargetShooting.xnb
 Content\TorchEffect.xnb
 Content\SpriteFont1.xnb
@@ -92,3 +87,8 @@ Content\menufont.xnb
 Content\gamefont.xnb
 Content\GameStateFont.xnb
 Content\FloatingTextFont.xnb
+Content\Dirt3.xnb
+Content\Target1.xnb
+Content\Target2.xnb
+Content\Target3.xnb
+Content\Target4.xnb

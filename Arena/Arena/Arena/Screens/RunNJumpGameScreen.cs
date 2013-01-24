@@ -19,17 +19,13 @@ namespace Arena.Screens
         SpriteBatch spriteBatch;
         float pauseAlpha; 
         KeyboardState prevKeyboardState;
-        ParticleEngine.ParticleEngine particleEngine;
 
-        Players.RunNJumpPlayer player;
-
-        bool colliding = false;
 
         RectangleOverlay rect;
 
         int frame_count = 0;
         
-        String test_sprite_rect = "";
+        //String test_sprite_rect = "";
 
         private const bool DEBUG_MODE = true;
 
@@ -37,13 +33,12 @@ namespace Arena.Screens
         float frame_elapsed = 0.0f;
         Texture2D test_alpha;
         List<RunNJumpPlayer> _players = new List<RunNJumpPlayer>();
-        RunNJumpNinja test_sprite;
+
         Texture2D _game_background;
         List<PlayerIndex> PlayerIndexes = new List<PlayerIndex>();
 
         public string GameState = "Pregame";
 
-        RunNJumpObstacle test_obstacle;
         public static SpriteFont font;
 
         public string WinString = "";
@@ -75,6 +70,7 @@ namespace Arena.Screens
         {
             if (content == null)
                 content = new ContentManager(ScreenManager.Game.Services, "Content");
+            string ninja_slide_effect_name = ArenaParticleEngine.ParticleEngine.Instance.LoadFromFile("SlidingDirt", content);
             spriteBatch = new SpriteBatch(ScreenManager.GraphicsDevice);
             test = content.Load<Texture2D>(@"blackbox");
             rect = new RectangleOverlay(new Rectangle(10, 10, 100, 100), Color.Green, ScreenManager.GraphicsDevice);
@@ -90,11 +86,11 @@ namespace Arena.Screens
             //player = new Players.RunNJumpPlayer(PlayerIndex.One, ScreenManager.Game.Content.Load<Texture2D>(@"blue_ninja_new"),
             //    _game_map.GroundY - (int)(64 * 2.0f), ScreenManager.Game.Content.Load<Texture2D>(@"ParticleTextures\Dirt3"), ScreenManager.GraphicsDevice);
 
-            test_sprite = new RunNJumpNinja(content.Load<Texture2D>(@"blue_ninja_new"), new Rectangle(0, 0, 64, 64), new Vector2(100, _game_map.GroundY - (64 * 2.0f)), 2.0f, 0, 4, .08f, new Point(64, 64), ScreenManager.Game.Content.Load<Texture2D>(@"ParticleTextures\Dirt3"), ScreenManager.GraphicsDevice);
+            //test_sprite = new RunNJumpNinja(content.Load<Texture2D>(@"blue_ninja_new"), new Rectangle(0, 0, 64, 64), new Vector2(100, _game_map.GroundY - (64 * 2.0f)), 2.0f, 0, 4, .08f, new Point(64, 64), ScreenManager.Game.Content.Load<Texture2D>(@"ParticleTextures\Dirt3"), ScreenManager.GraphicsDevice);
             foreach (PlayerIndex PI in PlayerIndexes)
             {
                 _players.Add(new RunNJumpPlayer(PI, content.Load<Texture2D>(@"blue_ninja_new"),
-                    _game_map.GroundY - (int)(64 * 2.0f), ScreenManager.Game.Content.Load<Texture2D>(@"ParticleTextures\Dirt3"), ScreenManager.GraphicsDevice));
+                    _game_map.GroundY - (int)(64 * 2.0f), ninja_slide_effect_name, ScreenManager.GraphicsDevice));
             }
             ScreenManager.Game.ResetElapsedTime();
             
@@ -123,7 +119,7 @@ namespace Arena.Screens
                 if (IsActive)
                 {
                     //Update Code Here
-                    test_sprite.Update(gameTime);
+                    //test_sprite.Update(gameTime);
                     if (GameState == "Playing")
                     {
                         _game_map.Update(gameTime);
@@ -172,8 +168,8 @@ namespace Arena.Screens
 
 
             }
-
-            ParticleEngine.ParticleEngine.GetInstance().Update(gameTime);
+            ArenaParticleEngine.ParticleEngine.Instance.Update((float)gameTime.ElapsedGameTime.TotalSeconds);
+            //ParticleEngine.ParticleEngine.GetInstance().Update(gameTime);
 
             prevKeyboardState = Keyboard.GetState();
         }
@@ -194,18 +190,12 @@ namespace Arena.Screens
 
                 spriteBatch.Begin();
                 spriteBatch.Draw(_game_background, new Vector2(0, -150), null, Color.White, 0.0f, Vector2.Zero, new Vector2(.75f, .5f), SpriteEffects.None, 1.0f);
-                ParticleEngine.ParticleEngine.GetInstance().Draw(spriteBatch);
-                
+
                 foreach (RunNJumpPlayer player in _players)
                 {
                     player.Draw(spriteBatch);
                 }
                 _game_map.Draw(spriteBatch);
-
-                //if (colliding)
-                //    spriteBatch.DrawString(font, "Colliding", new Vector2(10, 10), Color.White);
-                //else
-                //    spriteBatch.DrawString(font, "Not Colliding", new Vector2(10, 10), Color.White);
 
                 if (GameState == "Pregame")
                 {
@@ -216,10 +206,8 @@ namespace Arena.Screens
 
                 spriteBatch.DrawString(gameFont, "FPS: " + fps.ToString(), new Vector2(0, 0), Color.Red);
 
-                //spriteBatch.DrawString(gameFont, Counter.ToString(), new Vector2(300, 300), Color.Yellow);
+                //spriteBatch.DrawString(font, test_sprite_rect, new Vector2(10, 40), Color.White);
 
-                spriteBatch.DrawString(font, test_sprite_rect, new Vector2(10, 40), Color.White);
-                //rect.Draw(spriteBatch);
                 spriteBatch.End();
             }
             else
@@ -228,6 +216,9 @@ namespace Arena.Screens
                 spriteBatch.DrawString(gameFont, WinString, new Vector2(200, 300), Color.Yellow, 0.0f, Vector2.Zero, 2.0f, SpriteEffects.None, 1.0f);
                 spriteBatch.End();
             }
+
+            ArenaParticleEngine.ParticleEngine.Instance.Draw(spriteBatch);
+
         }
 
         

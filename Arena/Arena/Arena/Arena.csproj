@@ -91,14 +91,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Collision\CollisionDetection.cs" />
+    <Compile Include="ParticleSystem\ContinuousParticleEffect.cs" />
     <Compile Include="FloatingText\FloatingText.cs" />
     <Compile Include="FloatingText\FloatingTextEngine.cs" />
+    <Compile Include="ParticleSystem\OneShotParticleEffect.cs" />
+    <Compile Include="ParticleSystem\Particle.cs" />
+    <Compile Include="ParticleSystem\ParticleEffect.cs" />
+    <Compile Include="ParticleSystem\ParticleEmitter.cs" />
+    <Compile Include="ParticleSystem\ParticleEngine.cs" />
     <Compile Include="ParticleEngine\Particle.cs" />
     <Compile Include="ParticleEngine\ParticleEffect.cs" />
     <Compile Include="ParticleEngine\ParticleEngine.cs" />
     <Compile Include="ParticleEngine\RunNJumpParticleEffects\SlidingDirtEffect.cs" />
     <Compile Include="ParticleEngine\TargetShootingParticleEffects\ShotFiredEffect.cs" />
     <Compile Include="ParticleEngine\TargetShootingParticleEffects\TargetDestroyedEffect.cs" />
+    <Compile Include="ParticleSystem\ParticleSystem.cs" />
     <Compile Include="Players\Player.cs" />
     <Compile Include="Players\RunNJumpPlayer.cs" />
     <Compile Include="Players\TargetShootingPlayer.cs" />

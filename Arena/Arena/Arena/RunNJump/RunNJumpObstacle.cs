@@ -16,7 +16,6 @@ namespace Arena
             set;
         }
 
-        String debug_string = "";
         RectangleOverlay obstacle_rect;
         public bool OffScreen
         {
@@ -24,7 +23,7 @@ namespace Arena
             private set;
         }
 
-        public Rectangle BoundingRectangle
+        public override Rectangle BoundingRectangle
         {
             get
             {
@@ -38,12 +37,6 @@ namespace Arena
             {
                 return Matrix.CreateTranslation(new Vector3(Position, 0.0f));
             }
-        }
-
-        public Color[] ColorData
-        {
-            get;
-            set;
         }
 
         public float Speed

@@ -18,7 +18,11 @@ namespace Arena.Sprites
         protected float _rotation;
         protected Color[] _color_data;
 
-        public Rectangle BoundingRectangle
+        /* Certain sub-classes might treat their BoundingRectangles differently
+         * such as offsetting, or class-specific logic.
+         * OVerride this property to receive that benefit
+         */
+        public virtual Rectangle BoundingRectangle
         {
             get { return new Rectangle((int)Position.X, (int)Position.Y, 
                 (int)(_src_rectangle.Value.Width * _scale), (int)(_src_rectangle.Value.Height * _scale)); }

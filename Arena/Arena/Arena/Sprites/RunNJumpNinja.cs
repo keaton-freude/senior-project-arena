@@ -12,8 +12,8 @@ namespace Arena.Sprites
     {
         public RectangleOverlay player_overlay;
         private bool _sliding = false;
-        private ParticleEngine.ParticleEngine particleEngine = null;
-        List<Texture2D> dirt_textures = new List<Texture2D>();
+        //private ParticleEngine.ParticleEngine particleEngine = null;
+        //List<Texture2D> dirt_textures = new List<Texture2D>();
 
         public bool Jumping
         {
@@ -26,6 +26,8 @@ namespace Arena.Sprites
             get;
             private set;
         }
+
+        private string EffectName = "";
 
         public bool Sliding
         {
@@ -41,15 +43,7 @@ namespace Arena.Sprites
                     //Position = new Vector2(Position.X, Position.Y + 30);
                     _sliding = true;
 
-                    //if no particle engine instance is ready for him yet, make it ready
-                    //ParticleEngine.ParticleEngine.G
-
-                    if (!ParticleEngine.ParticleEngine.GetInstance().effects.ContainsKey("NinjaDirtSlide"))
-                    {
-                        //We haven't added this effect yet, so lets add it and turn it on
-                        ParticleEngine.ParticleEngine.GetInstance().effects.Add("NinjaDirtSlide", new ParticleEngine.RunNJumpParticleEffects.SlidingDirtEffect(dirt_textures, Position));
-                    }
-                    ParticleEngine.ParticleEngine.GetInstance().effects["NinjaDirtSlide"].Generating = true;
+                    ArenaParticleEngine.ParticleEngine.Instance.systems[EffectName].effects[0].Generating = true;
                 }
                 else if (value == false && Sliding)
                 {
@@ -57,7 +51,8 @@ namespace Arena.Sprites
                     //Position = new Vector2(Position.X, Position.Y - 30);
                     _sliding = false;
 
-                    ParticleEngine.ParticleEngine.GetInstance().effects["NinjaDirtSlide"].Generating = false;
+                    //ParticleEngine.ParticleEngine.GetInstance().effects["NinjaDirtSlide"].Generating = false;
+                    ArenaParticleEngine.ParticleEngine.Instance.systems[EffectName].effects[0].Generating = false;
                 }
             }
         }
@@ -111,10 +106,11 @@ namespace Arena.Sprites
         }
 
         public RunNJumpNinja(Texture2D tex, Rectangle? src_rectangle, Vector2 position, float scale, int start_frame, 
-            int end_frame, float time_between_frames, Point frame_size, Texture2D dirt_texture, GraphicsDevice gDevice) :
+            int end_frame, float time_between_frames, Point frame_size, string effect_name, GraphicsDevice gDevice) :
             base(tex, src_rectangle, position, scale, start_frame, end_frame, time_between_frames, frame_size)
         {
-            dirt_textures.Add(dirt_texture);
+            //dirt_textures.Add(dirt_texture);
+            EffectName = effect_name;
             player_overlay = new RectangleOverlay(new Rectangle((int)Position.X, (int)Position.Y, 
                 (int)(frame_size.X * scale), (int)(frame_size.Y * scale)), Color.Red, gDevice);
 
@@ -144,11 +140,11 @@ namespace Arena.Sprites
 
             /* The particle Engine will be instantiated when it's needed based on other variables
              * So if it's instantiated then we'll update the Particle Engine, and update it's emitter location */
-            if (ParticleEngine.ParticleEngine.GetInstance().effects.ContainsKey("NinjaDirtSlide"))
-            {
-                /* Position.X + 110, Position.Y + 128 is right behind the front sliding foot */
-                ParticleEngine.ParticleEngine.GetInstance().effects["NinjaDirtSlide"].EmitterLocation = new Vector2(Position.X + 110, Position.Y + 128);    
-            }
+            //if (ParticleEngine.ParticleEngine.GetInstance().effects.ContainsKey("NinjaDirtSlide"))
+            //{
+            //    /* Position.X + 110, Position.Y + 128 is right behind the front sliding foot */
+                ArenaParticleEngine.ParticleEngine.Instance.systems[EffectName].effects[0].Emitter.Location = new Vector2(Position.X + 110, Position.Y + 124);
+            //}
 
             if (Sliding)
             {

@@ -32,12 +32,10 @@ namespace Arena
             graphics = new GraphicsDeviceManager(this);
             graphics.PreferredBackBufferHeight = 720;
             graphics.PreferredBackBufferWidth = 1280;
-            graphics.IsFullScreen = true;
+            //graphics.IsFullScreen = true;
             Content.RootDirectory = "Content";
             this.IsMouseVisible = true;
-#if DEBUG
-            graphics.IsFullScreen = false;
-#endif            
+           // graphics.IsFullScreen = true;    
 
             screenManager = new ScreenManager(this);
 

@@ -24,9 +24,6 @@ namespace Arena.Screens
         Texture2D ground_texture;
         Vector2 gravity = new Vector2(0, .5f);
         Vector2 velocity = new Vector2(0, 0);
-        private bool OnGround = false;
-
-        private bool Jumping;
 
         int GroundY = 400;
 

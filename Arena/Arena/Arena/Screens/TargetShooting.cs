@@ -32,7 +32,7 @@ namespace Arena.Screens
 
         public bool game_over = false;
 
-        float _current_time = 5.0f;
+        float _current_time = 45.0f;
 
         List<PlayerIndex> PlayerIndexes;
         List<TargetShootingPlayer> _players;
@@ -51,6 +51,8 @@ namespace Arena.Screens
                 content = new ContentManager(ScreenManager.Game.Services, "Content");
             spriteBatch = new SpriteBatch(ScreenManager.GraphicsDevice);
 
+            string targ_explode = ArenaParticleEngine.ParticleEngine.Instance.LoadFromFile("TargetExplodeFinal", content);
+
             //player = new TargetShootingPlayer(PlayerIndex.One, content);
             _players = new List<TargetShootingPlayer>();
             foreach (PlayerIndex PI in PlayerIndexes)
@@ -63,14 +65,15 @@ namespace Arena.Screens
             PlayerScoreFont = content.Load<SpriteFont>(@"FloatingTextFont");
             List<Texture2D> ShotsFiredTextures = new List<Texture2D>();
             List<Texture2D> TargetDestroyedTextures = new List<Texture2D>();
-            TargetDestroyedTextures.Add(content.Load<Texture2D>(@"ParticleTextures/Target1"));
-            TargetDestroyedTextures.Add(content.Load<Texture2D>(@"ParticleTextures/Target2"));
-            TargetDestroyedTextures.Add(content.Load<Texture2D>(@"ParticleTextures/Target3"));
-            TargetDestroyedTextures.Add(content.Load<Texture2D>(@"ParticleTextures/Target4"));
+            //TargetDestroyedTextures.Add(content.Load<Texture2D>(@"ParticleTextures/Target1"));
+            //TargetDestroyedTextures.Add(content.Load<Texture2D>(@"ParticleTextures/Target2"));
+            //TargetDestroyedTextures.Add(content.Load<Texture2D>(@"ParticleTextures/Target3"));
+            //TargetDestroyedTextures.Add(content.Load<Texture2D>(@"ParticleTextures/Target4"));
             FloatingText.FloatingTextEngine.GetInstance().TextFont = content.Load<SpriteFont>(@"FloatingTextFont");
-            ShotsFiredTextures.Add(content.Load<Texture2D>(@"ParticleTextures/Target1"));
+            ShotsFiredTextures.Add(content.Load<Texture2D>(@"Target1"));
             ParticleEngine.ParticleEngine.GetInstance().effects.Add("ShotsFiredEffect", new ParticleEngine.TargetShootingParticleEffects.ShotFiredEffect(ShotsFiredTextures));
-            ParticleEngine.ParticleEngine.GetInstance().effects.Add("TargetDestroyedEffect", new ParticleEngine.TargetShootingParticleEffects.TargetDestroyedEffect(TargetDestroyedTextures));
+            //ParticleEngine.ParticleEngine.GetInstance().effects.Add("TargetDestroyedEffect", new ParticleEngine.TargetShootingParticleEffects.TargetDestroyedEffect(TargetDestroyedTextures));
+            
             _game_background = content.Load<Texture2D>(@"BackgroundTargetShooting");
         }
 
@@ -112,6 +115,7 @@ namespace Arena.Screens
             }
             ParticleEngine.ParticleEngine.GetInstance().Update(gameTime);
             FloatingText.FloatingTextEngine.GetInstance().Update(gameTime);
+            ArenaParticleEngine.ParticleEngine.Instance.Update((float)gameTime.ElapsedGameTime.TotalSeconds);
             prevKeyboardState = Keyboard.GetState();
             prevMouseState = Mouse.GetState();
         }
@@ -158,6 +162,7 @@ namespace Arena.Screens
                 spriteBatch.End();
             }
 
+            ArenaParticleEngine.ParticleEngine.Instance.Draw(spriteBatch);
         }
 
         public override void HandleInput(InputState input)

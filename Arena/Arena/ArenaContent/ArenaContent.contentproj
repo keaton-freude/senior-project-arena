@@ -206,7 +206,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ParticleTextures\Dirt3.png">
+    <Compile Include="Dirt3.png">
       <Name>Dirt3</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
@@ -544,22 +544,22 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ParticleTextures\Target1.png">
+    <Compile Include="Target1.png">
       <Name>Target1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="ParticleTextures\Target2.png">
+    <Compile Include="Target2.png">
       <Name>Target2</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="ParticleTextures\Target3.png">
+    <Compile Include="Target3.png">
       <Name>Target3</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="ParticleTextures\Target4.png">
+    <Compile Include="Target4.png">
       <Name>Target4</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
