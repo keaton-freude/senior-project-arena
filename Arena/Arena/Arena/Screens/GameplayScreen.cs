@@ -194,7 +194,7 @@ namespace GameStateManagement
                             LoadingScreen.Load(ScreenManager, true, PlayerIndex.One, new Arena.Screens.TargetShooting(Player_IDS));
                             break;
                         case 3:
-                            //load game three
+                            LoadingScreen.Load(ScreenManager, true, PlayerIndex.One, new Arena.Screens.TankShooters(Player_IDS));
                             break;
                         case 4:
                             //load game four

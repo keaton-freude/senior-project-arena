@@ -10,7 +10,7 @@ namespace ArenaParticleEngine
     public class ParticleSystem
     {
         public List<ParticleEffect> effects;
-        public string name;
+        public int name;
 
         public ParticleSystem()
         {

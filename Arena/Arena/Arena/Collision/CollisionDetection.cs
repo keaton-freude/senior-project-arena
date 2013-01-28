@@ -9,6 +9,25 @@ namespace Arena.Collision
 {
     public static class CollisionDetection
     {
+
+        public static bool CircleRectangleCollision(Vector2 pos, float radius, Rectangle rect)
+        {
+            Vector2 circleDistance = new Vector2();
+            circleDistance.X = Math.Abs(pos.X - rect.X);
+            circleDistance.Y = Math.Abs(pos.Y - rect.Y);
+
+            if (circleDistance.X > (rect.Width / 2 + radius)) { return false; }
+            if (circleDistance.Y > (rect.Height / 2 + radius)) { return false; }
+
+            if (circleDistance.X <= (rect.Width / 2)) { return true; }
+            if (circleDistance.Y <= (rect.Height / 2)) { return true; }
+
+            float cornerDistance_sq = (float)Math.Pow(((float)circleDistance.X - (float)rect.Width / 2), 2) +
+                                 (float)Math.Pow((circleDistance.Y - rect.Height / 2), 2);
+
+            return (cornerDistance_sq <= Math.Pow(radius, 2));
+        }
+
         public static Rectangle CalculateBoundingRectangle(Rectangle rectangle,
                                                    Matrix transform)
         {

@@ -69,6 +69,9 @@
     <Compile Include="Collision\CollisionDetection.cs" />
     <Compile Include="FloatingText\FloatingText.cs" />
     <Compile Include="FloatingText\FloatingTextEngine.cs" />
+    <Compile Include="Map\CollisionMask.cs" />
+    <Compile Include="Map\Map.cs" />
+    <Compile Include="Map\MapCell.cs" />
     <Compile Include="ParticleEngine\Particle.cs" />
     <Compile Include="ParticleEngine\ParticleEffect.cs" />
     <Compile Include="ParticleEngine\ParticleEngine.cs" />
@@ -105,11 +108,14 @@
     <Compile Include="Screens\PauseMenuScreen.cs" />
     <Compile Include="Screens\PlayerIndexEventArgs.cs" />
     <Compile Include="Screens\RunNJumpGameScreen.cs" />
+    <Compile Include="Screens\TankShooters.cs" />
     <Compile Include="Screens\TargetShooting.cs" />
     <Compile Include="Screens\TestGameScreen.cs" />
     <Compile Include="Sprites\AnimatedSprite.cs" />
     <Compile Include="Sprites\RunNJumpNinja.cs" />
     <Compile Include="Sprites\Sprite.cs" />
+    <Compile Include="Sprites\Tank.cs" />
+    <Compile Include="Sprites\TankProjectile.cs" />
     <Compile Include="Sprites\TargetShootingCrosshair.cs" />
     <Compile Include="Sprites\TargetShootingTarget.cs" />
     <Compile Include="TargetShooting\TargetManager.cs" />
@@ -196,7 +202,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Explosion">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="FireBall">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="SlidingDirt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="SmokeTrail">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TankDustEffect">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TankMap">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="TargetExplodeFinal">

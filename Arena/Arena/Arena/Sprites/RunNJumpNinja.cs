@@ -27,7 +27,7 @@ namespace Arena.Sprites
             private set;
         }
 
-        private string EffectName = "";
+        private int EffectName = 0;
 
         public bool Sliding
         {
@@ -106,7 +106,7 @@ namespace Arena.Sprites
         }
 
         public RunNJumpNinja(Texture2D tex, Rectangle? src_rectangle, Vector2 position, float scale, int start_frame, 
-            int end_frame, float time_between_frames, Point frame_size, string effect_name, GraphicsDevice gDevice) :
+            int end_frame, float time_between_frames, Point frame_size, int effect_name, GraphicsDevice gDevice) :
             base(tex, src_rectangle, position, scale, start_frame, end_frame, time_between_frames, frame_size)
         {
             //dirt_textures.Add(dirt_texture);

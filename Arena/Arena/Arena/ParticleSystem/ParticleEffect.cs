@@ -64,7 +64,7 @@ namespace ArenaParticleEngine
 
             Particle BaseParticle = MasterParticles[ParticleID];
 
-            Vector2 base_position = Vector2.Lerp(Emitter.LastLocation, Emitter.Location, percent);
+            Vector2 base_position = Vector2.Lerp(Emitter.LastLocation, Emitter.Location, 1.0f);
 
 
             Vector2 position = new Vector2(base_position.X + offset_x, base_position.Y + offset_y);
@@ -82,6 +82,7 @@ namespace ArenaParticleEngine
 
             Particle ParticleToReturn = new Particle();
             ParticleToReturn.Texture = textures[ParticleID];
+            //ParticleToReturn.Origin = new Vector2(ParticleToReturn.Texture.Width / 2, ParticleToReturn.Texture.Height / 2);
             ParticleToReturn.Location = position;
 
             Vector2 velocity = new Vector2(RandomFromRange(Emitter.MinVelocity.X, Emitter.MaxVelocity.X, random), RandomFromRange(Emitter.MinVelocity.Y, Emitter.MaxVelocity.Y, random));

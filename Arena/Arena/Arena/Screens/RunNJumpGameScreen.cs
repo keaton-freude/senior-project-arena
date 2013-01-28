@@ -70,7 +70,7 @@ namespace Arena.Screens
         {
             if (content == null)
                 content = new ContentManager(ScreenManager.Game.Services, "Content");
-            string ninja_slide_effect_name = ArenaParticleEngine.ParticleEngine.Instance.LoadFromFile("SlidingDirt", content);
+            int ninja_slide_effect_name = ArenaParticleEngine.ParticleEngine.Instance.LoadFromFile("SlidingDirt", content);
             spriteBatch = new SpriteBatch(ScreenManager.GraphicsDevice);
             test = content.Load<Texture2D>(@"blackbox");
             rect = new RectangleOverlay(new Rectangle(10, 10, 100, 100), Color.Green, ScreenManager.GraphicsDevice);

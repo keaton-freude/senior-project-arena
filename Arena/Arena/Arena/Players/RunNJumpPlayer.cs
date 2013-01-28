@@ -16,7 +16,7 @@ namespace Arena.Players
 
         public bool Collided = false;
 
-        public RunNJumpPlayer(PlayerIndex player_index, Texture2D ninja_texture, int player_starting_y, string effect_name, GraphicsDevice gDevice) :
+        public RunNJumpPlayer(PlayerIndex player_index, Texture2D ninja_texture, int player_starting_y, int effect_name, GraphicsDevice gDevice) :
             base (player_index)
         {
             _ninja = new RunNJumpNinja(ninja_texture, new Rectangle(0, 0, 64, 64), new Vector2(0, player_starting_y), 2.0f, 0, 4, .08f,

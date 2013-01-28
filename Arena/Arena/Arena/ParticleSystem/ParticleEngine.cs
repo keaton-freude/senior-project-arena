@@ -14,19 +14,21 @@ namespace ArenaParticleEngine
 {
     public class ParticleEngine
     {
-        public Dictionary<String, ParticleSystem> systems;
+        public Dictionary<int, ParticleSystem> systems;
         private static ParticleEngine _instance;
+
+        private static int _system_count;
 
         /* This was a dirty hack to do some fun things with WinForms */
         //public MainForm main_form_reference;
 
-        public string LoadFromFile(string path, ContentManager content)
+        public int LoadFromFile(string path, ContentManager content)
         {
             XmlDocument doc = new XmlDocument();
             doc.Load(path);
 
             ParticleSystem new_system = new ParticleSystem();
-            new_system.name = doc.SelectSingleNode("ParticleSystem").Attributes["Name"].Value;
+            //new_system.name = doc.SelectSingleNode("ParticleSystem").Attributes["Name"].Value;
             ParticleEffect effect_to_add = null;
             ParticleEmitter emitter_to_add = null;
             //Particle particle_to_add = null;
@@ -184,11 +186,11 @@ namespace ArenaParticleEngine
 
                 }
                 
-                systems.Add(new_system.name, new_system);
-
-                return new_system.name;
+                systems.Add(_system_count, new_system);
+                _system_count++;
+                return _system_count - 1;
             }
-            return "Fail";
+            return -1;
         }
 
         //public Texture2D LoadTexture(string fileName)
@@ -234,7 +236,7 @@ namespace ArenaParticleEngine
 
         private ParticleEngine()
         {
-            systems = new Dictionary<String, ParticleSystem>();
+            systems = new Dictionary<int, ParticleSystem>();
         }
 
         public void Update(float dt)

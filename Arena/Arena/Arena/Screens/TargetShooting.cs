@@ -51,7 +51,7 @@ namespace Arena.Screens
                 content = new ContentManager(ScreenManager.Game.Services, "Content");
             spriteBatch = new SpriteBatch(ScreenManager.GraphicsDevice);
 
-            string targ_explode = ArenaParticleEngine.ParticleEngine.Instance.LoadFromFile("TargetExplodeFinal", content);
+            int targ_explode = ArenaParticleEngine.ParticleEngine.Instance.LoadFromFile("TargetExplodeFinal", content);
 
             //player = new TargetShootingPlayer(PlayerIndex.One, content);
             _players = new List<TargetShootingPlayer>();

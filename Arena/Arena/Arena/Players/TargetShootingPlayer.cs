@@ -85,10 +85,10 @@ namespace Arena.Players
                         /* and EXPLODE IT! */
 
                             //((ParticleEngine.TargetShootingParticleEffects.TargetDestroyedEffect)ParticleEngine.ParticleEngine.GetInstance().effects["TargetDestroyedEffect"]).DestroyTarget(target.Center, target.Radius * target.Scale, target.TargetColor, target.ParticleScale);
-                        ((ArenaParticleEngine.OneShotParticleEffect)ArenaParticleEngine.ParticleEngine.Instance.systems["TargetExplode"].effects[0]).Emitter.Location = new Vector2(target.Center.X, target.Center.Y);
-                        ((ArenaParticleEngine.OneShotParticleEffect)ArenaParticleEngine.ParticleEngine.Instance.systems["TargetExplode"].effects[0]).Emitter.LastLocation = new Vector2(target.Center.X, target.Center.Y);
+                        ((ArenaParticleEngine.OneShotParticleEffect)ArenaParticleEngine.ParticleEngine.Instance.systems[0].effects[0]).Emitter.Location = new Vector2(target.Center.X, target.Center.Y);
+                        ((ArenaParticleEngine.OneShotParticleEffect)ArenaParticleEngine.ParticleEngine.Instance.systems[0].effects[0]).Emitter.LastLocation = new Vector2(target.Center.X, target.Center.Y);
 
-                        foreach (ArenaParticleEngine.Particle p in ((ArenaParticleEngine.OneShotParticleEffect)ArenaParticleEngine.ParticleEngine.Instance.systems["TargetExplode"].effects[0]).MasterParticles)
+                        foreach (ArenaParticleEngine.Particle p in ((ArenaParticleEngine.OneShotParticleEffect)ArenaParticleEngine.ParticleEngine.Instance.systems[0].effects[0]).MasterParticles)
                         {
                             p.StartColor = target.TargetColor;
                             p.EndColor = target.TargetColor;
@@ -96,7 +96,7 @@ namespace Arena.Players
                             p.ScaleEnd = target.ParticleScale;
                         }
                         
-                        ((ArenaParticleEngine.OneShotParticleEffect)ArenaParticleEngine.ParticleEngine.Instance.systems["TargetExplode"].effects[0]).Fire();
+                        ((ArenaParticleEngine.OneShotParticleEffect)ArenaParticleEngine.ParticleEngine.Instance.systems[0].effects[0]).Fire();
                     }
                 }
             }

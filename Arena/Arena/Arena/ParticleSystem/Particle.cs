@@ -159,6 +159,7 @@ namespace ArenaParticleEngine
         public void Draw(SpriteBatch spriteBatch)
         {
             float alpha = MathHelper.Lerp(StartAlpha, EndAlpha, 1.0f - (Life / StartingLife));
+            Origin = new Vector2(Texture.Width / 2, Texture.Height / 2);
 
             //float alpha = 1.0f;
             spriteBatch.Draw(Texture, Location, null, Color * alpha, Rotation, Origin, Scale, SpriteEffects.None, 1.0f);
