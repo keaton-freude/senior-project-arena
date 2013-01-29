@@ -26,6 +26,8 @@ namespace Arena.Sprites
         private float time = 0.0f;
         public bool counting = false;
 
+        public PlayerIndex owner = PlayerIndex.Four;
+
         public Rectangle GetCollisionRect()
         {
             return new Rectangle((int)position.X-5, (int)position.Y-4, (int)radius, (int)radius);
@@ -40,8 +42,9 @@ namespace Arena.Sprites
         {
         }
 
-        public TankProjectile(Vector2 pos, Vector2 velocity)
+        public TankProjectile(Vector2 pos, Vector2 velocity, PlayerIndex owner)
         {
+            this.owner = owner;
             radius = 1f;
             position = pos;
             this.velocity = velocity;
@@ -67,7 +70,7 @@ namespace Arena.Sprites
             exploded = false;
         }
 
-        private bool already_exploded = false;
+        public bool already_exploded = false;
 
         public void Update(float dt)
         {
@@ -75,16 +78,7 @@ namespace Arena.Sprites
             ArenaParticleEngine.ParticleEngine.Instance.systems[projectile_id].effects[0].Update(dt);
             ArenaParticleEngine.ParticleEngine.Instance.systems[smoke_id].effects[0].Update(dt);
 
-            overlay.dummyRectangle = GetCollisionRect();
 
-            foreach (RectangleOverlay rect in Arena.Screens.TankShooters.map.collision_mask.debug_rectangle_overlays)
-            {
-                if (rect.dummyRectangle.Intersects(GetCollisionRect()) && !already_exploded)
-                {
-                    exploded = true;
-                    already_exploded = true;
-                }
-            }
 
             if (counting)
                 time += dt;

@@ -819,22 +819,56 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TankShooters\1\TankBody.png">
+    <Compile Include="TankShooters\One\TankBody.png">
       <Name>TankBody</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="TankShooters\1\TankBodyLeft.png">
+    <Compile Include="TankShooters\One\TankBodyLeft.png">
       <Name>TankBodyLeft</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="TankShooters\1\TankBodyRight.png">
+    <Compile Include="TankShooters\One\TankBodyRight.png">
       <Name>TankBodyRight</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="TankShooters\1\TankCannon.png">
+    <Compile Include="TankShooters\One\TankCannon.png">
+      <Name>TankCannon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HealthBarInner.png">
+      <Name>HealthBarInner</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="HealthBarOuter.png">
+      <Name>HealthBarOuter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TankShooters\Two\TankBody.png">
+      <Name>TankBody</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="TankShooters\Two\TankBodyLeft.png">
+      <Name>TankBodyLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="TankShooters\Two\TankBodyRight.png">
+      <Name>TankBodyRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="TankShooters\Two\TankCannon.png">
       <Name>TankCannon</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>

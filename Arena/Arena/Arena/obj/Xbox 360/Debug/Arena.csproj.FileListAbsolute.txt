@@ -123,3 +123,6 @@ C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\ParticleTextures\Target4.xnb
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\FloatingTextFont.xnb
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\Xbox 360\Debug\Content\BackgroundTargetShooting.xnb
+C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\obj\Xbox 360\Debug\Arena.csprojResolveAssemblyReference.cache
+C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\obj\Xbox 360\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\obj\Xbox 360\Debug\Arena.exe

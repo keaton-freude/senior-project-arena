@@ -26,6 +26,8 @@ namespace Arena.Screens
 
         private int explosion_id = -1;
 
+        private SpriteFont UIFont;
+
         public List<TankShooterPlayer> players;
 
         List<PlayerIndex> PlayerIndexes;
@@ -45,13 +47,23 @@ namespace Arena.Screens
         {
             if (content == null)
                 content = new ContentManager(ScreenManager.Game.Services, "Content");
+            gDevice = ScreenManager.GraphicsDevice;
             spriteBatch = new SpriteBatch(ScreenManager.GraphicsDevice);
+            UIFont = content.Load<SpriteFont>(@"gamefont");
             foreach (PlayerIndex pi in PlayerIndexes)
             {
                 players.Add(new TankShooterPlayer(pi));
             }
+            players.Add(new TankShooterPlayer(PlayerIndex.Two));
+
+            /* Projectiles have all moved (may have exploded against a wall or whatever)
+             * Check each projectile against a player */
+            /* We will go player by player, and projectile by projectile checking collisions */
+
+
+
            
-            gDevice = ScreenManager.GraphicsDevice;
+
             List<Texture2D> textures = new List<Texture2D>();
 
             for(int i = 1; i < 47; ++i)
@@ -70,17 +82,81 @@ namespace Arena.Screens
         public override void Update(GameTime gameTime, bool otherScreenHasFocus, bool coveredByOtherScreen)
         {
             base.Update(gameTime, otherScreenHasFocus, false);
-
-            ArenaParticleEngine.ParticleEngine.Instance.Update((float)gameTime.ElapsedGameTime.TotalSeconds);
-
-            foreach (TankShooterPlayer player in players)
+            if (!done)
             {
-                player.Update(gameTime);
+                foreach (TankShooterPlayer player in players)
+                {
+                    foreach (TankProjectile projectile in player.projectiles)
+                    {
+                        foreach (TankShooterPlayer innerplayer in players)
+                        {
+                            if (innerplayer.dead == false)
+                            {
+                                if (projectile.GetCollisionRect().Intersects(innerplayer.tank.CollisionRect) && !projectile.already_exploded && projectile.owner != innerplayer.Player_Index)
+                                {
+                                    /* Hit! */
+                                    /* Create explosion */
+                                    projectile.exploded = true;
+                                    projectile.already_exploded = true;
+
+                                    /* Lower health of hit player */
+                                    innerplayer.tank.health.CurrentHP = innerplayer.tank.health.CurrentHP - 10;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                /* lastly, check every projectile against every other, destroy both if they intersect */
+
+
+
+                ArenaParticleEngine.ParticleEngine.Instance.Update((float)gameTime.ElapsedGameTime.TotalSeconds);
+
+                int tanks_alive = 0;
+
+                foreach (TankShooterPlayer player in players)
+                {
+                    player.Update(gameTime, false);
+                    if (player.dead == false)
+                        tanks_alive++;
+
+                }
+
+
+                if (tanks_alive == 1)
+                {
+                    /* We have a winner, stop all updates and print winner */
+                    foreach (TankShooterPlayer player in players)
+                    {
+                        if (player.dead == false)
+                        {
+                            /* This can be the only one not dead */
+                            winner = player.Player_Index;
+                            done = true;
+                        }
+                    }
+                }
+            }
+
+            if (done)
+            {
+                ArenaParticleEngine.ParticleEngine.Instance.Update((float)gameTime.ElapsedGameTime.TotalSeconds);
+                foreach (TankShooterPlayer player in players)
+                {
+                    player.Update(gameTime, true);
+                    //if (player.dead == false)
+                        //tanks_alive++;
+
+                }
             }
 
             prevKeyboardState = Keyboard.GetState();
             prevMouseState = Mouse.GetState();
         }
+
+        private PlayerIndex winner = PlayerIndex.One;
+        private bool done = false;
 
         public override void Draw(GameTime gameTime)
         {
@@ -93,10 +169,17 @@ namespace Arena.Screens
 
             foreach (TankShooterPlayer player in players)
             {
-                player.Draw(spriteBatch);
+                if (player.dead == false)
+                    player.Draw(spriteBatch);
             }
 
             ArenaParticleEngine.ParticleEngine.Instance.Draw(spriteBatch);
+
+            if (done)
+            {
+                Utility.FontRendering.DrawOutlinedText(spriteBatch, "Winner: Player " + winner.ToString(), Color.Black, Color.White, 1.0f, 0.0f, new Vector2(200, 200), UIFont, 1);
+                ArenaParticleEngine.ParticleEngine.Instance.Draw(spriteBatch);
+            }
         }
     }
 }

@@ -121,6 +121,7 @@
     <Compile Include="Sprites\TargetShootingTarget.cs" />
     <Compile Include="TargetShooting\TargetManager.cs" />
     <Compile Include="UI\GameIcon.cs" />
+    <Compile Include="UI\HealthBar.cs" />
     <Compile Include="Utility\FontRendering.cs" />
     <Compile Include="Utility\MathFunctions.cs" />
     <Compile Include="Utility\RectangleOverlay.cs" />

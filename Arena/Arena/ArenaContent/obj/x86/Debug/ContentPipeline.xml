@@ -1271,40 +1271,94 @@
       <Time>2013-01-17T16:32:54.8415024-08:00</Time>
     </Item>
     <Item>
-      <Source>TankShooters\1\TankBody.png</Source>
-      <Name>TankShooters\1\TankBody</Name>
+      <Source>TankShooters\One\TankBody.png</Source>
+      <Name>TankShooters\One\TankBody</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\1\TankBody.xnb</Output>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\One\TankBody.xnb</Output>
       <Time>2013-01-24T12:07:20.6162513-08:00</Time>
     </Item>
     <Item>
-      <Source>TankShooters\1\TankBodyLeft.png</Source>
-      <Name>TankShooters\1\TankBodyLeft</Name>
+      <Source>TankShooters\One\TankBodyLeft.png</Source>
+      <Name>TankShooters\One\TankBodyLeft</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\1\TankBodyLeft.xnb</Output>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\One\TankBodyLeft.xnb</Output>
       <Time>2013-01-24T14:48:29.6233923-08:00</Time>
     </Item>
     <Item>
-      <Source>TankShooters\1\TankBodyRight.png</Source>
-      <Name>TankShooters\1\TankBodyRight</Name>
+      <Source>TankShooters\One\TankBodyRight.png</Source>
+      <Name>TankShooters\One\TankBodyRight</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\1\TankBodyRight.xnb</Output>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\One\TankBodyRight.xnb</Output>
       <Time>2013-01-24T14:47:44.2829507-08:00</Time>
     </Item>
     <Item>
-      <Source>TankShooters\1\TankCannon.png</Source>
-      <Name>TankShooters\1\TankCannon</Name>
+      <Source>TankShooters\One\TankCannon.png</Source>
+      <Name>TankShooters\One\TankCannon</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\1\TankCannon.xnb</Output>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\One\TankCannon.xnb</Output>
       <Time>2013-01-24T12:07:52.3460572-08:00</Time>
+    </Item>
+    <Item>
+      <Source>TankShooters\Two\TankBody.png</Source>
+      <Name>TankShooters\Two\TankBody</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\Two\TankBody.xnb</Output>
+      <Time>2013-01-29T10:21:51.0874223-08:00</Time>
+    </Item>
+    <Item>
+      <Source>TankShooters\Two\TankBodyLeft.png</Source>
+      <Name>TankShooters\Two\TankBodyLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\Two\TankBodyLeft.xnb</Output>
+      <Time>2013-01-29T10:22:47.0271352-08:00</Time>
+    </Item>
+    <Item>
+      <Source>TankShooters\Two\TankBodyRight.png</Source>
+      <Name>TankShooters\Two\TankBodyRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\Two\TankBodyRight.xnb</Output>
+      <Time>2013-01-29T10:22:32.5033913-08:00</Time>
+    </Item>
+    <Item>
+      <Source>TankShooters\Two\TankCannon.png</Source>
+      <Name>TankShooters\Two\TankCannon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\Two\TankCannon.xnb</Output>
+      <Time>2013-01-29T10:23:49.2125933-08:00</Time>
+    </Item>
+    <Item>
+      <Source>HealthBarInner.png</Source>
+      <Name>HealthBarInner</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\HealthBarInner.xnb</Output>
+      <Time>2013-01-29T11:58:55.8903145-08:00</Time>
+    </Item>
+    <Item>
+      <Source>HealthBarOuter.png</Source>
+      <Name>HealthBarOuter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\HealthBarOuter.xnb</Output>
+      <Time>2013-01-29T11:58:32.4264988-08:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

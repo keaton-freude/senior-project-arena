@@ -14,7 +14,7 @@ namespace Arena.Utility
             Vector2 position, SpriteFont font, int thickness)
         {
             Vector2 origin = Vector2.Zero;
-
+            sb.Begin();
             sb.DrawString(font, text, position + new Vector2(thickness * scale, thickness * scale),
                 backColor, rotation, origin, scale, SpriteEffects.None, 1f);
             sb.DrawString(font, text, position + new Vector2(-thickness * scale, -thickness * scale),
@@ -26,6 +26,7 @@ namespace Arena.Utility
 
             sb.DrawString(font, text, position, frontColor, rotation, origin, scale, SpriteEffects.None,
                 1f);
+            sb.End();
         }
     }
 }
