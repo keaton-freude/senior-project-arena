@@ -23,24 +23,22 @@ namespace Arena.Screens
         public static GraphicsDevice gDevice;
 
         public static Arena.Map.Map map;
-        Tank tank;
 
         private int explosion_id = -1;
 
-        TankProjectile projectile;
+        public List<TankShooterPlayer> players;
 
-        List<TankProjectile> projectiles;
-
-        Vector2 TankRightEffectOffset = new Vector2(0, 10);
-        Vector2 TankDownEffectOffset = new Vector2(0, 10);
-        
+        List<PlayerIndex> PlayerIndexes;
 
         public TankShooters(List<PlayerIndex> _player_indexes)
         {
             TransitionOnTime = TimeSpan.FromSeconds(1.5);
             TransitionOffTime = TimeSpan.FromSeconds(0.5);
 
-            
+            PlayerIndexes = _player_indexes;
+            players = new List<TankShooterPlayer>();
+
+
         }
 
         public override void LoadContent()
@@ -48,8 +46,11 @@ namespace Arena.Screens
             if (content == null)
                 content = new ContentManager(ScreenManager.Game.Services, "Content");
             spriteBatch = new SpriteBatch(ScreenManager.GraphicsDevice);
-
-            projectiles = new List<TankProjectile>();
+            foreach (PlayerIndex pi in PlayerIndexes)
+            {
+                players.Add(new TankShooterPlayer(pi));
+            }
+           
             gDevice = ScreenManager.GraphicsDevice;
             List<Texture2D> textures = new List<Texture2D>();
 
@@ -57,12 +58,7 @@ namespace Arena.Screens
             {
                 textures.Add(content.Load<Texture2D>(@"TankShooters/MapTiles/Desert" + i.ToString()));
             }
-            tank = new Tank(content.Load<Texture2D>(@"TankShooters/1/TankBody"), content.Load<Texture2D>(@"TankShooters/1/TankCannon"), content.Load<Texture2D>(@"TankShooters/1/TankBodyRight"));
             map = new Arena.Map.Map("TankMap", textures, ScreenManager.GraphicsDevice);
-            explosion_id = ArenaParticleEngine.ParticleEngine.Instance.LoadFromFile("Explosion", content);
-            //ArenaParticleEngine.ParticleEngine.Instance.LoadFromFile("TankDustEffect", content);
-            //ArenaParticleEngine.ParticleEngine.Instance.LoadFromFile("FireBall", content);
-            //ArenaParticleEngine.ParticleEngine.Instance.LoadFromFile("SmokeTrail", content); 
         }
 
         public override void UnloadContent()
@@ -75,104 +71,13 @@ namespace Arena.Screens
         {
             base.Update(gameTime, otherScreenHasFocus, false);
 
-            if (Keyboard.GetState().IsKeyUp(Keys.H) && prevKeyboardState.IsKeyDown(Keys.H))
-            {
-                tank.cannon_rotation += .05f;
-            }
-
-            //ArenaParticleEngine.ParticleEngine.Instance.systems["TankDustEffect"].effects[0].Generating = false;
-
-
-
-            Vector2 RightThumbStick = GamePad.GetState(PlayerIndex.One).ThumbSticks.Right;
-            Vector2 LeftThumbStick = GamePad.GetState(PlayerIndex.One).ThumbSticks.Left;
-
-            if (RightThumbStick.Length() != 0f)
-            {
-                if (RightThumbStick.X > 0f)
-                    tank.cannon_rotation = Utility.MathFunctions.AngleBetweenVectors(Vector2.UnitY, new Vector2(GamePad.GetState(PlayerIndex.One).ThumbSticks.Right.X, GamePad.GetState(PlayerIndex.One).ThumbSticks.Right.Y));
-                else
-                    tank.cannon_rotation = Utility.MathFunctions.AngleBetweenVectors(-Vector2.UnitY, new Vector2(GamePad.GetState(PlayerIndex.One).ThumbSticks.Right.X, GamePad.GetState(PlayerIndex.One).ThumbSticks.Right.Y)) - 3.14f;
-            }
-
-
-            if (LeftThumbStick.Y > .1f)
-            {
-                //ArenaParticleEngine.ParticleEngine.Instance.systems["TankDustEffect"].effects[0].Emitter.Location = tank.Position;
-                //ArenaParticleEngine.ParticleEngine.Instance.systems["TankDustEffect"].effects[0].Emitter.LastLocation = tank.Position;
-                //ArenaParticleEngine.ParticleEngine.Instance.systems["TankDustEffect"].effects[0].Generating = true;
-                /* only swap if we're in the left or right position */
-                if (tank.tank_rotation == (3.14f / 2f) || tank.tank_rotation == (3.14f + (3.14f / 2f)))
-                    tank.tank_rotation = 0f;
-                tank.Position.Y += LeftThumbStick.Y * -1;
-            }
-            else if (LeftThumbStick.Y < -.1f)
-            {
-                //ArenaParticleEngine.ParticleEngine.Instance.systems["TankDustEffect"].effects[0].Emitter.Location = tank.Position + TankDownEffectOffset;
-                //ArenaParticleEngine.ParticleEngine.Instance.systems["TankDustEffect"].effects[0].Emitter.LastLocation = tank.Position + TankDownEffectOffset;
-                //ArenaParticleEngine.ParticleEngine.Instance.systems["TankDustEffect"].effects[0].Generating = true;
-                if (tank.tank_rotation == (3.14f / 2f) || tank.tank_rotation == (3.14f + (3.14f / 2f)))
-                    tank.tank_rotation = 3.14f;
-                tank.Position.Y += LeftThumbStick.Y * -1;
-            }
-            else if (LeftThumbStick.X > .1f)
-            {
-                //ArenaParticleEngine.ParticleEngine.Instance.systems["TankDustEffect"].effects[0].Emitter.Location = tank.Position + TankRightEffectOffset;
-                //ArenaParticleEngine.ParticleEngine.Instance.systems["TankDustEffect"].effects[0].Emitter.LastLocation = tank.Position + TankRightEffectOffset;
-                //ArenaParticleEngine.ParticleEngine.Instance.systems["TankDustEffect"].effects[0].Generating = true;
-                /* only swap if we're in the up or down position */
-                if (tank.tank_rotation == 0f || tank.tank_rotation == 3.14f)
-                    tank.tank_rotation = 3.14f / 2f;
-                tank.Position.X += LeftThumbStick.X;
-            }
-            else if (LeftThumbStick.X < -.1f)
-            {
-                //ArenaParticleEngine.ParticleEngine.Instance.systems["TankDustEffect"].effects[0].Emitter.Location = tank.Position + TankRightEffectOffset;
-                //ArenaParticleEngine.ParticleEngine.Instance.systems["TankDustEffect"].effects[0].Emitter.LastLocation = tank.Position + TankRightEffectOffset;
-                //ArenaParticleEngine.ParticleEngine.Instance.systems["TankDustEffect"].effects[0].Generating = true;
-                if (tank.tank_rotation == 0f || tank.tank_rotation == 3.14f)
-                    tank.tank_rotation = 3.14f + (3.14f / 2);
-                tank.Position.X += LeftThumbStick.X;
-            }
-
-
             ArenaParticleEngine.ParticleEngine.Instance.Update((float)gameTime.ElapsedGameTime.TotalSeconds);
 
-            if (prevKeyboardState.IsKeyDown(Keys.T) && Keyboard.GetState().IsKeyUp(Keys.T))
+            foreach (TankShooterPlayer player in players)
             {
-                projectiles.Add(new TankProjectile(tank.Position + tank.tank_offset, Vector2.Transform(-Vector2.UnitY, Matrix.CreateRotationZ(tank.cannon_rotation)) * 650));
-
-                
+                player.Update(gameTime);
             }
 
-            List<TankProjectile> to_remove = new List<TankProjectile>();
-
-            foreach (TankProjectile ta in projectiles)
-            {
-                ta.Update((float)gameTime.ElapsedGameTime.TotalSeconds);
-
-                if (ta.exploded)
-                {
-                    to_remove.Add(ta);
-                    ta.Remove();
-                    ArenaParticleEngine.ParticleEngine.Instance.systems[explosion_id].effects[0].Emitter.Location = ta.position;
-                    ((ArenaParticleEngine.OneShotParticleEffect)ArenaParticleEngine.ParticleEngine.Instance.systems[explosion_id].effects[0]).Fire();
-                }
-
-            }
-
-            foreach (TankProjectile ta in to_remove)
-            {
-                
-
-
-                if (ta.finished)
-                {
-                    ta.HardRemove();
-                    projectiles.Remove(ta);
-                }
-
-            }
             prevKeyboardState = Keyboard.GetState();
             prevMouseState = Mouse.GetState();
         }
@@ -186,22 +91,12 @@ namespace Arena.Screens
             map.Draw(spriteBatch);
             spriteBatch.End();
 
-            ArenaParticleEngine.ParticleEngine.Instance.Draw(spriteBatch);
-            spriteBatch.Begin();
-            foreach (TankProjectile ta in projectiles)
+            foreach (TankShooterPlayer player in players)
             {
-                ta.Draw(spriteBatch);
-
+                player.Draw(spriteBatch);
             }
-            spriteBatch.End();
-            spriteBatch.Begin();
-            tank.Draw(spriteBatch);
-            
-            spriteBatch.End();
 
-
-
-
+            ArenaParticleEngine.ParticleEngine.Instance.Draw(spriteBatch);
         }
     }
 }

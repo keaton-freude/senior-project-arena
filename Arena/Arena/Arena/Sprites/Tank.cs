@@ -13,6 +13,8 @@ namespace Arena.Sprites
         public Texture2D tank_body_texture_right;
         public Texture2D tank_cannon_texture;
 
+        public int tank_dust_effect = -1;
+
         public Texture2D tank_body_to_draw;
 
         public float scale = .65f;
@@ -29,6 +31,7 @@ namespace Arena.Sprites
 
         public SpriteEffects Orientation;
 
+
         public Tank()
         {
         }
@@ -42,6 +45,8 @@ namespace Arena.Sprites
 
             Position = new Vector2(300, 400);
             Orientation = SpriteEffects.None;
+
+            tank_dust_effect = ArenaParticleEngine.ParticleEngine.Instance.LoadFromFile("TankDustEffect", Arena.Screens.TankShooters.content);
         }
 
         public override void Draw(SpriteBatch spriteBatch)
