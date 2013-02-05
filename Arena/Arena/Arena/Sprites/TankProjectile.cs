@@ -30,7 +30,7 @@ namespace Arena.Sprites
 
         public Rectangle GetCollisionRect()
         {
-            return new Rectangle((int)position.X-5, (int)position.Y-4, (int)radius, (int)radius);
+            return new Rectangle((int)position.X-5, (int)position.Y-5, (int)radius, (int)radius + 1);
         }
 
         public Vector2 CollisionVector()

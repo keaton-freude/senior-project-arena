@@ -23,7 +23,10 @@ namespace Arena.Players
 
         float time = 0.0f;
         int explosion_count = 0;
-        int max_explosions = 30;
+        int max_explosions = 45;
+
+        const float TIME_BETWEEN_SHOTS = .75f;
+        float time_shot = 1.0f;
 
         public TankShooterPlayer(PlayerIndex player_index): base(player_index)
         {
@@ -41,10 +44,10 @@ namespace Arena.Players
             }
             else if (player_index == PlayerIndex.Two)
             {
-                tank.Position = new Vector2(1180, 140);
+                tank.Position = new Vector2(1120, 560);
                 /* Player 2 has the same starting direction as Player 1 */
-                tank.tank_rotation = 3.14f;
-                tank.cannon_rotation = 3.14f;
+                tank.tank_rotation = 0.0f;
+                tank.cannon_rotation = 0.0f;
             }
             else if (player_index == PlayerIndex.Three)
             {
@@ -52,9 +55,12 @@ namespace Arena.Players
             }
         
         }
+        float tank_speed = 2.0f;
 
         public void Update(GameTime gameTime, bool done)
         {
+            List<TankProjectile> to_remove = new List<TankProjectile>();
+            time_shot += (float)gameTime.ElapsedGameTime.TotalSeconds;
             if (!done)
             {
                 Vector2 RightThumbStick = GamePad.GetState(Player_Index).ThumbSticks.Right;
@@ -63,9 +69,9 @@ namespace Arena.Players
                 if (RightThumbStick.Length() != 0f)
                 {
                     if (RightThumbStick.X > 0f)
-                        tank.cannon_rotation = Utility.MathFunctions.AngleBetweenVectors(Vector2.UnitY, new Vector2(GamePad.GetState(PlayerIndex.One).ThumbSticks.Right.X, GamePad.GetState(PlayerIndex.One).ThumbSticks.Right.Y));
+                        tank.cannon_rotation = Utility.MathFunctions.AngleBetweenVectors(Vector2.UnitY, new Vector2(GamePad.GetState(Player_Index).ThumbSticks.Right.X, GamePad.GetState(Player_Index).ThumbSticks.Right.Y));
                     else
-                        tank.cannon_rotation = Utility.MathFunctions.AngleBetweenVectors(-Vector2.UnitY, new Vector2(GamePad.GetState(PlayerIndex.One).ThumbSticks.Right.X, GamePad.GetState(PlayerIndex.One).ThumbSticks.Right.Y)) - 3.14f;
+                        tank.cannon_rotation = Utility.MathFunctions.AngleBetweenVectors(-Vector2.UnitY, new Vector2(GamePad.GetState(Player_Index).ThumbSticks.Right.X, GamePad.GetState(Player_Index).ThumbSticks.Right.Y)) - 3.14f;
                 }
 
                 if (LeftThumbStick.Y > .1f)
@@ -73,34 +79,76 @@ namespace Arena.Players
                     /* only swap if we're in the left or right position */
                     if (tank.tank_rotation == (3.14f / 2f) || tank.tank_rotation == (3.14f + (3.14f / 2f)))
                         tank.tank_rotation = 0f;
-                    tank.Position.Y += LeftThumbStick.Y * -1;
+                    tank.Position.Y += LeftThumbStick.Y * -1 * tank_speed;
                 }
                 else if (LeftThumbStick.Y < -.1f)
                 {
                     if (tank.tank_rotation == (3.14f / 2f) || tank.tank_rotation == (3.14f + (3.14f / 2f)))
                         tank.tank_rotation = 3.14f;
-                    tank.Position.Y += LeftThumbStick.Y * -1;
+                    tank.Position.Y += LeftThumbStick.Y * -1 * tank_speed;
                 }
                 else if (LeftThumbStick.X > .1f)
                 {
                     /* only swap if we're in the up or down position */
                     if (tank.tank_rotation == 0f || tank.tank_rotation == 3.14f)
                         tank.tank_rotation = 3.14f / 2f;
-                    tank.Position.X += LeftThumbStick.X;
+                    tank.Position.X += LeftThumbStick.X * tank_speed;
                 }
                 else if (LeftThumbStick.X < -.1f)
                 {
                     if (tank.tank_rotation == 0f || tank.tank_rotation == 3.14f)
                         tank.tank_rotation = 3.14f + (3.14f / 2);
-                    tank.Position.X += LeftThumbStick.X;
+                    tank.Position.X += LeftThumbStick.X * tank_speed;
                 }
 
                 if (Keyboard.GetState().IsKeyUp(Keys.T) && PrevKeyboardState.IsKeyDown(Keys.T))
                     projectiles.Add(new TankProjectile(tank.Position + tank.tank_offset, Vector2.Transform(-Vector2.UnitY, Matrix.CreateRotationZ(tank.cannon_rotation)) * 650, Player_Index));
 
+                if (GamePad.GetState(Player_Index).Triggers.Right > .3f && time_shot > TIME_BETWEEN_SHOTS)
+                {
+                    Vector2 AdditionalOffset = Vector2.Zero;
 
-                List<TankProjectile> to_remove = new List<TankProjectile>();
+                    time_shot = 0.0f;
+                    projectiles.Add(new TankProjectile(tank.Position + tank.tank_offset, Vector2.Transform(-Vector2.UnitY, Matrix.CreateRotationZ(tank.cannon_rotation)) * 650, Player_Index));
+                }
 
+
+                foreach (TankProjectile ta in projectiles)
+                {
+                    ta.Update((float)gameTime.ElapsedGameTime.TotalSeconds);
+
+                    /* Check collision against walls */
+                    foreach (RectangleOverlay rect in Arena.Screens.TankShooters.map.collision_mask.debug_rectangle_overlays)
+                    {
+                        if (rect.dummyRectangle.Intersects(ta.GetCollisionRect()) && !ta.already_exploded)
+                        {
+                            ta.exploded = true;
+                            ta.already_exploded = true;
+                        }
+                    }
+
+                    if (ta.exploded)
+                    {
+                        to_remove.Add(ta);
+                        ta.Remove();
+                        ArenaParticleEngine.ParticleEngine.Instance.systems[explosion_id].effects[0].Emitter.Location = ta.position;
+                        ((ArenaParticleEngine.OneShotParticleEffect)ArenaParticleEngine.ParticleEngine.Instance.systems[explosion_id].effects[0]).Fire();
+                    }
+
+                }
+
+                foreach (TankProjectile ta in to_remove)
+                {
+                    if (ta.finished)
+                    {
+                        ta.HardRemove();
+                        projectiles.Remove(ta);
+                    }
+                }
+            }
+
+            if (done)
+            {
                 foreach (TankProjectile ta in projectiles)
                 {
                     ta.Update((float)gameTime.ElapsedGameTime.TotalSeconds);

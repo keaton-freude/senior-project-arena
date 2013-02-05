@@ -54,7 +54,7 @@ namespace Arena.Screens
             {
                 players.Add(new TankShooterPlayer(pi));
             }
-            players.Add(new TankShooterPlayer(PlayerIndex.Two));
+           // players.Add(new TankShooterPlayer(PlayerIndex.Two));
 
             /* Projectiles have all moved (may have exploded against a wall or whatever)
              * Check each projectile against a player */
@@ -177,8 +177,32 @@ namespace Arena.Screens
 
             if (done)
             {
-                Utility.FontRendering.DrawOutlinedText(spriteBatch, "Winner: Player " + winner.ToString(), Color.Black, Color.White, 1.0f, 0.0f, new Vector2(200, 200), UIFont, 1);
+                Utility.FontRendering.DrawOutlinedText(spriteBatch, "Winner: Player " + winner.ToString(), Color.Black, Color.White, 2.0f, 0.0f, new Vector2(200, 200), UIFont, 1);
                 ArenaParticleEngine.ParticleEngine.Instance.Draw(spriteBatch);
+            }
+        }
+
+        public override void HandleInput(InputState input)
+        {
+            if (input == null)
+                throw new ArgumentNullException("input");
+
+            // Look up inputs for the active player profile.
+            int playerIndex = (int)ControllingPlayer.Value;
+
+            KeyboardState keyboardState = input.CurrentKeyboardStates[playerIndex];
+            GamePadState gamePadState = input.CurrentGamePadStates[playerIndex];
+
+            // The game pauses either if the user presses the pause button, or if
+            // they unplug the active gamepad. This requires us to keep track of
+            // whether a gamepad was ever plugged in, because we don't want to pause
+            // on PC if they are playing with a keyboard and have no gamepad at all!
+            bool gamePadDisconnected = !gamePadState.IsConnected &&
+                                       input.GamePadWasConnected[playerIndex];
+
+            if (input.IsPauseGame(ControllingPlayer) || gamePadDisconnected)
+            {
+                ScreenManager.AddScreen(new PauseMenuScreen(null), ControllingPlayer);
             }
         }
     }

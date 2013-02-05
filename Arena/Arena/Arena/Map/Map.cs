@@ -83,7 +83,7 @@ namespace Arena.Map
                 background_cell.Draw(spriteBatch);
             }
 
-            collision_mask.Draw(spriteBatch);
+            //collision_mask.Draw(spriteBatch);
         }
     }
 }
