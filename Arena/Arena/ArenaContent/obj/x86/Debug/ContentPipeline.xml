@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Background.xnb</Output>
-      <Time>2012-09-24T07:38:24.46671-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Background.xnb</Output>
+      <Time>2013-01-25T23:54:07.524359-08:00</Time>
     </Item>
     <Item>
       <Source>blank.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\blank.xnb</Output>
-      <Time>2012-09-24T07:38:24.5007406-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\blank.xnb</Output>
+      <Time>2013-01-25T23:54:07.6663776-08:00</Time>
     </Item>
     <Item>
       <Source>gradient.png</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\gradient.xnb</Output>
-      <Time>2012-09-24T07:38:24.5027428-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\gradient.xnb</Output>
+      <Time>2013-01-25T23:54:08.5124762-08:00</Time>
     </Item>
     <Item>
       <Source>blackbox.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\blackbox.xnb</Output>
-      <Time>2012-09-24T07:38:24.5007406-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\blackbox.xnb</Output>
+      <Time>2013-01-25T23:54:07.6603747-08:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\RunNJumpIconBorder.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\RunNJumpIconBorder.xnb</Output>
-      <Time>2012-09-24T07:38:24.4937347-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\RunNJumpIconBorder.xnb</Output>
+      <Time>2013-01-25T23:54:07.600368-08:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\RunNJumpIconNoBorder.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\RunNJumpIconNoBorder.xnb</Output>
-      <Time>2012-09-24T07:38:24.4937347-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\RunNJumpIconNoBorder.xnb</Output>
+      <Time>2013-01-25T23:54:07.6023676-08:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\border.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\border.xnb</Output>
-      <Time>2012-09-24T07:38:24.4947352-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\border.xnb</Output>
+      <Time>2013-01-25T23:54:07.606368-08:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\BattleTanksIconNoBorder.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\BattleTanksIconNoBorder.xnb</Output>
-      <Time>2012-11-06T18:08:56.0807926-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\BattleTanksIconNoBorder.xnb</Output>
+      <Time>2013-01-25T23:54:07.5903661-08:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\SpaceShootersIconNoBorder.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\SpaceShootersIconNoBorder.xnb</Output>
-      <Time>2013-01-29T17:31:26.980556-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\SpaceShootersIconNoBorder.xnb</Output>
+      <Time>2013-02-05T11:28:03.1955372-08:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\HiSpeedGoCartsIconNoBorder.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\HiSpeedGoCartsIconNoBorder.xnb</Output>
-      <Time>2012-09-24T07:38:24.4917329-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\HiSpeedGoCartsIconNoBorder.xnb</Output>
+      <Time>2013-01-25T23:54:07.592366-08:00</Time>
     </Item>
     <Item>
       <Source>GameIcons\PlaceHolderIconNoBorder.png</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\PlaceHolderIconNoBorder.xnb</Output>
-      <Time>2012-09-24T07:38:24.4927354-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameIcons\PlaceHolderIconNoBorder.xnb</Output>
+      <Time>2013-01-25T23:54:07.5983673-08:00</Time>
     </Item>
     <Item>
       <Source>ForestBackGround.png</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ForestBackGround.xnb</Output>
-      <Time>2012-09-24T07:38:24.4877293-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ForestBackGround.xnb</Output>
+      <Time>2013-01-25T23:54:07.5873659-08:00</Time>
     </Item>
     <Item>
       <Source>blue_ninja.png</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\blue_ninja.xnb</Output>
-      <Time>2012-09-26T10:26:56.9631985-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\blue_ninja.xnb</Output>
+      <Time>2013-01-25T23:54:07.6683752-08:00</Time>
     </Item>
     <Item>
       <Source>MapTiles\DirtTile.png</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\MapTiles\DirtTile.xnb</Output>
-      <Time>2012-09-24T07:38:24.4967374-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\MapTiles\DirtTile.xnb</Output>
+      <Time>2013-01-25T23:54:07.6203702-08:00</Time>
     </Item>
     <Item>
       <Source>MapTiles\GrassTile.png</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\MapTiles\GrassTile.xnb</Output>
-      <Time>2012-09-24T07:38:24.4967374-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\MapTiles\GrassTile.xnb</Output>
+      <Time>2013-01-25T23:54:07.6223719-08:00</Time>
     </Item>
     <Item>
       <Source>sky1.png</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\sky1.xnb</Output>
-      <Time>2012-09-24T07:38:24.560795-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\sky1.xnb</Output>
+      <Time>2013-01-25T23:54:08.5924866-08:00</Time>
     </Item>
     <Item>
       <Source>menu_backdrop.png</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\menu_backdrop.xnb</Output>
-      <Time>2012-09-25T13:06:13.7319437-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\menu_backdrop.xnb</Output>
+      <Time>2013-01-25T23:54:08.5154771-08:00</Time>
     </Item>
     <Item>
       <Source>ParticleTextures\Dirt1.png</Source>
@@ -160,8 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Dirt1.xnb</Output>
-      <Time>2012-09-26T11:28:16.2652138-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Dirt1.xnb</Output>
+      <Time>2013-01-25T23:54:07.6253702-08:00</Time>
     </Item>
     <Item>
       <Source>ParticleTextures\Dirt2.png</Source>
@@ -169,8 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Dirt2.xnb</Output>
-      <Time>2012-09-26T11:47:52.3567101-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\ParticleTextures\Dirt2.xnb</Output>
+      <Time>2013-01-25T23:54:07.6333731-08:00</Time>
     </Item>
     <Item>
       <Source>obstacle_alpha.png</Source>
@@ -178,8 +178,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\obstacle_alpha.xnb</Output>
-      <Time>2012-09-26T14:23:52.2438177-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\obstacle_alpha.xnb</Output>
+      <Time>2013-01-25T23:54:08.5774863-08:00</Time>
     </Item>
     <Item>
       <Source>Dirt3.png</Source>
@@ -187,8 +187,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Dirt3.xnb</Output>
-      <Time>2012-09-28T07:47:55.1339259-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Dirt3.xnb</Output>
+      <Time>2013-01-25T23:54:07.5603638-08:00</Time>
     </Item>
     <Item>
       <Source>blue_ninja_new.png</Source>
@@ -196,8 +196,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\blue_ninja_new.xnb</Output>
-      <Time>2012-10-16T15:11:35.2947537-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\blue_ninja_new.xnb</Output>
+      <Time>2013-01-25T23:54:07.7193843-08:00</Time>
     </Item>
     <Item>
       <Source>Target.png</Source>
@@ -205,8 +205,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Target.xnb</Output>
-      <Time>2012-11-05T09:54:32-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Target.xnb</Output>
+      <Time>2013-01-25T23:54:07.6363722-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-01-hit.png</Source>
@@ -214,8 +214,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-01-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.7431284-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-01-hit.xnb</Output>
+      <Time>2013-01-25T23:54:07.7383832-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-01-whole.png</Source>
@@ -223,8 +223,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-01-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.7451302-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-01-whole.xnb</Output>
+      <Time>2013-01-25T23:54:07.7433866-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-01.png</Source>
@@ -232,8 +232,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-01.xnb</Output>
-      <Time>2012-11-06T05:55:00.747132-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-01.xnb</Output>
+      <Time>2013-01-25T23:54:07.7693882-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-02-hit.png</Source>
@@ -241,8 +241,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-02-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.751136-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-02-hit.xnb</Output>
+      <Time>2013-01-25T23:54:07.7903887-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-02-whole.png</Source>
@@ -250,8 +250,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-02-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.7531374-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-02-whole.xnb</Output>
+      <Time>2013-01-25T23:54:07.7923898-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-02.png</Source>
@@ -259,8 +259,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-02.xnb</Output>
-      <Time>2012-11-06T05:55:00.7551392-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-02.xnb</Output>
+      <Time>2013-01-25T23:54:07.8003924-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-03-hit.png</Source>
@@ -268,8 +268,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-03-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.7561401-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-03-hit.xnb</Output>
+      <Time>2013-01-25T23:54:07.8023917-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-03-whole.png</Source>
@@ -277,8 +277,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-03-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.7581419-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-03-whole.xnb</Output>
+      <Time>2013-01-25T23:54:07.804392-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-03.png</Source>
@@ -286,8 +286,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-03.xnb</Output>
-      <Time>2012-11-06T05:55:00.7591428-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-03.xnb</Output>
+      <Time>2013-01-25T23:54:07.806392-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-04-hit.png</Source>
@@ -295,8 +295,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-04-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.7611446-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-04-hit.xnb</Output>
+      <Time>2013-01-25T23:54:07.8083916-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-04-whole.png</Source>
@@ -304,8 +304,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-04-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.7631464-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-04-whole.xnb</Output>
+      <Time>2013-01-25T23:54:07.8103937-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-04.png</Source>
@@ -313,8 +313,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-04.xnb</Output>
-      <Time>2012-11-06T05:55:00.7681509-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-04.xnb</Output>
+      <Time>2013-01-25T23:54:07.8253946-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-06-hit.png</Source>
@@ -322,8 +322,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-06-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.7691518-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-06-hit.xnb</Output>
+      <Time>2013-01-25T23:54:07.8413988-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-06-whole.png</Source>
@@ -331,8 +331,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-06-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.7711536-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-06-whole.xnb</Output>
+      <Time>2013-01-25T23:54:07.8433964-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-06.png</Source>
@@ -340,8 +340,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-06.xnb</Output>
-      <Time>2012-11-06T05:55:00.7731729-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-06.xnb</Output>
+      <Time>2013-01-25T23:54:07.8483978-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-5-hit.png</Source>
@@ -349,8 +349,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-5-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.7741563-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-5-hit.xnb</Output>
+      <Time>2013-01-25T23:54:07.8513973-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-5-whole.png</Source>
@@ -358,8 +358,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-5-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.7761581-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-5-whole.xnb</Output>
+      <Time>2013-01-25T23:54:07.8603991-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\circle-5.png</Source>
@@ -367,8 +367,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-5.xnb</Output>
-      <Time>2012-11-06T05:55:00.7781599-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\circle-5.xnb</Output>
+      <Time>2013-01-25T23:54:07.8633987-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\cross-01-hit.png</Source>
@@ -376,8 +376,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\cross-01-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.859233-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\cross-01-hit.xnb</Output>
+      <Time>2013-01-25T23:54:07.9814135-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\cross-01-whole.png</Source>
@@ -385,8 +385,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\cross-01-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.8602339-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\cross-01-whole.xnb</Output>
+      <Time>2013-01-25T23:54:07.983414-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\cross-01.png</Source>
@@ -394,8 +394,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\cross-01.xnb</Output>
-      <Time>2012-11-06T05:55:00.8622357-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\cross-01.xnb</Output>
+      <Time>2013-01-25T23:54:08.0004154-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\cross-02-hit.png</Source>
@@ -403,8 +403,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\cross-02-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.8632366-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\cross-02-hit.xnb</Output>
+      <Time>2013-01-25T23:54:08.0024164-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\cross-02-whole.png</Source>
@@ -412,8 +412,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\cross-02-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.8662409-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\cross-02-whole.xnb</Output>
+      <Time>2013-01-25T23:54:08.004416-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\cross-02.png</Source>
@@ -421,8 +421,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\cross-02.xnb</Output>
-      <Time>2012-11-06T05:55:00.8682411-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\cross-02.xnb</Output>
+      <Time>2013-01-25T23:54:08.0064163-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-01-hit.png</Source>
@@ -430,8 +430,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-01-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.9032942-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-01-hit.xnb</Output>
+      <Time>2013-01-25T23:54:08.0564225-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-01-whole.png</Source>
@@ -439,8 +439,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-01-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.9042781-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-01-whole.xnb</Output>
+      <Time>2013-01-25T23:54:08.060423-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-01.png</Source>
@@ -448,8 +448,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-01.xnb</Output>
-      <Time>2012-11-06T05:55:00.9062754-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-01.xnb</Output>
+      <Time>2013-01-25T23:54:08.0764244-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-02-hit.png</Source>
@@ -457,8 +457,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-02-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.9082845-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-02-hit.xnb</Output>
+      <Time>2013-01-25T23:54:08.0824248-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-02-whole.png</Source>
@@ -466,8 +466,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-02-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.9092781-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-02-whole.xnb</Output>
+      <Time>2013-01-25T23:54:08.0864248-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-02.png</Source>
@@ -475,8 +475,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-02.xnb</Output>
-      <Time>2012-11-06T05:55:00.9112799-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-02.xnb</Output>
+      <Time>2013-01-25T23:54:08.0904262-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-03-hit.png</Source>
@@ -484,8 +484,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-03-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.9122808-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-03-hit.xnb</Output>
+      <Time>2013-01-25T23:54:08.0924268-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-03-whole.png</Source>
@@ -493,8 +493,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-03-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.9142826-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-03-whole.xnb</Output>
+      <Time>2013-01-25T23:54:08.0944266-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-03.png</Source>
@@ -502,8 +502,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-03.xnb</Output>
-      <Time>2012-11-06T05:55:00.9172853-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-03.xnb</Output>
+      <Time>2013-01-25T23:54:08.1034274-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-04-hit.png</Source>
@@ -511,8 +511,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-04-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.9192928-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-04-hit.xnb</Output>
+      <Time>2013-01-25T23:54:08.1074297-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-04-whole.png</Source>
@@ -520,8 +520,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-04-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.9203042-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-04-whole.xnb</Output>
+      <Time>2013-01-25T23:54:08.1204302-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\simple-04.png</Source>
@@ -529,8 +529,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-04.xnb</Output>
-      <Time>2012-11-06T05:55:00.9233296-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\simple-04.xnb</Output>
+      <Time>2013-01-25T23:54:08.1224302-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\square-01-hit.png</Source>
@@ -538,8 +538,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\square-01-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.9693387-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\square-01-hit.xnb</Output>
+      <Time>2013-01-25T23:54:08.2164411-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\square-01-whole.png</Source>
@@ -547,8 +547,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\square-01-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.9703331-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\square-01-whole.xnb</Output>
+      <Time>2013-01-25T23:54:08.222441-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\square-01.png</Source>
@@ -556,8 +556,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\square-01.xnb</Output>
-      <Time>2012-11-06T05:55:00.9723544-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\square-01.xnb</Output>
+      <Time>2013-01-25T23:54:08.2254424-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\square-02-hit.png</Source>
@@ -565,8 +565,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\square-02-hit.xnb</Output>
-      <Time>2012-11-06T05:55:00.9733358-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\square-02-hit.xnb</Output>
+      <Time>2013-01-25T23:54:08.2364431-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\square-02-whole.png</Source>
@@ -574,8 +574,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\square-02-whole.xnb</Output>
-      <Time>2012-11-06T05:55:00.9753498-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\square-02-whole.xnb</Output>
+      <Time>2013-01-25T23:54:08.239444-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\square-02.png</Source>
@@ -583,8 +583,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\square-02.xnb</Output>
-      <Time>2012-11-06T05:55:00.9773394-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\square-02.xnb</Output>
+      <Time>2013-01-25T23:54:08.246445-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-01-hit.png</Source>
@@ -592,8 +592,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-01-hit.xnb</Output>
-      <Time>2012-11-06T05:55:01.0303873-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-01-hit.xnb</Output>
+      <Time>2013-01-25T23:54:08.3234545-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-01-whole.png</Source>
@@ -601,8 +601,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-01-whole.xnb</Output>
-      <Time>2012-11-06T05:55:01.0344087-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-01-whole.xnb</Output>
+      <Time>2013-01-25T23:54:08.3254545-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-01.png</Source>
@@ -610,8 +610,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-01.xnb</Output>
-      <Time>2012-11-06T05:55:01.0364093-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-01.xnb</Output>
+      <Time>2013-01-25T23:54:08.3304551-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-02-hit.png</Source>
@@ -619,8 +619,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-02-hit.xnb</Output>
-      <Time>2012-11-06T05:55:01.0373936-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-02-hit.xnb</Output>
+      <Time>2013-01-25T23:54:08.3334564-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-02-whole.png</Source>
@@ -628,8 +628,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-02-whole.xnb</Output>
-      <Time>2012-11-06T05:55:01.0393954-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-02-whole.xnb</Output>
+      <Time>2013-01-25T23:54:08.3364558-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-02.png</Source>
@@ -637,8 +637,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-02.xnb</Output>
-      <Time>2012-11-06T05:55:01.0413976-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-02.xnb</Output>
+      <Time>2013-01-25T23:54:08.3384564-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-03-hit.png</Source>
@@ -646,8 +646,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-03-hit.xnb</Output>
-      <Time>2012-11-06T05:55:01.0434346-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-03-hit.xnb</Output>
+      <Time>2013-01-25T23:54:08.3394564-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-03-whole.png</Source>
@@ -655,8 +655,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-03-whole.xnb</Output>
-      <Time>2012-11-06T05:55:01.0444047-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-03-whole.xnb</Output>
+      <Time>2013-01-25T23:54:08.341456-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-03.png</Source>
@@ -664,8 +664,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-03.xnb</Output>
-      <Time>2012-11-06T05:55:01.0464021-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-03.xnb</Output>
+      <Time>2013-01-25T23:54:08.3484567-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-04-hit.png</Source>
@@ -673,8 +673,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-04-hit.xnb</Output>
-      <Time>2012-11-06T05:55:01.0484035-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-04-hit.xnb</Output>
+      <Time>2013-01-25T23:54:08.356458-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-04-whole.png</Source>
@@ -682,8 +682,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-04-whole.xnb</Output>
-      <Time>2012-11-06T05:55:01.0524071-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-04-whole.xnb</Output>
+      <Time>2013-01-25T23:54:08.3674589-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-04.png</Source>
@@ -691,8 +691,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-04.xnb</Output>
-      <Time>2012-11-06T05:55:01.0544089-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-04.xnb</Output>
+      <Time>2013-01-25T23:54:08.3704602-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-05-hit.png</Source>
@@ -700,8 +700,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-05-hit.xnb</Output>
-      <Time>2012-11-06T05:55:01.0564107-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-05-hit.xnb</Output>
+      <Time>2013-01-25T23:54:08.3724598-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-05-whole.png</Source>
@@ -709,8 +709,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-05-whole.xnb</Output>
-      <Time>2012-11-06T05:55:01.0574116-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-05-whole.xnb</Output>
+      <Time>2013-01-25T23:54:08.3754616-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-05.png</Source>
@@ -718,8 +718,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-05.xnb</Output>
-      <Time>2012-11-06T05:55:01.0594325-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-05.xnb</Output>
+      <Time>2013-01-25T23:54:08.3794619-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-06-hit.png</Source>
@@ -727,8 +727,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-06-hit.xnb</Output>
-      <Time>2012-11-06T05:55:01.0604143-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-06-hit.xnb</Output>
+      <Time>2013-01-25T23:54:08.3824622-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-06-whole.png</Source>
@@ -736,8 +736,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-06-whole.xnb</Output>
-      <Time>2012-11-06T05:55:01.0624161-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-06-whole.xnb</Output>
+      <Time>2013-01-25T23:54:08.3854614-08:00</Time>
     </Item>
     <Item>
       <Source>Crosshairs\triangle-06.png</Source>
@@ -745,8 +745,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-06.xnb</Output>
-      <Time>2012-11-06T05:55:01.0644179-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Crosshairs\triangle-06.xnb</Output>
+      <Time>2013-01-25T23:54:08.3874616-08:00</Time>
     </Item>
     <Item>
       <Source>Target1.png</Source>
@@ -754,8 +754,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Target1.xnb</Output>
-      <Time>2012-11-06T05:55:00.6670598-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Target1.xnb</Output>
+      <Time>2013-01-25T23:54:07.6373705-08:00</Time>
     </Item>
     <Item>
       <Source>Target2.png</Source>
@@ -763,8 +763,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Target2.xnb</Output>
-      <Time>2012-11-06T05:55:00.726113-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Target2.xnb</Output>
+      <Time>2013-01-25T23:54:07.6393717-08:00</Time>
     </Item>
     <Item>
       <Source>Target3.png</Source>
@@ -772,8 +772,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Target3.xnb</Output>
-      <Time>2012-11-06T05:55:00.7281148-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Target3.xnb</Output>
+      <Time>2013-01-25T23:54:07.6543742-08:00</Time>
     </Item>
     <Item>
       <Source>Target4.png</Source>
@@ -781,8 +781,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Target4.xnb</Output>
-      <Time>2012-11-06T05:55:00.7301166-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\Target4.xnb</Output>
+      <Time>2013-01-25T23:54:07.6563755-08:00</Time>
     </Item>
     <Item>
       <Source>BackgroundTargetShooting.png</Source>
@@ -790,8 +790,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\BackgroundTargetShooting.xnb</Output>
-      <Time>2012-11-06T11:48:23.6136457-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\BackgroundTargetShooting.xnb</Output>
+      <Time>2013-01-25T23:54:07.5563609-08:00</Time>
     </Item>
     <Item>
       <Source>smoke_particle.png</Source>
@@ -799,8 +799,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\smoke_particle.xnb</Output>
-      <Time>2013-01-29T14:57:26.986826-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\smoke_particle.xnb</Output>
+      <Time>2013-01-24T20:40:20.8024293-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert1.png</Source>
@@ -808,8 +808,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert1.xnb</Output>
-      <Time>2013-01-29T14:57:26.8457367-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert1.xnb</Output>
+      <Time>2013-01-17T16:20:36.2998894-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert10.png</Source>
@@ -817,8 +817,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert10.xnb</Output>
-      <Time>2013-01-29T14:57:26.8467003-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert10.xnb</Output>
+      <Time>2013-01-17T16:33:23.9549973-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert11.png</Source>
@@ -826,8 +826,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert11.xnb</Output>
-      <Time>2013-01-29T14:57:26.8477073-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert11.xnb</Output>
+      <Time>2013-01-17T16:33:43.4773371-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert12.png</Source>
@@ -835,8 +835,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert12.xnb</Output>
-      <Time>2013-01-29T14:57:26.8477073-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert12.xnb</Output>
+      <Time>2013-01-17T16:34:11.6907243-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert13.png</Source>
@@ -844,8 +844,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert13.xnb</Output>
-      <Time>2013-01-29T14:57:26.8487017-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert13.xnb</Output>
+      <Time>2013-01-17T16:34:28.9147891-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert14.png</Source>
@@ -853,8 +853,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert14.xnb</Output>
-      <Time>2013-01-29T14:57:26.8497022-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert14.xnb</Output>
+      <Time>2013-01-17T16:34:47.1999854-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert15.png</Source>
@@ -862,8 +862,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert15.xnb</Output>
-      <Time>2013-01-29T14:57:26.8507549-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert15.xnb</Output>
+      <Time>2013-01-17T16:35:03.6499593-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert16.png</Source>
@@ -871,8 +871,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert16.xnb</Output>
-      <Time>2013-01-29T14:57:26.851725-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert16.xnb</Output>
+      <Time>2013-01-17T16:35:26.3126767-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert17.png</Source>
@@ -880,8 +880,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert17.xnb</Output>
-      <Time>2013-01-29T14:57:26.851725-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert17.xnb</Output>
+      <Time>2013-01-17T16:35:43.6777611-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert18.png</Source>
@@ -889,8 +889,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert18.xnb</Output>
-      <Time>2013-01-29T14:57:26.8527057-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert18.xnb</Output>
+      <Time>2013-01-17T16:36:00.835819-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert19.png</Source>
@@ -898,8 +898,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert19.xnb</Output>
-      <Time>2013-01-29T14:57:26.8547399-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert19.xnb</Output>
+      <Time>2013-01-17T16:36:28.8381775-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert2.png</Source>
@@ -907,8 +907,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert2.xnb</Output>
-      <Time>2013-01-29T14:57:26.8557185-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert2.xnb</Output>
+      <Time>2013-01-17T16:30:16.2504749-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert20.png</Source>
@@ -916,8 +916,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert20.xnb</Output>
-      <Time>2013-01-29T14:57:26.8567287-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert20.xnb</Output>
+      <Time>2013-01-17T16:36:46.212264-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert21.png</Source>
@@ -925,8 +925,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert21.xnb</Output>
-      <Time>2013-01-29T14:57:26.8577094-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert21.xnb</Output>
+      <Time>2013-01-17T16:37:02.785253-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert22.png</Source>
@@ -934,8 +934,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert22.xnb</Output>
-      <Time>2013-01-29T14:57:26.8577094-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert22.xnb</Output>
+      <Time>2013-01-17T16:37:22.7776516-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert23.png</Source>
@@ -943,8 +943,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert23.xnb</Output>
-      <Time>2013-01-29T14:57:26.8587131-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert23.xnb</Output>
+      <Time>2013-01-17T16:37:40.6698004-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert24.png</Source>
@@ -952,8 +952,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert24.xnb</Output>
-      <Time>2013-01-29T14:57:26.8587131-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert24.xnb</Output>
+      <Time>2013-01-17T16:38:03.6605571-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert25.png</Source>
@@ -961,8 +961,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert25.xnb</Output>
-      <Time>2013-01-29T14:57:26.859716-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert25.xnb</Output>
+      <Time>2013-01-17T16:38:21.1716556-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert26.png</Source>
@@ -970,8 +970,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert26.xnb</Output>
-      <Time>2013-01-29T14:57:26.8607121-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert26.xnb</Output>
+      <Time>2013-01-17T16:38:38.8057734-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert27.png</Source>
@@ -979,8 +979,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert27.xnb</Output>
-      <Time>2013-01-29T14:57:26.8607121-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert27.xnb</Output>
+      <Time>2013-01-17T16:38:59.8993047-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert28.png</Source>
@@ -988,8 +988,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert28.xnb</Output>
-      <Time>2013-01-29T14:57:26.861713-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert28.xnb</Output>
+      <Time>2013-01-17T16:40:04.0220005-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert29.png</Source>
@@ -997,8 +997,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert29.xnb</Output>
-      <Time>2013-01-29T14:57:26.8627143-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert29.xnb</Output>
+      <Time>2013-01-17T16:40:21.7331236-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert3.png</Source>
@@ -1006,8 +1006,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert3.xnb</Output>
-      <Time>2013-01-29T14:57:26.8637197-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert3.xnb</Output>
+      <Time>2013-01-17T16:30:45.2759554-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert30.png</Source>
@@ -1015,8 +1015,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert30.xnb</Output>
-      <Time>2013-01-29T14:57:26.8637197-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert30.xnb</Output>
+      <Time>2013-01-17T16:40:38.0720834-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert31.png</Source>
@@ -1024,8 +1024,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert31.xnb</Output>
-      <Time>2013-01-29T14:57:26.8647299-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert31.xnb</Output>
+      <Time>2013-01-17T16:40:53.7349636-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert32.png</Source>
@@ -1033,8 +1033,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert32.xnb</Output>
-      <Time>2013-01-29T14:57:26.8657166-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert32.xnb</Output>
+      <Time>2013-01-17T16:41:11.3400775-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert33.png</Source>
@@ -1042,8 +1042,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert33.xnb</Output>
-      <Time>2013-01-29T14:57:26.8657166-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert33.xnb</Output>
+      <Time>2013-01-17T16:41:50.9098233-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert34.png</Source>
@@ -1051,8 +1051,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert34.xnb</Output>
-      <Time>2013-01-29T14:57:26.8667175-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert34.xnb</Output>
+      <Time>2013-01-17T16:43:09.6062664-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert35.png</Source>
@@ -1060,8 +1060,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert35.xnb</Output>
-      <Time>2013-01-29T14:57:26.8677184-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert35.xnb</Output>
+      <Time>2013-01-17T16:42:30.3395539-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert36.png</Source>
@@ -1069,8 +1069,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert36.xnb</Output>
-      <Time>2013-01-29T14:57:26.8687193-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert36.xnb</Output>
+      <Time>2013-01-17T16:44:38.0358778-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert37.png</Source>
@@ -1078,8 +1078,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert37.xnb</Output>
-      <Time>2013-01-29T14:57:26.8687193-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert37.xnb</Output>
+      <Time>2013-01-17T16:45:08.0374757-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert38.png</Source>
@@ -1087,8 +1087,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert38.xnb</Output>
-      <Time>2013-01-29T14:57:26.8707215-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert38.xnb</Output>
+      <Time>2013-01-17T16:45:53.347911-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert39.png</Source>
@@ -1096,8 +1096,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert39.xnb</Output>
-      <Time>2013-01-29T14:57:26.8717224-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert39.xnb</Output>
+      <Time>2013-01-17T16:46:23.7425611-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert4.png</Source>
@@ -1105,8 +1105,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert4.xnb</Output>
-      <Time>2013-01-29T14:57:26.8727237-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert4.xnb</Output>
+      <Time>2013-01-17T16:31:01.9599603-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert40.png</Source>
@@ -1114,8 +1114,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert40.xnb</Output>
-      <Time>2013-01-29T14:57:26.8737246-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert40.xnb</Output>
+      <Time>2013-01-17T16:46:44.2530209-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert41.png</Source>
@@ -1123,8 +1123,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert41.xnb</Output>
-      <Time>2013-01-29T14:57:26.8737246-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert41.xnb</Output>
+      <Time>2013-01-17T16:47:01.7111148-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert42.png</Source>
@@ -1132,8 +1132,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert42.xnb</Output>
-      <Time>2013-01-29T14:57:26.8747251-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert42.xnb</Output>
+      <Time>2013-01-17T16:47:29.7604805-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert43.png</Source>
@@ -1141,8 +1141,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert43.xnb</Output>
-      <Time>2013-01-29T14:57:26.8757264-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert43.xnb</Output>
+      <Time>2013-01-17T16:47:46.1194434-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert44.png</Source>
@@ -1150,8 +1150,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert44.xnb</Output>
-      <Time>2013-01-29T14:57:26.8767273-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert44.xnb</Output>
+      <Time>2013-01-17T16:48:04.2626244-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert45.png</Source>
@@ -1159,8 +1159,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert45.xnb</Output>
-      <Time>2013-01-29T14:57:26.8767273-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert45.xnb</Output>
+      <Time>2013-01-17T16:48:24.4290414-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert46.png</Source>
@@ -1168,8 +1168,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert46.xnb</Output>
-      <Time>2013-01-29T14:57:26.8777274-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert46.xnb</Output>
+      <Time>2013-01-17T16:48:45.9726237-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert5.png</Source>
@@ -1177,8 +1177,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert5.xnb</Output>
-      <Time>2013-01-29T14:57:26.8787494-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert5.xnb</Output>
+      <Time>2013-01-17T16:31:22.5934332-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert6.png</Source>
@@ -1186,8 +1186,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert6.xnb</Output>
-      <Time>2013-01-29T14:57:26.8787494-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert6.xnb</Output>
+      <Time>2013-01-17T16:31:58.9267945-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert7.png</Source>
@@ -1195,8 +1195,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert7.xnb</Output>
-      <Time>2013-01-29T14:57:26.8807301-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert7.xnb</Output>
+      <Time>2013-01-17T16:32:17.1639817-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert8.png</Source>
@@ -1204,8 +1204,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert8.xnb</Output>
-      <Time>2013-01-29T14:57:26.8807301-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert8.xnb</Output>
+      <Time>2013-01-17T16:32:34.7530954-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\MapTiles\Desert9.png</Source>
@@ -1213,8 +1213,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert9.xnb</Output>
-      <Time>2013-01-29T14:57:26.8817355-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\MapTiles\Desert9.xnb</Output>
+      <Time>2013-01-17T16:32:54.8415024-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\One\TankBody.png</Source>
@@ -1222,8 +1222,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\One\TankBody.xnb</Output>
-      <Time>2013-01-29T14:57:26.8957436-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\One\TankBody.xnb</Output>
+      <Time>2013-01-24T12:07:20.6162513-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\One\TankBodyLeft.png</Source>
@@ -1231,8 +1231,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\One\TankBodyLeft.xnb</Output>
-      <Time>2013-01-29T14:57:26.8968041-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\One\TankBodyLeft.xnb</Output>
+      <Time>2013-01-24T14:48:29.6233923-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\One\TankBodyRight.png</Source>
@@ -1240,8 +1240,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\One\TankBodyRight.xnb</Output>
-      <Time>2013-01-29T14:57:26.8977454-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\One\TankBodyRight.xnb</Output>
+      <Time>2013-01-24T14:47:44.2829507-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\One\TankCannon.png</Source>
@@ -1249,8 +1249,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\One\TankCannon.xnb</Output>
-      <Time>2013-01-29T14:57:26.8987536-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\One\TankCannon.xnb</Output>
+      <Time>2013-01-24T12:07:52.3460572-08:00</Time>
     </Item>
     <Item>
       <Source>HealthBarInner.png</Source>
@@ -1258,8 +1258,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\HealthBarInner.xnb</Output>
-      <Time>2013-01-29T14:57:26.8327553-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\HealthBarInner.xnb</Output>
+      <Time>2013-01-29T11:58:55.8903145-08:00</Time>
     </Item>
     <Item>
       <Source>HealthBarOuter.png</Source>
@@ -1267,8 +1267,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\HealthBarOuter.xnb</Output>
-      <Time>2013-01-29T14:57:26.8347385-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\HealthBarOuter.xnb</Output>
+      <Time>2013-01-29T11:58:32.4264988-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\Two\TankBody.png</Source>
@@ -1276,8 +1276,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\Two\TankBody.xnb</Output>
-      <Time>2013-01-29T14:57:26.9078164-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\Two\TankBody.xnb</Output>
+      <Time>2013-01-29T10:21:51.0874223-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\Two\TankBodyLeft.png</Source>
@@ -1285,8 +1285,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\Two\TankBodyLeft.xnb</Output>
-      <Time>2013-01-29T14:57:26.9087565-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\Two\TankBodyLeft.xnb</Output>
+      <Time>2013-01-29T10:22:47.0271352-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\Two\TankBodyRight.png</Source>
@@ -1294,8 +1294,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\Two\TankBodyRight.xnb</Output>
-      <Time>2013-01-29T14:57:26.909757-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\Two\TankBodyRight.xnb</Output>
+      <Time>2013-01-29T10:22:32.5033913-08:00</Time>
     </Item>
     <Item>
       <Source>TankShooters\Two\TankCannon.png</Source>
@@ -1303,8 +1303,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\Two\TankCannon.xnb</Output>
-      <Time>2013-01-29T14:57:26.9107571-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\Two\TankCannon.xnb</Output>
+      <Time>2013-01-29T10:23:49.2125933-08:00</Time>
     </Item>
     <Item>
       <Source>TorchEffect.fx</Source>
@@ -1312,8 +1312,8 @@
       <Importer>EffectImporter</Importer>
       <Processor>EffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TorchEffect.xnb</Output>
-      <Time>2012-09-24T07:38:24.4997401-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TorchEffect.xnb</Output>
+      <Time>2013-01-25T23:54:07.6583736-08:00</Time>
     </Item>
     <Item>
       <Source>SpriteFont1.spritefont</Source>
@@ -1321,8 +1321,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
-      <Time>2012-09-24T07:38:24.4987392-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2013-01-25T23:54:07.6353714-08:00</Time>
     </Item>
     <Item>
       <Source>menufont.spritefont</Source>
@@ -1330,8 +1330,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\menufont.xnb</Output>
-      <Time>2012-09-25T13:03:42.0369887-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\menufont.xnb</Output>
+      <Time>2013-01-25T23:54:08.5174772-08:00</Time>
     </Item>
     <Item>
       <Source>gamefont.spritefont</Source>
@@ -1339,8 +1339,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\gamefont.xnb</Output>
-      <Time>2012-09-24T07:38:24.5027428-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\gamefont.xnb</Output>
+      <Time>2013-01-25T23:54:08.508477-08:00</Time>
     </Item>
     <Item>
       <Source>GameStateFont.spritefont</Source>
@@ -1348,8 +1348,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameStateFont.xnb</Output>
-      <Time>2012-10-15T23:20:49.3764747-07:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\GameStateFont.xnb</Output>
+      <Time>2013-01-25T23:54:07.61037-08:00</Time>
     </Item>
     <Item>
       <Source>FloatingTextFont.spritefont</Source>
@@ -1357,8 +1357,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\FloatingTextFont.xnb</Output>
-      <Time>2012-11-06T16:47:12.4942162-08:00</Time>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\FloatingTextFont.xnb</Output>
+      <Time>2013-01-25T23:54:07.5713651-08:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -1366,10 +1366,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\ArenaContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\ArenaContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\ArenaContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\ArenaContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -1398,7 +1398,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2012-09-13T08:13:46.4765708-07:00</Value>
+        <Value>2012-09-23T14:40:17.8363426-07:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>

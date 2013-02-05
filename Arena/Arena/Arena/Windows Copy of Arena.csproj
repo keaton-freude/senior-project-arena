@@ -125,6 +125,7 @@
     <Compile Include="Utility\FontRendering.cs" />
     <Compile Include="Utility\MathFunctions.cs" />
     <Compile Include="Utility\RectangleOverlay.cs" />
+    <Compile Include="Utility\TriangleOverlay.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CREDITS.txt" />

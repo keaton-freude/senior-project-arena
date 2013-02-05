@@ -39,7 +39,5 @@ namespace ArenaParticleEngine
                 effect.Draw(spriteBatch);
             }
         }
-
-        
     }
 }

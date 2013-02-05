@@ -28,13 +28,16 @@ namespace ArenaParticleEngine
             doc.Load(path);
 
             ParticleSystem new_system = new ParticleSystem();
-            //new_system.name = doc.SelectSingleNode("ParticleSystem").Attributes["Name"].Value;
+            /* each system has an effect */
             ParticleEffect effect_to_add = null;
+            /* each effect has an emitter */
             ParticleEmitter emitter_to_add = null;
-            //Particle particle_to_add = null;
 
+            /* either continuous or one shot */
             string effect_type = "None";
+            /* random or round robin */
             string texture_polling = "None";
+            /* alpha or additive */
             string BlendState = "None";
 
             /* Particle Attributes */
@@ -50,7 +53,6 @@ namespace ArenaParticleEngine
             string TextureName = "None";
             float LifeMin = 0.0f;
             float LifeMax = 0.0f;
-            //string ParticleName = "None";
             /* End Particle Attributes */
 
             /*Emitter Attributes */
@@ -65,12 +67,17 @@ namespace ArenaParticleEngine
             Vector2 MinAccel = Vector2.Zero;
             Vector2 MaxAccel = Vector2.Zero;
 
+            /* We'll be grabbing colors, so we'll need their components */
             int r = 0;
             int g = 0;
             int b = 0;
 
+            /* Name of the piece of content for the texture */
             List<String> texture_names = new List<String>();
+            /* We will potentially have more than 1 particle */
             List<Particle> particles_to_add = new List<Particle>();
+
+
             /* System is set up, lets parse out effects */
             foreach (XmlNode node in doc.SelectNodes("ParticleSystem/ParticleEffect"))
             {
@@ -80,8 +87,6 @@ namespace ArenaParticleEngine
 
                 /* Now lets grab all information so we can create an emitter */
                 XmlNode emitter_node = node.SelectSingleNode("ParticleEmitter");
-                //MaxParticleSpeed = new Vector2((float)Convert.ToDouble(emitter_node.ChildNodes[0].Attributes["X"].Value), (float)Convert.ToDouble(emitter_node.ChildNodes[0].Attributes["Y"].Value));
-                //MinParticleSpeed = new Vector2((float)Convert.ToDouble(emitter_node.ChildNodes[1].Attributes["X"].Value), (float)Convert.ToDouble(emitter_node.ChildNodes[1].Attributes["Y"].Value));
                 MaxParticles = Convert.ToInt32(emitter_node.ChildNodes[0].InnerText);
                 MinVelocity = new Vector2((float)Convert.ToDouble(emitter_node.ChildNodes[1].Attributes["X"].Value), (float)Convert.ToDouble(emitter_node.ChildNodes[1].Attributes["Y"].Value));
                 MaxVelocity = new Vector2((float)Convert.ToDouble(emitter_node.ChildNodes[2].Attributes["X"].Value), (float)Convert.ToDouble(emitter_node.ChildNodes[2].Attributes["Y"].Value));
@@ -169,60 +174,25 @@ namespace ArenaParticleEngine
                 if (effect_type == "Continuous")
                 {
                     effect_to_add = new ContinuousParticleEffect(textures, emitter_to_add);
-                    effect_to_add.MasterParticles = particles_to_add;
-                    effect_to_add.BlendingState = BlendState;
-                    effect_to_add.TexturePolling = texture_polling;
-                    effect_to_add.Emitter = emitter_to_add;
-                    new_system.effects.Add(effect_to_add);
                 }
                 else
                 {
                     effect_to_add = new OneShotParticleEffect(textures, emitter_to_add);
-                    effect_to_add.MasterParticles = particles_to_add;
-                    effect_to_add.BlendingState = BlendState;
-                    effect_to_add.TexturePolling = texture_polling;
-                    effect_to_add.Emitter = emitter_to_add;
-                    new_system.effects.Add(effect_to_add);
-
                 }
-                
+                effect_to_add.MasterParticles = particles_to_add;
+                effect_to_add.BlendingState = BlendState;
+                effect_to_add.TexturePolling = texture_polling;
+                effect_to_add.Emitter = emitter_to_add;
+                new_system.effects.Add(effect_to_add);
                 systems.Add(_system_count, new_system);
+
                 _system_count++;
                 return _system_count - 1;
             }
+
+            /* Something bad happened somewhere, return -1 so the calling function knows whats up */
             return -1;
         }
-
-        //public Texture2D LoadTexture(string fileName)
-        //{
-        //    string assemblyLocation = Assembly.GetExecutingAssembly().Location;
-        //    string real_path = Path.Combine(assemblyLocation, "..\\..\\..\\..\\Content\\" + fileName);
-        //    string contentPath = Path.GetFullPath(real_path);
-
-        //    // Unload any existing model.
-        //    //contentManager.Unload();
-
-        //    // Tell the ContentBuilder what to build.
-        //    //contentBuilder.Clear();
-        //    contentBuilder.Add(contentPath, fileName.Split('.')[0], null, "TextureProcessor");
-
-        //    // Build this new model data.
-        //    string buildError = contentBuilder.Build();
-
-        //    if (string.IsNullOrEmpty(buildError))
-        //    {
-        //        // If the build succeeded, use the ContentManager to
-        //        // load the temporary .xnb file that we just created.
-        //        return contentManager.Load<Texture2D>(fileName.Split('.')[0]);
-
-
-        //    }
-        //    else
-        //    {
-        //        return null;
-        //    }
-
-        //}
 
         public static ParticleEngine Instance
         {

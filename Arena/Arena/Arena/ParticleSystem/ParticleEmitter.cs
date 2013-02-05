@@ -16,6 +16,7 @@ namespace ArenaParticleEngine
 
         /* Direction of the Emitter */
         private Vector2 _direction;
+
         public Vector2 Direction
         {
             get

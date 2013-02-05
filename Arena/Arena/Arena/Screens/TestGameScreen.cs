@@ -18,31 +18,29 @@ namespace Arena.Screens
 
         KeyboardState prevKeyboardState;
 
-        Texture2D player_texture;
-        Vector2 player_position = new Vector2(100, 400 - 64);
-        Vector2 jump_direction = new Vector2(0, -1);
-        Texture2D ground_texture;
-        Vector2 gravity = new Vector2(0, .5f);
-        Vector2 velocity = new Vector2(0, 0);
-
-        int GroundY = 400;
-
-
         public TestGameScreen()
         {
             TransitionOnTime = TimeSpan.FromSeconds(1.5);
             TransitionOffTime = TimeSpan.FromSeconds(0.5);
             
         }
-
+        List<RectangleOverlay> rectangles;
         public override void LoadContent()
         {
             if (content == null)
                 content = new ContentManager(ScreenManager.Game.Services, "Content");
             spriteBatch = new SpriteBatch(ScreenManager.GraphicsDevice);
-            ground_texture = content.Load<Texture2D>(@"MapTiles\GrassTile");
-            player_texture = content.Load<Texture2D>(@"blue_ninja_new");
             ScreenManager.Game.ResetElapsedTime();
+            rectangles = new List<RectangleOverlay>();
+            rectangles.Add(new RectangleOverlay(new Rectangle(0, 200, 50, 120), Color.Green, ScreenManager.GraphicsDevice));
+            rectangles.Add(new RectangleOverlay(new Rectangle(0, 420, 50, 120), Color.Green, ScreenManager.GraphicsDevice));
+            rectangles.Add(new RectangleOverlay(new Rectangle(200, 690, 380, 50), Color.Green, ScreenManager.GraphicsDevice));
+            rectangles.Add(new RectangleOverlay(new Rectangle(700, 690, 380, 50), Color.Green, ScreenManager.GraphicsDevice));
+            rectangles.Add(new RectangleOverlay(new Rectangle(1230, 420, 50, 120), Color.Green, ScreenManager.GraphicsDevice));
+            rectangles.Add(new RectangleOverlay(new Rectangle(1230, 200, 50, 120), Color.Green, ScreenManager.GraphicsDevice));
+            rectangles.Add(new RectangleOverlay(new Rectangle(200, 0, 380, 50), Color.Green, ScreenManager.GraphicsDevice));
+            rectangles.Add(new RectangleOverlay(new Rectangle(700, 0, 380, 50), Color.Green, ScreenManager.GraphicsDevice));
+            triangle_lib = new Utility.TriangleOverlay(ScreenManager.GraphicsDevice);
         }
 
         public override void UnloadContent()
@@ -72,20 +70,23 @@ namespace Arena.Screens
             prevKeyboardState = Keyboard.GetState();
         }
 
+
+        Arena.Utility.TriangleOverlay triangle_lib;
+
         public override void Draw(GameTime gameTime)
         {
             GraphicsDevice device = ScreenManager.GraphicsDevice;
 
             device.Clear(Color.Black);
             spriteBatch.Begin();
-
-            for (int i = 0; i < 10; ++i)
+            triangle_lib.Triangle(new Vector2(50, 50), new Vector2(200, 50), new Vector2(50, 200), 1, Color.Green, spriteBatch);
+            triangle_lib.Triangle(new Vector2(50, 540), new Vector2(200, 690), new Vector2(50, 690), 1, Color.Green, spriteBatch);
+            triangle_lib.Triangle(new Vector2(1080, 690), new Vector2(1230, 690), new Vector2(1230, 690-150), 1, Color.Green, spriteBatch);
+            triangle_lib.Triangle(new Vector2(1230, 200), new Vector2(1230, 50), new Vector2(1080, 50), 1, Color.Green, spriteBatch);
+            foreach (RectangleOverlay rect in rectangles)
             {
-                spriteBatch.Draw(ground_texture, new Vector2(i * 64, GroundY), Color.White);
+                rect.Draw(spriteBatch);
             }
-
-            spriteBatch.Draw(player_texture, player_position, new Rectangle(0, 0, 64, 64), Color.White, 0.0f, Vector2.Zero, 1.0f, SpriteEffects.None, 1.0f);
-
             spriteBatch.End();
 
         }

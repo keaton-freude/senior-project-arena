@@ -13,9 +13,9 @@ namespace ArenaParticleEngine
         public ParticleEmitter Emitter { get; set; }
         public List<Particle> particles; /* Particles currently in effect */
         protected List<Texture2D> textures; /* Textures we can draw on */
-        public List<Particle> MasterParticles;
+        public List<Particle> MasterParticles; /* A list of particles that we base new particles on */
 
-        public bool Generating { get; set; } /* who knows if needed */
+        public bool Generating { get; set; } /* Basically a start/stop bool */
 
         public ParticleEffect(List<Texture2D> textures, ParticleEmitter emitter)
         {
@@ -37,6 +37,7 @@ namespace ArenaParticleEngine
             set;
         }
 
+        /* Either RoundRobin or Random */
         public String TexturePolling
         {
             get;
@@ -52,9 +53,14 @@ namespace ArenaParticleEngine
 
         public Particle GenerateNewParticle(float offset_x, float offset_y, int p_count, int total_p)
         {
+            /* total_p: The total # of particles we will generate this update
+             * p_count: the number particle we're currently on
+             * This is used to determine how far (percent-wise) we are through our update
+             * so we can interpolate their position */
             float percent = (float)p_count / (float)total_p;
 
             int ParticleID = -1;
+
             /* if we're doing random texture polling */
             if (TexturePolling == "Random")
                 ParticleID = random.Next(textures.Count);
@@ -64,16 +70,13 @@ namespace ArenaParticleEngine
 
             Particle BaseParticle = MasterParticles[ParticleID];
 
-            Vector2 base_position = Vector2.Lerp(Emitter.LastLocation, Emitter.Location, 1.0f);
+            /* the starting position, linearlly interpolated between the LastLocation and the currentlocation */
+            Vector2 base_position = Vector2.Lerp(Emitter.LastLocation, Emitter.Location, percent);
 
-
+            /* offset_x and offset_y are the last offset values (typically 0, but if we're drawing in a circle, we might calculate those beforehand and pass them in */
             Vector2 position = new Vector2(base_position.X + offset_x, base_position.Y + offset_y);
 
-            
-
-
-            //Vector2 emitter_offset = Vector2.Lerp(Emitter.OffsetMin, Emitter.OffsetMax, (float)random.NextDouble());
-
+            /* Creates a vector that creates a random offset using the emitter properties */
             Vector2 emitter_offset = new Vector2(RandomFromRange(Emitter.OffsetMin.X, Emitter.OffsetMax.X, random), RandomFromRange(Emitter.OffsetMin.Y, Emitter.OffsetMax.Y, random));
 
             position += emitter_offset;
@@ -82,18 +85,18 @@ namespace ArenaParticleEngine
 
             Particle ParticleToReturn = new Particle();
             ParticleToReturn.Texture = textures[ParticleID];
-            //ParticleToReturn.Origin = new Vector2(ParticleToReturn.Texture.Width / 2, ParticleToReturn.Texture.Height / 2);
+
             ParticleToReturn.Location = position;
 
-            Vector2 velocity = new Vector2(RandomFromRange(Emitter.MinVelocity.X, Emitter.MaxVelocity.X, random), RandomFromRange(Emitter.MinVelocity.Y, Emitter.MaxVelocity.Y, random));
+            /* Creates the random velocity vector from the emitter's properties */
+            Vector2 velocity = new Vector2(RandomFromRange(Emitter.MinVelocity.X, Emitter.MaxVelocity.X, random), 
+                RandomFromRange(Emitter.MinVelocity.Y, Emitter.MaxVelocity.Y, random));
 
 
             /* Same thing for acceleration */
             Vector2 acceleration = Vector2.Zero;
-
-            //acceleration = Vector2.Lerp(Emitter.MinimumAcceleration, Emitter.MaximumAcceleration, (float)random.NextDouble());
-
-            acceleration = new Vector2(RandomFromRange(Emitter.MinimumAcceleration.X, Emitter.MaximumAcceleration.X, random), RandomFromRange(Emitter.MinimumAcceleration.Y, Emitter.MaximumAcceleration.Y, random));
+            acceleration = new Vector2(RandomFromRange(Emitter.MinimumAcceleration.X, Emitter.MaximumAcceleration.X, random), 
+                RandomFromRange(Emitter.MinimumAcceleration.Y, Emitter.MaximumAcceleration.Y, random));
 
 
             float angle = BaseParticle.Rotation;
