@@ -351,3 +351,10 @@ C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\Two\TankBodyLeft.xnb
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\Two\TankBodyRight.xnb
 C:\Users\Keaton\Documents\GitHub\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\TankShooters\Two\TankCannon.xnb
+C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\BallOfLight
+C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\map.xnb
+C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\paddle.xnb
+C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\paddle2.xnb
+C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\scorefont.xnb
+C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\explosion blue
+C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\pixel.xnb

@@ -197,7 +197,7 @@ namespace GameStateManagement
                             LoadingScreen.Load(ScreenManager, true, PlayerIndex.One, new Arena.Screens.TankShooters(Player_IDS));
                             break;
                         case 4:
-                            LoadingScreen.Load(ScreenManager, true, PlayerIndex.One, new Arena.Screens.TestGameScreen());
+                            LoadingScreen.Load(ScreenManager, true, PlayerIndex.One, new Arena.Screens.TrailBlazer(Player_IDS));
                             break;
                         case 5:
                             //load game five

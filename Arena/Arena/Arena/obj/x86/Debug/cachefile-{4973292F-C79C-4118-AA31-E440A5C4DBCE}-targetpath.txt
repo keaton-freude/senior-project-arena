@@ -149,3 +149,8 @@ Content\menufont.xnb
 Content\gamefont.xnb
 Content\GameStateFont.xnb
 Content\FloatingTextFont.xnb
+Content\map.xnb
+Content\paddle.xnb
+Content\paddle2.xnb
+Content\scorefont.xnb
+Content\pixel.xnb

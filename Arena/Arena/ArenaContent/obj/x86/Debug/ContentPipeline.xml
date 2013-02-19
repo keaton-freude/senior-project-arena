@@ -1360,6 +1360,51 @@
       <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\FloatingTextFont.xnb</Output>
       <Time>2013-01-25T23:54:07.5713651-08:00</Time>
     </Item>
+    <Item>
+      <Source>map.png</Source>
+      <Name>map</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\map.xnb</Output>
+      <Time>2013-02-19T09:36:26.1599292-08:00</Time>
+    </Item>
+    <Item>
+      <Source>paddle.png</Source>
+      <Name>paddle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\paddle.xnb</Output>
+      <Time>2013-02-19T13:27:02.4680868-08:00</Time>
+    </Item>
+    <Item>
+      <Source>paddle2.png</Source>
+      <Name>paddle2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\paddle2.xnb</Output>
+      <Time>2013-02-19T13:27:22.4934918-08:00</Time>
+    </Item>
+    <Item>
+      <Source>scorefont.spritefont</Source>
+      <Name>scorefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\scorefont.xnb</Output>
+      <Time>2013-02-19T12:55:51.8436401-08:00</Time>
+    </Item>
+    <Item>
+      <Source>pixel.png</Source>
+      <Name>pixel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Keaton\Desktop\senior-project-arena\Arena\Arena\Arena\bin\x86\Debug\Content\pixel.xnb</Output>
+      <Time>2013-01-24T20:40:20.7714262-08:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
